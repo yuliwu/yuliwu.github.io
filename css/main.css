@@ -38,7 +38,7 @@ header h1 {
     padding-top: 1em;
     font-weight: bold;
     font: 1em -apple-system-headline, "Droid Sans Mono", Courier, mono;
-    text-transform: lowercase;
+    text-transform: capitalize;
     margin-left: 25px;
     padding-bottom: 2.1em;
 }
@@ -64,7 +64,7 @@ header h1 a:hover {
 nav {
     font-weight: 200;
     font-family: -apple-system, Roboto, Helvetica, Arial;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-left: -43px;
 	margin-bottom: -20px;
 	margin-top: -15px;
@@ -78,7 +78,7 @@ nav ul li a {
     color: #324787;
     padding: 8px 9px;
     margin: 0 -10px 0px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 nav ul li a:hover {
     color: #ffffff;
@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 .heading {
     font: 1.5em Raleway, Helvetica;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 1.2em;
     margin-bottom: 1.3em;
 }
@@ -162,7 +162,7 @@ article {
 }
 .tag-header {
     font-family: Raleway, Helvetica;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 hr {
     margin: 32px 0em;
