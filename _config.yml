@@ -18,8 +18,8 @@ navigation:
   url: /archives/
 - text: Tags
   url: /tags/
-- text: me at wuyuli.com
-  url: /wuyuli.com/
+- text: wuyuli.com
+  url: /wuyulisite/
 - text: slides
   url: /slides/
   
