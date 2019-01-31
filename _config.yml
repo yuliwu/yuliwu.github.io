@@ -1,5 +1,5 @@
 # Jekyll Defaults
-title: New Site Work in Progress  (c) me at wuyuli dot com
+title: New Site Work in Progress 
 description: A small and simple site I made to test out Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -19,3 +19,6 @@ navigation:
   url: /archives/
 - text: Tags
   url: /tags/
+- text: me at wuyuli.com
+  url: /email/
+
