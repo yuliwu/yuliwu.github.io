@@ -20,5 +20,8 @@ navigation:
 - text: Tags
   url: /tags/
 - text: me at wuyuli.com
-  url: /email/
+  url: /wuyuli.com/
+- text: slides
+  url: /slides/
+  
 
