@@ -64,7 +64,7 @@ header h1 a:hover {
 nav {
     font-weight: 200;
     font-family: -apple-system, Roboto, Helvetica, Arial;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-left: -43px;
 	margin-bottom: -20px;
 	margin-top: -15px;
@@ -78,7 +78,7 @@ nav ul li a {
     color: #324787;
     padding: 8px 9px;
     margin: 0 -10px 0px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 nav ul li a:hover {
     color: #ffffff;
@@ -162,7 +162,7 @@ article {
 }
 .tag-header {
     font-family: Raleway, Helvetica;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 hr {
     margin: 32px 0em;
