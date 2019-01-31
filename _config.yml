@@ -16,11 +16,7 @@ navigation:
   url: /about/
 - text: Archives
   url: /archives/
-- text: Tags
-  url: /tags/
 - text: wuyuli.com
   url: /wuyulisite/
-- text: slides
-  url: /slides/
   
 
