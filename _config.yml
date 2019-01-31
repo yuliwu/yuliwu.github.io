@@ -3,12 +3,11 @@ title: New Site Work in Progress
 description: A small and simple site I made to test out Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "https://thien.github.io/blueface/"
-github: http://github.com/tnguyen/blueface
+url: "https://yuliwu.github.io/"
 highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/
-paginate: 4
+paginate: 5
 gems: [jekyll-paginate]
 paginate_path: "/page:num"
 rss_path: /feed.xml
