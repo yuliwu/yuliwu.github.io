@@ -1,7 +1,7 @@
 # Jekyll Defaults
 title: y.wu in gh
 description: yuli wu in github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://yuliwu.github.io/" # the subpath of your site, e.g. /blog
 url: "https://yuliwu.github.io/"
 highlighter: rouge
 markdown: kramdown
@@ -11,10 +11,12 @@ gems: [jekyll-paginate]
 paginate_path: "/page:num"
 rss_path: /feed.xml
 navigation:
-- text: About
-  url: /about/
+- text: Résumé
+  url: /cv/
 - text: Archives
   url: /archives/
+- text: About
+  url: /about/
 - text: wuyuli.com
   url: /wuyulisite/
   
