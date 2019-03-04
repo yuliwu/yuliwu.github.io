@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About blueface
+title:  Y | W 
 ---
 
 [wuyuli.com](https://wuyuli.com/)
