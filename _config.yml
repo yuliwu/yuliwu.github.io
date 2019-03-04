@@ -15,9 +15,9 @@ navigation:
   url: /resume/
 - text: Archives
   url: /archives/
-- text: About
-  url: /about/
 - text: y|w
   url: /wuyulisite/
+- text: About
+  url: /about/
   
 
