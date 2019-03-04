@@ -12,7 +12,7 @@ paginate_path: "/page:num"
 rss_path: /feed.xml
 navigation:
 - text: Résumé
-  url: /cv/
+  url: /resume/
 - text: Archives
   url: /archives/
 - text: About
