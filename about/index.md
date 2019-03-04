@@ -3,4 +3,4 @@ layout: default
 title: About
 ---
 
-work in progress ...
+[Curriculum Vitae](https://yuliwu.github.io/cv/)
