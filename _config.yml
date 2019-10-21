@@ -1,7 +1,7 @@
 # Jekyll Defaults
 title: y.wu in gh
 description: yuli wu in github.io
-baseurl: "https://yuliwu.github.io/" # the subpath of your site, e.g. /blog
+# baseurl: "https://yuliwu.github.io/" # the subpath of your site, e.g. /blog
 url: "https://yuliwu.github.io"
 highlighter: rouge
 markdown: kramdown

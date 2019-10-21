@@ -1,0 +1,2232 @@
+<!DOCTYPE html><html><head>
+      <title>dsp</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/yuli/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.4.3/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="dsp-design-methodologies-and-tools">DSP Design Methodologies and Tools</h1>
+
+<h6 class="mume-header" id="_proudly-written-by-y-wu-with-neither-confidence-nor-guarantee_"><em><code>Proudly written by Y. Wu with neither confidence nor guarantee!</code></em></h6>
+
+<p><a href="https://yuliwu.github.io/cloud/dspnote/dsp.pdf"><em>PDF Version</em></a></p>
+<hr>
+<h2 class="mume-header" id="1-introduction-1-81-59">&#xA7;1 Introduction [1-8][1-59]</h2>
+
+<ol>
+<li>
+<p>Characterise embedded systems and give examples of application areas.</p>
+<ul>
+<li>Sophisticated functionality</li>
+<li>Real-time operations: Hard/soft realtime</li>
+<li>Low manufacturing cost: limited memory, uP power</li>
+<li>Low power: dynamic voltage/frequency scaling, software design <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the advantages of using microprocessors for embedded system implementation ?</p>
+<ul>
+<li>Flexible: can use same logic to perform many different functions</li>
+<li>Simplify the design of families of products</li>
+<li>Much more logic than <strong>Custom Logic</strong> low power winner!</li>
+<li>CPU: heavily pipelined, large design teams, latest VLSI tech, lower efficiency <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the major challenges in embedded system design?</p>
+<ul>
+<li>Hardware: CPU Memory</li>
+<li>Deadlines: faster hardware or cleverer Software</li>
+<li>Power: Turn off unnecessary logic, reduce memory accessed</li>
+<li>Work?: correct specification, implementation, real-time, data test?</li>
+<li>Work on system: observability, controllability, development platform <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by a &#x201C;design methodology&#x201D;?</p>
+<ul>
+<li>A procedure for designing a system.</li>
+<li>Helpful: Compilers, Software engineering tools, EDA tools <br><br></li>
+</ul>
+</li>
+<li>
+<p>Compare top-down vs. bottom-up design methodologies.</p>
+<ul>
+<li>Top-Down: Start from most abstract description to most detailed</li>
+<li>Bottom-Up: Work from small components to big system. <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can system requirements be captured?</p>
+<ul>
+<li>Functional / Non-functional Requirements.</li>
+<li>name, purpose, inputs, outputs, functions, performance,</li>
+<li>manufacturing cost, power, physical size/weight <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is contained in a specification?</p>
+<ul>
+<li>A more precise description of the system: should not imply a particular architecture, provides input to the architecture design process</li>
+<li>May include functional &amp; non-functional elements</li>
+<li>May be executable or may be in math form for proofs <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define &#x201C;architecture design&#x201D; and &#x201C;system integration&#x201D;.</p>
+<ul>
+<li><strong>Architecture Design</strong>: Components(H/S) to specification, incl. functional and non-functional specs.</li>
+<li><strong>System Intergration</strong>: Put together the components (many bugs), have a plan for integrating components to uncover bugs quickly, test as much functionality as early ap. <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="2-system-design-9-2160-106">&#xA7;2 System Design [9-21][60-106]</h2>
+
+<ol>
+<li>
+<p>What is a <strong>design flow</strong> and why is it important?</p>
+<ul>
+<li>Sequence of steps in a design methodology.</li>
+<li>Maybe partially or fully automated (tools to transform &amp; verify design) <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the <strong>waterfall</strong> model and its pros and cons.</p>
+<ul>
+<li>Requirements: determine basic characteristics</li>
+<li>Architechture: decompose into basic modules</li>
+<li>Coding: implement and integrate</li>
+<li>Testing: exercise and uncover bugs</li>
+<li>Mantenance: deploy, fix bugs, upgrade</li>
+<li><strong>Local</strong> feedback only: may need iterations between coding &amp; requirements etc</li>
+<li>Doesn&apos;t integrate top-down and bottom-up design</li>
+<li>Assumes <em>HW is given</em> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch the spiral model of system development.</p>
+<ul>
+<li>System feasibility - spec - prototype - initial sys - enhanced sys</li>
+<li>Successive refinement of system</li>
+<li>Provides bottom-up feedback from previous stages</li>
+<li>Working through stages may take too much time <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the successive refinement model ?</p>
+<ul>
+<li>Start with mockups, move through simple systems to full-scale systems</li>
+<li>Initial -&gt; refined system <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch a hardware/software co-design flow.</p>
+<ul>
+<li>Must architect HW &amp; SW together: provide sufficient resources, avoid SW bottlenecks</li>
+<li>Can build pieces somewhat independently, but integration is major step</li>
+<li>Also requires bottom-up feedback <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give an example of a hierarchical design flow.</p>
+<ul>
+<li>Embedded systems must be designed across multiple levels of abstraction: System architecture, HW/SW systems, HW/SW components</li>
+<li>Often need design flows within design flows</li>
+<li>[P75-76] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why do companies introduce &#x201C;concurrent engineering&#x201D; ?</p>
+<ul>
+<li>Large projects use many people from multiple disciplines</li>
+<li>Work on several tasks at once to reduce design time</li>
+<li>Feedback between tasks helps improve quality reduce number of later design problems</li>
+<li>Techniques: cross-functional teams, concurrent product realization, incremental infomation sharing, integrated project management, supplier involvement, customer focus <br><br></li>
+</ul>
+</li>
+<li>
+<p>What makes up a good requirements list ?</p>
+<ul>
+<li>Correct, unambiguous, complete, verifiable, consistent, modifiable, traceable <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are there different specification styles?</p>
+<ul>
+<li>Capture functional &amp; non-functional properties: verify correctness of spec, compare spec to implementation</li>
+<li>Styles: control-oriented vs. data-oriented, textual vs. graphical</li>
+<li>UML: one specification/design language <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of the SDL language ?</p>
+<ul>
+<li>Specification &amp; Description Language</li>
+<li>Used in telecommunications protocol disign</li>
+<li>Event-oriented state machine model <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are finite state machines insufficient for system specification ?</p>
+<ul>
+<li>Timing annotation</li>
+<li>Composite states: <code>OR</code>, <code>AND</code> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of composite (AND/OR) states in Statecharts ?</p>
+<ul>
+<li>Reduce the size of the state trasition graph</li>
+<li>Example Figure: [P90] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Explain the <em>CRC</em> card methodology.</p>
+<ul>
+<li><strong>Classes</strong>, <strong>Responsibilities</strong> for each classes, <strong>Collaborators</strong> are other classes that work with a class</li>
+<li>Informal team-oriented methodology</li>
+<li>Develop an initial list of classes: simple description is OK, team members should discuss their choices</li>
+<li>Write initial responsibilities/collaborators: helps to define the classes</li>
+<li>Create some usage scenarios: major uses of system and classes</li>
+<li>Walk through scenarios: see what works and doesn&apos;t work</li>
+<li>Refine the C R C</li>
+<li>Add class relationships: superclass, subclass</li>
+<li>Elevator example: [P100-106] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="3-instruction-sets-22-36107-159">&#xA7;3 Instruction Sets [22-36][107-159]</h2>
+
+<ol>
+<li>
+<p>What characterizes a von Neumann computer architecture ?</p>
+<ul>
+<li><strong>CPU + Memory</strong></li>
+<li>Memory holds data, instructions</li>
+<li>CPU fetches instructions from memory. Seperate CPU and memory distinguiashes programmable computer</li>
+<li>CPU registers: program counter(PC), instruction register(IR), general-purpose registers, etc. <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a Harvard architecture and why is this architecture preferred in DSP processors ?</p>
+<ul>
+<li>[P111]</li>
+<li>Can&apos;t use self-modifying code</li>
+<li>Allows two simulaneous memory fetches</li>
+<li>For streaming data: greater memory bandwidth, more predictable bandwidth <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are major differences between CISC and RISC processors ?</p>
+<ul>
+<li>Complex ISC: many addressing modes, many operations</li>
+<li>Reduced ISC: load/store, pipelined instruction execution <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why do we need a <strong>programming model</strong> of a CPU ?</p>
+<ul>
+<li>ISA and registers visible to the programmer (some not: IR) <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of pseudo assembly instructions or assembler directives ?</p>
+<ul>
+<li>Some assembler directives don&apos;t correspond directly to instructions: difine current add, reserve storage, constants <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the main characteristics of the SHARC DSP ?</p>
+<ul>
+<li>32/40-Bit IEEE <strong>Floating-Point</strong> Math</li>
+<li>32-Bit <strong>Fixed-Point</strong> MACs with 64-Bit Product &amp; 80-Bit accumulation</li>
+<li><strong>Circular Buffer</strong> Add supported in HW</li>
+<li>32 Add pointers support 32 curcular Buffers</li>
+<li>Six nested levels of <strong>Zero-Overhead Looping</strong> in HW</li>
+<li>Rich, algebrac assembly language syntax</li>
+<li>IS supports <strong>Conditional Arithmetic</strong>, Bit manipulation, divide &amp; square root, bit field deposit and extract <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a modified Harvard architecture ?</p>
+<ul>
+<li>SHARC microarchitecture</li>
+<li>Program memory can be used to store some data</li>
+<li>Register file connects to: Multiplier; Shifter; ALU <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can a C programmer access multiple memories ?</p>
+<ul>
+<li>DM and PM in paralell</li>
+<li><code>R2=DM(I1,M5), R1=PM(I8,M13);</code> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is circular memory addressing ?</p>
+<ul>
+<li>New data constantly arrives, each datum has a limited lifetime</li>
+<li>Circular buffer to hold the data stream <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of conditional instructions ?</p>
+<ul>
+<li>Instructions may be executed conditionally</li>
+<li>Conditions e.g. come from Arithmetic Status (ASTAT), Mode Control (MODE1), Loop Counter <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe different variants of implementing C IF-statements by machine instructions.</p>
+<ul>
+<li>Normal and fancy</li>
+<li>[148_42] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Which types of branches are typically supported by a processor ?</p>
+<ul>
+<li>CALL, JUMP, RTS, RTI</li>
+<li>Can be conditional</li>
+<li>Add can be direct, indirect, PC-relative</li>
+<li>Can be delayed or non-delayed <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a delayed jump/branch ?</p>
+<ul>
+<li>NAN <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why do most DSPs support zero overhead loops and how do they work ?</p>
+<ul>
+<li>DO UNTIL instruction provides efficient looping</li>
+<li><code>LCNTR=30, DO label UNTIL LCE;</code></li>
+<li>Loop counter, label, loop counter expired</li>
+<li>Loop length, last instruction in loop, Termination condition <br><br></li>
+</ul>
+</li>
+<li>
+<p>How many instruction cycles does a typical DSP processor need for FIR filter computations ?</p>
+<ul>
+<li>[154_48] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="4-microprocessors-37-68160-254">&#xA7;4 Microprocessors [37-68][160-254]</h2>
+
+<ol>
+<li>
+<p>How can CPUs support I/O ?</p>
+<ul>
+<li>Typical digital interface to CPU [Fig.161]</li>
+<li>Two types of instructions can support I/O: special-purpose I/O instructions; memory-mapped load/store instructions</li>
+<li>Intel x86 provides <code>in, out</code> instructions</li>
+<li>Most other CPUs use memory-mapped I/O</li>
+<li>ARM(<code>LDR, STR</code>), SHARC(<code>DM</code>), High-level(<code>peek, poke</code>) examples [164-166] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is &#x201C;busy wait&#x201D; I/O ?</p>
+<ul>
+<li>Simplest way to program device: use instructions to test when device is ready</li>
+<li>Simutaneous busy/wait I/O: <code>while(TRUE) { ... while(peek(IN_STATUS)==0)..}</code></li>
+<li>Very inefficient: CPU can&apos;t do other work while testing device; hard to do simultaneous I/O <br><br></li>
+</ul>
+</li>
+<li>
+<p>How are interrupts processed ?</p>
+<ul>
+<li>Allow a device to change the flow of control in the CPU: causes subroutine cal to handle device request</li>
+<li><strong>Physical Interface</strong>: CPU &amp; device are connected by CPU bus; CPU &amp; device handshake, device asserts interrupt request, CPU asserts interrupt acknowledge when is can handle the interrupt [Fig.171]</li>
+<li>Behavior: based on subroutine call mechanism; interrupt forces next instruction to be a subroutine call to a predetermined location</li>
+<li>Examples: character I/O handlers, interrupt-driven, buffer-based [174] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why should interrupts be prioritised ?</p>
+<ul>
+<li>Determine what interrupt gets CPU first</li>
+<li><strong>Masking</strong>: interrupt with priority lower than current prio. is not recognized until pending interrupt is complete <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an interrupt vector ?</p>
+<ul>
+<li>Determin what code is called for each type of interrupt</li>
+<li>Allow different devices to be handled by different code</li>
+<li>Interrupt vector table <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an <em>NMI</em> ?</p>
+<ul>
+<li>Non-Marskable Interrupt: highest priority, never masked</li>
+<li>Often used for <em>power-down</em> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Do interrupts incur any overhead ?</p>
+<ul>
+<li>Handler execution time</li>
+<li>Interrupt mechanism overhead</li>
+<li>Register save/store</li>
+<li>Pipeline-related penalties</li>
+<li>Cache-related penalties</li>
+<li><strong>Interrupt sequence</strong> [185]</li>
+<li>Example SHARC interrupt [188-190] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an exception ?</p>
+<ul>
+<li>Internally detected error: e.g. devide-by-0, illegal address</li>
+<li><strong>Synchronous</strong> with instruction but <strong>unpredictable</strong></li>
+<li>Build exception mechanism on top of interrupt mechanism</li>
+<li>Are usually <em>prioritized</em> and <em>vectorized</em> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give examples for traps or software interrupts.</p>
+<ul>
+<li>Trap (<em>software interrupt</em>): an exception generated by an instruction: Call OS service routine; Call supervisor mode</li>
+<li>ARM used SWI instruction for traps</li>
+<li>SHARC offers three levels of software interrupts: Called by setting bits in IRPTL register <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of a co-processor ?</p>
+<ul>
+<li><strong>Added function unit</strong> that is called by instruction</li>
+<li>Floating-point units are often strctured as co-processors e.g. in earlier Intel x_86 machines</li>
+<li>Use <strong>trap</strong> if co-processor instruction received, but no co-processor attached</li>
+<li>ARM allows up to 16 designer-selected co-processors <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a typical system memory hierarchy.</p>
+<ul>
+<li>Expoitation of spatioal and temporal locality</li>
+<li>The closer to CPU, the <em>faster, more expensive, smaller</em></li>
+<li><strong>Chip</strong>[CPU(register file), L1 Cache], <strong>Board or multi-chip module</strong>[L2 Cache], Main memory, hard disk, tape, nettwork ...</li>
+<li>[Fig.196] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are pros and cons of caches in DSP systems ?</p>
+<ul>
+<li>Many main memory locations are mapped onto one cache entry</li>
+<li>May have caches for instructions, data, data+instructions (unified)</li>
+<li>Memory access time is no longer deterministic</li>
+<li><strong>Performance benefits</strong>: keep <em>frequently-accessed</em> locations in fast caches, cache retrieves <em>more than one word</em> at a time, sequential accesses are faster <em>after first access</em> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a &#x201C;working set&#x201D; ?</p>
+<ul>
+<li>Set of locations used by program in a given time interval <br><br></li>
+</ul>
+</li>
+<li>
+<p>Which three types of cache misses exist ?</p>
+<ul>
+<li><em>Compulsory(cold)</em>: location has never been accessed</li>
+<li><em>Capacity</em>: working set is too large</li>
+<li><em>Conflict</em>: multiple locations in working set map to same cache entry <br><br></li>
+</ul>
+</li>
+<li>
+<p>Derive the average memory access time in a two-level cache system.</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>t</mi><mrow><mi>a</mi><mi>v</mi></mrow></msub><mo>=</mo><msub><mi>h</mi><mn>1</mn></msub><msub><mi>t</mi><mrow><mi>L</mi><mn>1</mn></mrow></msub><mo>+</mo><mo stretchy="false">(</mo><msub><mi>h</mi><mn>2</mn></msub><mo>&#x2212;</mo><msub><mi>h</mi><mn>1</mn></msub><mo stretchy="false">)</mo><msub><mi>t</mi><mrow><mi>L</mi><mn>2</mn></mrow></msub><mo>+</mo><mo stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><msub><mi>h</mi><mn>2</mn></msub><mo stretchy="false">)</mo><msub><mi>t</mi><mrow><mi>m</mi><mi>a</mi><mi>i</mi><mi>n</mi></mrow></msub></mrow><annotation encoding="application/x-tex">t_{av} = h_1 t_{L1} + (h_2 - h_1) t_{L2} + (1-h_2) t_{main}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76508em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">v</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">L</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">L</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2212;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">h</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why do we need a replacement policy and what is LRU ?</p>
+<ul>
+<li>Strategy for choosing which cache entry to overwrite to make room for a new memory location</li>
+<li>Random or Least-Recently-Used (LRU) <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define possible cache organizations.</p>
+<ul>
+<li><strong>Fully-associative</strong>: any memory location can be stored anywhere in the cache (almost never implemented)</li>
+<li><strong>Direct-mapped</strong>: each memory location maps onto exactly one cache entry</li>
+<li><strong>N-way set-associative</strong>: each memory location can go into one of N sets <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the advantage of set-associative versus direct mapped caches ?</p>
+<ul>
+<li>In general significantly different contents than direct mapped cache () larger size) <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the access procedure for a two-way set-associative cache.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cache_placement_policies#Set_Associative_Cache">Link wiki</a> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Explain different cache write strategies.</p>
+<ul>
+<li>Write-through: immediately copy write to main memory</li>
+<li>Write-back: write to main memory only when location is removed from cache <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does instruction pipelining work ?</p>
+<ul>
+<li>Several instructions are executed simultaneously at different stages of completion <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch a typical pipeline architecture.</p>
+<ul>
+<li>[27] Several instructions are executed simultaneously at different stages of completion: instruction <em>fetch</em> / instruction <em>decode</em> / <em>execute</em> / memory access / write back. <em>ARM, SHARC</em></li>
+<li>[28] Five-stage pipeline architecture <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define the terms &#x201C;latency&#x201D; and &#x201C;throughput&#x201D; for pipelined processors.</p>
+<ul>
+<li>[31]</li>
+<li>*<strong>Latency</strong>: Time it takes for an instruction to get through the pipeline;</li>
+<li><strong>throughput</strong>: #instructions executed per time period <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a pipeline bubble and why can it occur ?</p>
+<ul>
+<li>[32] If every step cannot be completed in the same amount of time, pipeline stalls. Branches, memory system delays etc. -&gt; reduce utilization(throughput), increase latency</li>
+<li>[33] Figure. <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a branch penalty and how can it be avoided ?</p>
+<ul>
+<li>To increase pipeline efficiency, <strong>delayed branch mechanism</strong> requires <code>n</code> instructions after branch <strong>always executed</strong> whether branch is executd or not.</li>
+<li>SHARC supports delayed and non-delayed branches: specified by bit in branch instruction, 2 instruction branch delay slot <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <strong>superscalar processor</strong> ?</p>
+<ul>
+<li>Can execute several instructions per cycle: uses multiple pipelined data paths</li>
+<li>Programs execute faster but itis harder to determine how much faster</li>
+<li>Hard to use for real-time DSP applications <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are power and energy concerns important for embedded systems ?</p>
+<ul>
+<li>Heat depends on power consumption</li>
+<li>Battery life depends on energy consumption</li>
+<li>Power wall <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are sources for power consumption in a <strong>CMOS</strong> circuit ?</p>
+<ul>
+<li><strong>Voltage</strong>: power consumption proportionla to V^2</li>
+<li><strong>Toggling</strong>: more activity means more power</li>
+<li><strong>Leakage</strong>: basic circuit characteristics, can be eliminatted by disconnecting power <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the main methods for <strong>CPU power saving</strong> ?</p>
+<ul>
+<li>Reduce power supply voltage</li>
+<li>Run at lower clock frequency</li>
+<li>Disable function units with control signals when not in use</li>
+<li>Disconnect parts from power supply when not in use <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by <em>&#x201C;static&#x201D;</em> and <em>&#x201C;dynamic&#x201D;</em> <strong>power management</strong> ?</p>
+<ul>
+<li>Static: does not depend on CPU activity: user-activated power-down mode</li>
+<li>Dynamic: based on CPU activity: disabling of function units <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is visualized in a power state machine ?</p>
+<ul>
+<li>Power modes, Wakeup time, Power consumption [Fig.252] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why should low-power modes in CPUs be used carefully ?</p>
+<ul>
+<li>Going into a power-down mode costs time &amp; energy</li>
+<li>Must determine if going in to mode is worthwhile</li>
+<li>Can model CPU power states with power state machine <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="5-designing-with-microprocessors-69-87255-307">&#xA7;5 Designing with Microprocessors [69-87][255-307]</h2>
+
+<ol>
+<li>
+<p>What is an evaluation board ?</p>
+<ul>
+<li>Designed by CPU manufacturer or others,</li>
+<li>Includes CPU, Memory, some IO devices,</li>
+<li>Permits execution on target hardware,</li>
+<li>CPU manufacturer often gives out evaluation board netlist,</li>
+<li>Can be used as starting point for your custom board design. [22] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are possible components of an evaluation board ?</p>
+<ul>
+<li>includes CPU, Memory, some IO devices <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a bus protocol ?</p>
+<ul>
+<li>Bus connects CPU to memory &amp; devices.</li>
+<li>Protocol controls communication between entities.</li>
+<li>Determines who gets to use the bus at any particular time.</li>
+<li>Govern length, style of communication.</li>
+<li>[28] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a simple handshake protocol.</p>
+<ul>
+<li>Four-cycle: two wires enq &amp; ack (enquiry-acknowledge)</li>
+<li>[29,30] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Mention examples for popular bus protocols.</p>
+<ul>
+<li>Timing</li>
+<li>[33] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What problems are associated with debugging embedded systems ?</p>
+<ul>
+<li>Target system may be hard to observe,</li>
+<li>Target may be hard to control,</li>
+<li>May be hard to generate realistic inputs,</li>
+<li>Setup sequence may be complex.</li>
+<li>[35] <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does a software debugger work ?</p>
+<ul>
+<li>A monitor program residing on the target provides basic debugger functions,</li>
+<li>Debugger should have a minimal footprint in memory,</li>
+<li>User program must be careful not to destroy debugger program,</li>
+<li>But debugger should be able to recover from some damage caused by user code.</li>
+<li>[36] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <em>breakpoint</em> ?</p>
+<ul>
+<li>Allows the user to stop execution, examine system state and change state.</li>
+<li>Replace the breakpointed instruction with a subroutine call to the monitor program.</li>
+<li>[37] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an <em>in-circuit emulator</em> ?</p>
+<ul>
+<li>(ICE): a specially-instrumented microprocessor.</li>
+<li>Allows to stop execution, examine CPU state, modify registers.<br>
+Disadvantage: microprocessor-specific</li>
+<li>[40] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch the basic architecture of a <em>logic analyser</em>&#x201A;.</p>
+<ul>
+<li>A LA is an array of low-grade oscilloscopes, logic(0/1/x) display of samples signals.</li>
+<li>[41] Figure. <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the general procedure to validate software for embedded processors ?</p>
+<ul>
+<li>Run on host system.</li>
+<li>Run on target system.</li>
+<li>Run in instruction-set simulator.</li>
+<li>Run on cycle-accurate simulator.</li>
+<li>Run in hardware/software co-simulation environment or virtual platform.</li>
+<li>[43] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is manufacturing testing ?</p>
+<ul>
+<li>Goal: ensure that manufacturing produces defect-free copies of the design.</li>
+<li>Can test by comparing unit being tested to the expected behaviour. But running tests is expensive.</li>
+<li>Maximise confidence while minimising testing cost.</li>
+<li>[44] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define the terms &#x201C;yield&#x201D;, &#x201C;fault model&#x201D;, and &#x201C;fault coverage&#x201D;.</p>
+<ul>
+<li><em>Yield:</em> proportion of manufactured systems that work.<br>
+Proper manufacturing maximises Yield,<br>
+Proper testing accurately estimates Yield.</li>
+<li><em>Field return:</em> defective unit that leaves the factory.</li>
+<li><em>Fault Model:</em> model that predicts effects of a particular type of fault.</li>
+<li><em>Fault Coverage:</em> proportion of possible faults found by a set of tests.<br>
+Having a fault model allows us to determine fault coverage.</li>
+<li>[46] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are major differences between software and hardware testing ?</p>
+<ul>
+<li><em>Software:</em> no fault model. Verify implementation, not manufacturing. Simple tests work well to verify software manufacturing.</li>
+<li><em>Hardware:</em> requires manufacturing tests in addition to implementation verification.</li>
+<li>[47] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Explain the stuck-at fault model. Is it realistic ?</p>
+<ul>
+<li>Stuck-at-0: output of gate is always 0.</li>
+<li>Stuck-at-1: output of gate is always 1.</li>
+<li>[48] <br><br></li>
+</ul>
+</li>
+<li>
+<p>How is the stuck-at fault model used for testing combinational logic ?</p>
+<ul>
+<li>Every gate can be stuck-at-0, stuck-at-1.</li>
+<li>Usually test for <em>single stuck-at-faults</em>: one fault at a time, multiple faults can mask each other.</li>
+<li>Generate a test for a gate by controlling the gate&apos;s input &amp; observing the gate&apos;s output through other gates.</li>
+<li>[49]  <br><br></li>
+</ul>
+</li>
+<li>
+<p>What architectural support can be provided for sequential testing ?</p>
+<ul>
+<li>A state machine is combinational logic + registers.</li>
+<li>Sequential testing is considerably harder:<br>
+A single stuck-at fault affects the machine on every cycle.<br>
+Fault behaviour on one cycle can be masked by same fault on other cycles.</li>
+<li><em>Scan Chains:</em> A special register operates in two modes: normal &amp; scan (forms an element in a shift register)</li>
+<li>Reduces Sequential testing to combinational testing: Loading/unloading scan chain is slow, may use partial scan.</li>
+<li>[50, 51] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by ATPG ?</p>
+<ul>
+<li><em>Automatic Test Pattern Generation:</em> produces a set of tests given the logic structure. (exponential problem)</li>
+<li>Some faults may be from redundant logic.</li>
+<li>Timeout on a fault may mean hard-to-test or un-testable</li>
+<li>[52] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of boundary scan ?</p>
+<ul>
+<li>Simplifies testing of multiple chips on a board.</li>
+<li>Standard interface: JTAG (Joint Test Action Group), registers on pins can be configured as a scan chain.</li>
+<li>[53] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="6-program-design-analysis-88-142308-407">&#xA7;6 Program Design &amp; Analysis  [88-142][308-407]</h2>
+
+<blockquote>
+<p>1-6: P260</p>
+</blockquote>
+<ol>
+<li>
+<p>What is a <strong>design pattern</strong> ?</p>
+<ul>
+<li>A generic description of a component tthat can be customized and used in different circumstances</li>
+<li>Examples: data structures: linear lists, hash tables, etc. <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the <strong>state machine model</strong> of computation and sketch an example.</p>
+<ul>
+<li>Keeps internal state as a variable, changes state based on inputs</li>
+<li>[Fig.262] <br><br></li>
+</ul>
+</li>
+<li>
+<p>For which type of applications are state machine models most suitable ?</p>
+<ul>
+<li>Uses: control-dominated code; reactive systems <br><br></li>
+</ul>
+</li>
+<li>
+<p>How are state machines implemented in the C language ?</p>
+<ul>
+<li>Current state is kept in a variable</li>
+<li>State table is implemented as a switch statement: cases define states, states can test inputs</li>
+<li>Switch is repeatedly evaluated in a while loop</li>
+<li><code>while(TRUE){ switch(state){ case state1: ... }}</code></li>
+<li><code>switch(state){ case A: if(in1 == 1) {x=a; state=B;} else {s=b, state=D}}</code> <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give an example for a data stream oriented design pattern.</p>
+<ul>
+<li>Commonly used in signal processing: new data constantly arrive, each datum has a limited lifetime</li>
+<li>Use a circular buffer to hold the data stream <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why do compilers generally use intermediate representations (IRs) for program representation instead of source language code ?</p>
+<ul>
+<li>Source code is not a good representation for programs: clumsy, language dependent, leaves much information implicit</li>
+<li>Compilers derive IR to manipulate and optimize the program</li>
+<li>[Fig.311]</li>
+</ul>
+</li>
+<li>
+<p>What is <strong>three address code</strong> ?</p>
+<ul>
+<li><em>Assembly-like</em>, yet <em>machine-independent</em></li>
+<li>At most three operands per statement</li>
+<li>Split complex expressions by inserting <strong>temporary variables</strong> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <strong>basic block</strong> ?</p>
+<ul>
+<li>Code with one entry and one exit <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is captured in a data flow graph ?</p>
+<ul>
+<li>Describes the minimal ordering requirements on operations <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is a <strong>single assignment</strong> form useful ?</p>
+<ul>
+<li>Three-address-code &lt;-&gt; DFG <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a CDFG ?</p>
+<ul>
+<li><strong>Control-Data Flow Graph</strong>: represents control and data</li>
+<li>Uses DFG as components</li>
+<li>Two types of nodes: decision; data flow <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give examples for capturing control flow in a CDFG.</p>
+<ul>
+<li>if-then-else, switch/case, for loop <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give an overview of the code generation tool chain.</p>
+<ul>
+<li>HLL --(compile)--&gt; assembly --(asseble)--&gt; object codes --(link)--&gt; executable --(load)--&gt; Prosessors <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of an assembler ?</p>
+<ul>
+<li>Generate binary for symbolic instructions</li>
+<li>Translate labels into addresses</li>
+<li>Handle pseudo-ops (data, etc.)</li>
+<li>Generally one-to-one translation <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does the assembler build symbol tables ?</p>
+<ul>
+<li>Use program location counter (PLC) to determine address of each location</li>
+<li>Scan program, keeping count of PLC</li>
+<li>Addresses are generated at assembly time, not execution time</li>
+<li>Efficient implementation: linear list too slow -&gt; hash table</li>
+<li>Hash function: map identifiers to table entries, which contain list of items with common hash key <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why does an assembler generally comprise two passes ?</p>
+<ul>
+<li>Pass 1: collect symbolic addresses, generate symbol table</li>
+<li>Pass 2: translate symbolic to real address, generate binary instructions</li>
+<li><strong>Relative address generation</strong>: Some label values may not be known at assembly time. Labels within the module may be kept in <em>relative form</em>. Must keep track of <em>external labels</em> - can&apos;t generate full binary for instructions that use external labels <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are pseudo-operations in assembly languages ?</p>
+<ul>
+<li>Do not generate instructions:</li>
+<li><strong>ORG</strong> sets program location</li>
+<li><strong>EQU</strong> generates symbol table entry without advancing PLC</li>
+<li><strong>Data statements</strong> define data blocks <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the tasks of a linker ?</p>
+<ul>
+<li>Combines several object modules into a single executable module</li>
+<li>Jobs: put modules in order; resolve labels across modules <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the major phases of a compiler.</p>
+<ul>
+<li>Compilation = translation + optimization</li>
+<li>HLL -(<em>parsing, symbol table</em>)-(<em>machine-independent optimizations</em>)-(<em>machine-dependent optimizations</em>)-&gt; assembly <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a simple <strong>CDFG-based code generation</strong> procedure.</p>
+<ul>
+<li>Source code is translated into intermediate form such as CDFG</li>
+<li>CDFG is transformed / optimized</li>
+<li>CDFG is translated into instructions with optimization decisions</li>
+<li>Instructions are further optimized <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does a compiler generate code for procedure calls ?</p>
+<ul>
+<li>Need code to: call and return; pass parameters and results</li>
+<li>Parameters and returns are passed on <strong>stack</strong></li>
+<li>Procedures with few parameters may use registers</li>
+<li>Frame pointer <code>FP</code>, Stack pointer <code>SP</code></li>
+<li>ARM procedure linkage example [350] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the addressing of composite data structure elements (arrays,structures) in compiled code.</p>
+<ul>
+<li>1D arrays: C array name points to 0th element</li>
+<li>2D arrays: Row-major layout</li>
+<li>Structures: fields within structures are static offsets [354] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the most important objectives in DSP code optimisation ?</p>
+<ul>
+<li>LOOP &#x1F603; <br><br></li>
+</ul>
+</li>
+<li>
+<p>Exemplify some simplification rules a compiler might use for code optimisation.</p>
+<ul>
+<li>Constant folding: <code>8+1=9</code></li>
+<li>Algebraic: <code>a*b+a*c=a*(b*c)</code></li>
+<li>Strength reduction: <code>a*2=a&lt;&lt;1</code> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>dead code</em> ?</p>
+<ul>
+<li><code>#define DEBUG 0; if(DEBUG) dbg(p1)</code></li>
+<li>Can be eliminated by analysis of control flow, constant folding <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>procedure inlining</em> ?</p>
+<ul>
+<li>Eliminates procedure linkage overhead: parameter passing; context saving; call/return instructions (pipeline hazards)</li>
+<li>Example [357] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are loop transformations highly important for code quality ?</p>
+<ul>
+<li>90/10 rule: 90% of execution time spent in 10% of the code (loops)</li>
+<li>Goals: reduce loop overhead; increase opportunuties for pipelining; improve memory system performance <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the pros and cons of <em>loop unrolling</em> ?</p>
+<ul>
+<li>Reduces loop overhead, enables some other optimizations <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the effect of <em>loop fusion</em> and <em>loop distribution</em> ?</p>
+<ul>
+<li>Fusion combines two loops into one</li>
+<li>Distribution breaks one loop into two</li>
+<li>Changes optimizations within loop body <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does <em>loop tiling</em> work ?</p>
+<ul>
+<li>Breaks one loop into a nest of loops</li>
+<li>Changes order of accesses within array</li>
+<li>Changes cache behavior</li>
+<li>Example [363] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by array padding ?</p>
+<ul>
+<li>Add array elements to change mapping into cache <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the task of a <em>register allocator</em> ?</p>
+<ul>
+<li>Choose register to hold each varuable</li>
+<li>Determine lifespan of variable in the register</li>
+<li>Basic case: within basic block</li>
+<li>Global: within procedure <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a technique for register allocation in a basic block.</p>
+<ul>
+<li>[366] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the relation between register allocation and graph coloring ?</p>
+<ul>
+<li>Build interference graph: one node per variable, one edge for each lifetime overlap</li>
+<li>Background: map coloring <br><br></li>
+</ul>
+</li>
+<li>
+<p>For which types of processors is instruction scheduling important ?</p>
+<ul>
+<li>Non-pipelined machines without instruction-level parallelism do not need instruction scheduling</li>
+<li>Any order of instructions that statisties data dependencies runs equally fast</li>
+<li>In pipelined machines, execution time of one instruction depends on the nearby instructions: <strong>opcode</strong>, <strong>operands</strong> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is represented in a <strong>reservation table</strong> ?</p>
+<ul>
+<li>Relates instructions/time to CPU resources</li>
+<li>Allows detection of inter-instruction resource conflicts</li>
+<li>Example [370] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Which types of <em>inter-instruction dependencies</em> have to be taken into account during scheduling ?</p>
+<ul>
+<li>Data dependence (Read-After-Write, RAW)</li>
+<li>Output dependenc (Write-After-Write, WAW)</li>
+<li>Anti dependence (Write-After-Read, WAR) <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the idea of <em>software pipelining</em> ?</p>
+<ul>
+<li>Schedules instructions across loop iterations</li>
+<li>Reduces instruction latency in iteration i by inserting instructions from other iterations <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give an example for software pipelining on a DSP processor.</p>
+<ul>
+<li>Software pipelining in SHARC [376-377] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is <em>instruction selection</em> important in <em>code generation</em> ?</p>
+<ul>
+<li>May be several ways to implement an operation or sequence of operations</li>
+<li>Represent operations as graphs, match possible instruction sequences onto graph <br><br></li>
+</ul>
+</li>
+<li>
+<p>Outline the <em>template matching</em> approach to instruction selection.</p>
+<ul>
+<li>[Fig.380] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Compare <em>compilers</em> to <em>interpreters</em> and <em>JIT compilers</em>.</p>
+<ul>
+<li><strong>Interpreter</strong>: translates and executes program statements on-the-fly</li>
+<li><strong>Just-in-Time compiler</strong>: compiles small sections of code into instructions during program execution. E.g. Java Virtual Machine.</li>
+<li>Add performance / memory overhead <br><br></li>
+</ul>
+</li>
+<li>
+<p>What makes <em>static prediction</em> of program <em>execution time</em> hard ?</p>
+<ul>
+<li>Depend on: input data values; instruction/operand types; cache effects; pipelining effects <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can program <em>execution time</em> be measured ?</p>
+<ul>
+<li><strong>CPU simulator</strong>: I/O may be hard; may not be totally accurate</li>
+<li><strong>Hardware timer</strong>: Requires board, intrumented program</li>
+<li><strong>Logic analyzer</strong>: Limited logic analyzer memory depth <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why should best, worst, and average execution times be analysed ?</p>
+<ul>
+<li><strong>Average-case</strong>: for typical data values, whatever they are</li>
+<li><strong>Worst-case</strong>: for any possible input set</li>
+<li><strong>Best-case</strong>: for any possible input set</li>
+<li>Too-fast programs may cause critical races at system level <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a program path ?</p>
+<ul>
+<li>[389] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Which data structure helps to determine the execution times of program paths ?</p>
+<ul>
+<li>LOOP &#x1F603; <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe <em>&#x201C;code motion&#x201D;</em> as a <em>loop optimisation</em>.</p>
+<ul>
+<li>[392]</li>
+<li><code>for(i=0; i&lt;N*M; i++)</code> -&gt; <code>i=0, X=N*M; if(i&lt;X)...</code> <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does <em>induction variable elimination</em> work ?</p>
+<ul>
+<li>[393]</li>
+<li>Rather than recompute i*M+j for each array in each iteration, share induction variable between arrays, increment at end of loop body <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are both power and energy optimisation important for DSP systems ?</p>
+<ul>
+<li><strong>Energy</strong>: ability to do work: most important in battery-powered systems</li>
+<li><strong>Power</strong>: energy per unit time: important even in wall-plug systems: power becomes heat <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can the energy consumption of a program be measured ?</p>
+<ul>
+<li>Execute a small loop, measure current <br><br></li>
+</ul>
+</li>
+<li>
+<p>What types of CPU instructions tend to consume most energy ?</p>
+<ul>
+<li>Memory <br><br></li>
+</ul>
+</li>
+<li>
+<p>Mention some general recipes for minimizing <em>program energy consumption</em>.</p>
+<ul>
+<li><strong>Cache behavior</strong>: cache too small: program burns too much energy on external memory accesses; cach too large: cache itself burns too much energy</li>
+<li>First-order optimization: high performance = low energy</li>
+<li>Most instructions do not show significant variances in power consumption</li>
+<li>Use registers efficiently</li>
+<li>Identify and eliminate cache conflicts</li>
+<li>Moderate loop unrolling eliminates some loop overhead instructions</li>
+<li>Eliminate pipeline stalls</li>
+<li>Inlining procedures may help: reduces linkage overhead, but may increase cache conflicts <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are techniques for <em>program size optimisation</em> ?</p>
+<ul>
+<li>Reduce HW cost of memory and power consumption of memory units</li>
+<li><strong>Reduce data size</strong>: reuse constants, variables, data buffers in different parts of code: requires careful verification of correctness</li>
+<li>Generate data using instructions</li>
+<li><strong>Reduce code size</strong>: Avoid function inlining, choose CPU with compact instructions, use specialized instructions where possible <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are pros and cons of code compression ?</p>
+<ul>
+<li>Use statistical compression after linking to reduce code size</li>
+<li>Decompress on-the-fly <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="7-vlsi-implementation-143-153408-441">&#xA7;7 VLSI Implementation [143-153][408-441]</h2>
+
+<ol>
+<li>
+<p>What are advantages of DSP system implementation in VLSI technology ?</p>
+<ul>
+<li>Very Large Scale Integration: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>6</mn></msup><mtext>&#xA0;</mtext><mo>&gt;</mo><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup></mrow><annotation encoding="application/x-tex">10^6 ~&gt; 10^9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.853208em;vertical-align:-0.0391em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak">&#xA0;</span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span> transistors per chip</li>
+<li>CMOS size min: 65/45/32/14/.. nm</li>
+<li>Integration improves design: lower parasitics = higher speed; lower power; physically smaller</li>
+<li>Reduces manufacturing cost, (almost) no manual assembly <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is described by Moore &#x301;s Law ?</p>
+<ul>
+<li>Number of transistors per chip would grow exponentially (double every 18 mo) <br><br></li>
+</ul>
+</li>
+<li>
+<p>How many transistors can be integrated on today &#x301;s VLSI systems ?</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&gt;</mo><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup></mrow><annotation encoding="application/x-tex">&gt;10^9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span></span></span></span> (Apple A12: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>10</mn></msup></mrow><annotation encoding="application/x-tex">10^{10}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span>) <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the major cost factors for integrated circuits ?</p>
+<ul>
+<li>Large-volume IC: Packaging &gt; Testing &gt; ..</li>
+<li>Low-volume IC: Design(Non-Recurring Engineering, NRE) &gt; Manufacturing</li>
+<li>Mask set: 1 Mio$; NRE: &gt; 10 Mio$ <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch the <strong>Y-chart</strong> of the VLSI design process.</p>
+<ul>
+<li>Figure [423/15] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the concept of hierarchical VLSI design.</p>
+<ul>
+<li>Interior view of a component: components and wires that make it up</li>
+<li>Exterior view of a component: type: body, pins</li>
+<li>Example [425/18-21] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Exemplify the different abstraction levels in VLSI design.</p>
+<ul>
+<li>Specification: function, cost, etc.</li>
+<li>Architecture: large blocks</li>
+<li>Register transfer(RTL): register files, ALUs, MUXes, buses</li>
+<li>Logic: gates+registers</li>
+<li>Circuits: transistor sizes for speed, power</li>
+<li>Layout: determines parasitics <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by &#x201C;digital abstraction&#x201D; of a circuit ?</p>
+<ul>
+<li>Figure [435/28] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Compare top-down vs. bottom-up design methodologies.</p>
+<ul>
+<li><em>Top-down</em> design adds functional detail. Create lower levels of abstraction from upper levels</li>
+<li><em>Bottom-up</em> design creates abstractions from low-level behavior</li>
+<li>Good design needs both top-down and bottom-up efforts <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>&#x201C;back annotation&#x201D;</em> ?</p>
+<ul>
+<li>Copy performance numbers to earlier stages <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the difference between design validation and manufacturing test ?</p>
+<ul>
+<li><strong>Design validation:</strong></li>
+<li>Must check at every step that errors haven&apos;t been introduced</li>
+<li>The longer an error remains, the more expensive it becomes to remove it</li>
+<li>Forward checking: compare results of less- and more-abstract stages</li>
+<li>Back annotation: copy performance numbers to earlier stages</li>
+<li><strong>Manufacturing test:</strong></li>
+<li>Not the same as design validation: just because the design is right doesn&apos;t mean that every chip coming off the line will be right</li>
+<li>Must quickly check whether manufacturing defects destroy function of chip <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="8-rtl-components-154-159442-460">&#xA7;8 RTL Components [154-159][442-460]</h2>
+
+<ol>
+<li>
+<p>What is the functionality of a <em>barrel shifter</em> ?</p>
+<ul>
+<li>Can perform n-bit shifts in a single cycle</li>
+<li>Efficient layout</li>
+<li>Does require transmission gates and long wire <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch the architecture of a <em>barrel shifter</em>.</p>
+<ul>
+<li>Accepts 2n data inputs and n control signals</li>
+<li>Producing n data outputs</li>
+<li>2D array of 2n vertical times n horizontal cells</li>
+<li>Input data travels diagonally upward. Output wires travel horizontally</li>
+<li>Control signals run vertically. Exactly one control signal is set to 1, turning on all transimission gates in that column</li>
+<li>Large number of cells, but each one is small. Delay is large, considering long wires and transmission gates</li>
+<li>Figure [449/42-43] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the functionality of a full adder ?</p>
+<ul>
+<li>One bit sum</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>s</mi><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mi>i</mi></msub><mo>&#x2295;</mo><msub><mi>b</mi><mi>i</mi></msub><mo>&#x2295;</mo><msub><mi>c</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>c</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>a</mi><mi>i</mi></msub><msub><mi>b</mi><mi>i</mi></msub><mo>+</mo><msub><mi>a</mi><mi>i</mi></msub><msub><mi>c</mi><mi>i</mi></msub><mo>+</mo><msub><mi>b</mi><mi>i</mi></msub><msub><mi>c</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">s_i=a_i\oplus b_i\oplus c_i, c_{i+1}=a_ib_i+a_ic_i+b_ic_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2295;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2295;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.638891em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.73333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the critical path in a <em>ripple-carry adder</em> ?</p>
+<ul>
+<li>N-bit adder built from FA</li>
+<li>Delay of RCA goes through all carry bits</li>
+<li>Figure [453/46] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a <em>carry-lookahead adder</em>.</p>
+<ul>
+<li>First compute carry propagate, generate: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mi>i</mi></msub><mo>+</mo><msub><mi>b</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>G</mi><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mi>i</mi></msub><msub><mi>b</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">P_i=a_i+b_i, G_i=a_ib_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></li>
+<li>Compute sum and carry from P and G: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>s</mi><mi>i</mi></msub><mo>=</mo><msub><mi>c</mi><mi>i</mi></msub><mo>&#x2295;</mo><msub><mi>P</mi><mi>i</mi></msub><mo>&#x2295;</mo><msub><mi>G</mi><mi>i</mi></msub><mo separator="true">,</mo><msub><mi>c</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>G</mi><mi>i</mi></msub><mo>+</mo><msub><mi>P</mi><mi>i</mi></msub><msub><mi>c</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">s_i=c_i\oplus P_i\oplus G_i, c_{i+1}=G_i+P_ic_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">s</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2295;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">&#x2295;</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.891661em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></li>
+<li>Recursively expand carry formula:</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>c</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>G</mi><mi>i</mi></msub><mo>+</mo><msub><mi>P</mi><mi>i</mi></msub><mo stretchy="false">(</mo><msub><mi>G</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>P</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><msub><mi>c</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">c_{i+1}=G_i+P_i(G_{i-1}+P_{i-1}c_{i-1})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.638891em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>c</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>G</mi><mi>i</mi></msub><mo>+</mo><msub><mi>P</mi><mi>i</mi></msub><msub><mi>G</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>P</mi><mi>i</mi></msub><msub><mi>P</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><mo stretchy="false">(</mo><msub><mi>G</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>P</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>1</mn></mrow></msub><msub><mi>c</mi><mrow><mi>i</mi><mo>&#x2212;</mo><mn>2</mn></mrow></msub><mo stretchy="false">)</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">c_{i+1}=G_i+P_iG_{i-1}+P_iP_{i-1}(G_{i-2}+P_{i-1}c_{i-2}) ...</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.638891em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.891661em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">&#x2212;</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord">.</span><span class="mord">.</span><span class="mord">.</span></span></span></span></li>
+<li>Expanded formula does not depend on intermediate carries</li>
+<li>Allows carry for each bit to be computed independently</li>
+<li>Deepest carry expansion requires gates with large fanin: large, slow</li>
+<li>CLA unit requires complex wiring between adders and lookahead unit</li>
+<li>Values must be routed back from lookahead unit to adder <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch a <em>bit-serial adder</em>.</p>
+<ul>
+<li>May be used in signal-processing arithmetic where fast computation/throughput is important but latency is unimportant</li>
+<li>Figure [459/52] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="91-architecture-and-chip-design-160-180461-517">&#xA7;9.1 Architecture and Chip Design [160-180][461-517]</h2>
+
+<ol>
+<li>
+<p>What is a <strong>register-transfer (RT)</strong> system ?</p>
+<ul>
+<li>A sequential machine (Finite state machine)</li>
+<li>RT design is <strong>structual</strong> - complex combinations of state machines may not be easily described solely by a large state trasition graph</li>
+<li>RF design concentrates on <strong>functionality</strong> not details of logic design <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is it useful to separate a system into <strong>data path</strong> and <strong>controller</strong> ?</p>
+<ul>
+<li>Good way to structure a system</li>
+<li>Data path executes regular operations (arithmetic, etc.), holds registers with data-oriented state</li>
+<li>Controller evaluates irregular functions, sets control signals for data path <br><br></li>
+</ul>
+</li>
+<li>
+<p>How are conditionals modelled by RT components ?</p>
+<ul>
+<li><em>Multiplexers</em> are implied by <em>conditionals</em>. Must evaluate multiple paths to determine which sources of data for registers</li>
+<li>Multiplexers also come from sharing ALUs and registers <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an ASM chart ?</p>
+<ul>
+<li><em>Algorithmic State Machine Chart</em> is a register-transfer description</li>
+<li>Describe functions without choosing a partitioning between control &amp; data</li>
+<li>Once specified function, can refine it into block diagram which partitions data and control <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by &#x201C;function unit sharing&#x201D; ?</p>
+<ul>
+<li>Function units implementing data operations may ba reused across states, but <em>multiplexers</em> will be requied to route values to the shared function units.</li>
+<li>Example [481/22] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the relation between ASMs and Moore/Mealy automata ?</p>
+<ul>
+<li>ASM Chart describes a <strong>Moore</strong> sequential machine</li>
+<li>If the logic associated with an ASM chart fragment doesn&apos;t correspond to a legal sequential machine, then it isn&apos;t a legal ASM chart</li>
+<li>Conditional can evaluate only present state or primary input value on present cycle <br><br></li>
+</ul>
+</li>
+<li>
+<p>How do ASMs help in <em>data path</em> and <em>controller</em> <em>partitioning</em> ?</p>
+<ul>
+<li>ASM chart notation helps identify data, control</li>
+<li>Once choose what values and operations go into the data path, can determine by elimination what goes into the controller</li>
+<li>Structure of the ASM chart gives structure of controller state transition graph <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of <em>hardware description languages (HDLs)</em> ?</p>
+<ul>
+<li>Textual languages for describing HW: <em>structure</em>, <em>timing</em>, <em>(bit accurate) function</em></li>
+<li>Most people today use <em>textual</em> languages rather than <em>schematics</em> for most digital designs: schematics make poor use of screen space</li>
+<li>VHDL, Verilog <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define <em>(1)&#x201C;compiled code simulation&#x201D;</em> and <em>(2)&#x201C;event-driven simulation&#x201D;</em>.</p>
+<ul>
+<li>(1) Generate program that evaluates a HW block</li>
+<li>(2) Propagate events through simulation, don&apos;t simulate a block until its inputs change</li>
+<li>(2) Example [492/33] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the use of the <em>timewheel</em> data structure in simulation.</p>
+<ul>
+<li>Timewheel is a data structure in the simulator that efficiently determines the order of events processed</li>
+<li>Events are placed on the timewheel in time order</li>
+<li>Events are taken out of the head of the timewheel to process them in order</li>
+<li>Example [495/36] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give examples for <em>structural</em> and <em>behavioural</em> hardware models.</p>
+<ul>
+<li><em>structural</em> modeling describes the connections between components. Netlists or schematics are structural models</li>
+<li><em>behavioural</em> models describes the functional relationship between inputs and outputs, similar to programming but values are events <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <em>testbench</em> ?</p>
+<ul>
+<li>Model used to exercise a simulation: provides stimulus, checks outputs</li>
+<li>Help automate design verification: Rerun edited module against testbench; Run models at behavioral, RTL levels against the same testbench <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by a <em>&#x201C;synthesis subset&#x201D;</em> of an HDL ?</p>
+<ul>
+<li>Synthesizable, produces consistent simulation results <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>RT synthesis</em> ?</p>
+<ul>
+<li>Register-transfer synthesis: most common type of synthesis</li>
+<li>Synthesizes gates from abstract RT model: registers are explicit, some tools will infer storage elements (be careful)</li>
+<li>Optimized for performance, area, power <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define the term <em>high-level synthesis</em> (or <em>behavioral synthesis</em>).</p>
+<ul>
+<li>Constructs RT model from partially untimed behavioral specification</li>
+<li><code>x &lt;= a+b; y &lt;= c+d;</code></li>
+<li><code>if(z&gt;0) then w &lt;= e+f; end if;</code></li>
+<li>How many clock cycles are required? -&gt; Schedule operations <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>ASAP/ALAP</em> scheduling ?</p>
+<ul>
+<li>As-soon-as-possible / As-late-as-possible scheduling</li>
+<li>Examples [505/45] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the relation between ASAP/ALAP and critical paths in data flow graphs ?</p>
+<ul>
+<li>ASAP Time = ALAP Time</li>
+<li>NAN <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the impact of operation chaining on the cycle time of a design ?</p>
+<ul>
+<li>Perform series of operations in one cycle</li>
+<li>Time reduction <br><br></li>
+</ul>
+</li>
+<li>
+<p>Give an example of <em>non-additive</em> delay in operation chaining.</p>
+<ul>
+<li>Ripple-Carry Adder (RCA)</li>
+<li>Critical path goes through all full adders of first RCA and MSB full adder of second RCA</li>
+<li>Cycle time(chained) =~ cycle time(non-chained) for RCA and large word length <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the major steps of high-level synthesis.</p>
+<ul>
+<li>Convert behaviorla spec into single assignment form</li>
+<li>Data flow graph construction</li>
+<li>DFG scheduling (arranging operations in cycles or control steps)</li>
+<li>Register insertion</li>
+<li>Multiplexer insertion</li>
+<li>Controller generation</li>
+<li>High-level synthesis result <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="92-architecture-and-chip-design-181-205518-568">&#xA7;9.2 Architecture and Chip Design [181-205][518-568]</h2>
+
+<ol>
+<li>
+<p>What are the advantages of hardware description languages (HDLs) ?</p>
+<ul>
+<li>The major benefit of the language is fast design and better verification. The Top-down design and hierarchical design method allows the design time; design cost and design errors to be reduced. Another major advantage is related to complex designs, which can be managed and verified easily. <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the simulation semantics of VHDL processes ?</p>
+<ul>
+<li>Event-driven simulation:</li>
+<li>Propagate events through simulation</li>
+<li>Don&apos;t simulate a block until its inputs change</li>
+<li>Example [492/33-34] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is an entity in VHDL ?</p>
+<ul>
+<li>An entity is a black box with declaration of inputs and outputs.  <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why can a VHDL entity have multiple architectures ?</p>
+<ul>
+<li>An architecture statement defines the structure or description of a design and is bounded with an entity. VHDL allows an entity to have multiple architectures. Since architecture describes what is inside an entity, it can be written in different ways by different designers. <br><br></li>
+</ul>
+</li>
+<li>
+<p>Are there differences in the use of HDLs like VHDL or Verilog for synthesis and simulation purposes ?</p>
+<ul>
+<li>VHDL and Verilog are designed for simulation</li>
+<li><em>Synthesis Subset</em>: synthesizable, produces consistent simulation results</li>
+<li>Different tools may use different synthesis subsets <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does a VHDL testbench work ?</p>
+<ul>
+<li>Model used to exercise a simulation: provides stimulus, checks outputs</li>
+<li>Help automate design verification: Rerun edited module against testbench; Run models at behavioral, RTL levels against the same testbench <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch a sample VLSI design flow.</p>
+<ul>
+<li>Figure [519/2] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are methods to estimate speed or area of designs at early stages ?</p>
+<ul>
+<li>Estimation techniques vary with module:</li>
+<li>Memories may be generated once size is known</li>
+<li>Data paths may be estimated from previous design</li>
+<li>Controllers are hard to estimate without details</li>
+<li>Estimates must include speed, area, power <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the purpose of <em>floorplanning</em> ?</p>
+<ul>
+<li>Early in design: prepare a floorplan to budget area, wire area/delay. Tradeoffs between blocks can be negotiated</li>
+<li>Late in design: make sure the pieces fit together as planned. Implement the global layout <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by state assignment in logic synthesis ?</p>
+<ul>
+<li>For controllers, good state assignment usually requires EDA tools</li>
+<li>Logic synthesis is an option: very good for non-critical logic; can work well for speed-critical logic</li>
+<li>Logic synthesis system may be sensitive to changes in the input specification <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the main application areas for <em>full custom layout</em> ?</p>
+<ul>
+<li>Full custom layout design (very tedious) most likely for datapaths, least likely for random logic off critical path <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is covered by <em>design validation</em> ?</p>
+<ul>
+<li>Layout (design rule check = DRC)</li>
+<li>Circuit performance</li>
+<li>Clock distribution</li>
+<li>Functionality</li>
+<li>Power consumption <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by <em>tapeout</em> ?</p>
+<ul>
+<li><em>Tapeout</em>: Generating final files for masks. Shipped to mask-making house</li>
+<li><em>Pre-tapeout verification</em>: is important since it will take months to get results from fab.</li>
+<li><em>Tapeout party</em> follows. Size of party depends on importance of chip design project.  <br><br></li>
+</ul>
+</li>
+<li>
+<p>Sketch a basic CPU data path.</p>
+<ul>
+<li>Figures [539/22-23] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What influences design decisions about the number of <em>register file ports</em> ?</p>
+<ul>
+<li>Register file is an SRAM (Static Random-Access Memory)</li>
+<li>Additional ports add area, increase access time</li>
+<li>But additional ports also reduce number of cycles required for an operation</li>
+<li>SRAM delay grows linearly in number of ports</li>
+<li>Area and power consumption grow quadratically with added ports</li>
+<li>At least two ports makes sense for data path throughput <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a wiring plan ?</p>
+<ul>
+<li>Data path wiring plan. Figure [545/28]</li>
+<li>Cannot ignore wiring during block placement: large wiring areas may force rearrangement of blocks</li>
+<li>Wiring plan must consider area and delay of critical signals</li>
+<li>Blocks divide wiring area into routing channels <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a bricks-and-mortar floorplan ?</p>
+<ul>
+<li>Figure [548/31] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the difference between channel and switchbox routing ?</p>
+<ul>
+<li><em>Channel routing</em>: Channel may grow in one dimension to accommodate wires; Pins generally on only two sides</li>
+<li><em>Switchbox routing</em>: Cannot grow in any dimension; Pins are on all four sides, fixing dimensions of the box <br><br></li>
+</ul>
+</li>
+<li>
+<p>Is the definition of routing channels unique ?</p>
+<ul>
+<li>Channels end at block boundaries. Several alternate channel definitions are possible</li>
+<li>Changing spacing changes relationship between block edges</li>
+<li>Example [556/39] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <em>channel graph</em> and what is it used for ?</p>
+<ul>
+<li>Nodes are channels, edges placed between two channels that touch</li>
+<li>Shows paths between channels</li>
+<li>Can be used to guide global routing</li>
+<li>Example [557/40] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a &#x201C;windmill&#x201D; floorplan ?</p>
+<ul>
+<li>Channels must be routed in order: wire out of end one channels creates pin on side of next channel.</li>
+<li>Can create an unroutable combination of channels with circular constraints -&gt; windmill</li>
+<li>Example [560/43] <br><br></li>
+</ul>
+</li>
+<li>
+<p>When is a floorplan called <em>&#x201C;sliceable&#x201D;</em> ?</p>
+<ul>
+<li>Can be recursively cut in two without cutting any blocks</li>
+<li>Guarantee to have no windmills, therefore guarantee to have a feasible order of routing for the channels</li>
+<li>Slicability is a desirable property for floorplan <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>global routing</em> ?</p>
+<ul>
+<li>Goal: assign wires to paths through channels</li>
+<li>Don&apos;t worry about exact routing of wires within channels</li>
+<li>Can estimate channel height from global routing using congestion <br><br></li>
+</ul>
+</li>
+<li>
+<p>How does <em>line probe routing</em> work ?</p>
+<ul>
+<li>Heuristic method for finding a short route</li>
+<li>Works with arbitrary combination of obstacles</li>
+<li>Does not explre all possible paths -&gt; not optimal <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is <em>switchbox</em> routing more difficult than channel routing ?</p>
+<ul>
+<li>Can&apos;t expand a switchbox to make room for more wiring</li>
+<li>Switchbox may be defined by intersection of channels</li>
+<li>Frequently need more experimentation with wiring order because nets may block other nets  <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="101-eda-systems-and-algorithms-206-224569-612">&#xA7;10.1 EDA Systems and Algorithms [206-224][569-612]</h2>
+
+<ol>
+<li>
+<p>What is the purpose of <em>interchange languages</em> in CAD systems ?</p>
+<ul>
+<li>Tools aren&apos;t very useful if they don&apos;t talk to each other</li>
+<li>SystemC (IP blocks); VHDL, Verilog (function and structure);</li>
+<li>EDIF (netlists); GDS, CIF (masks) <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the difference between a <em>database</em> and a <em>translator based</em> approach to design interchange ?</p>
+<ul>
+<li>Figure [574/5]</li>
+<li>Database: hub-and-spoke</li>
+<li>Translator: Nx(N-1) tools <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is <em>back annotation</em> ?</p>
+<ul>
+<li>Often want to iteratively improve design</li>
+<li>Back Annotation updates a more-abstract design with information from later design stages.</li>
+<li>Example: annotate logic schematic with extracted parasitic Rs and Cs</li>
+<li>Back Annotation requires tools to know more about each other <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the <em>major phases</em> of <em>layout synthesis</em> ?</p>
+<ul>
+<li><strong>Placement</strong> of components on the chip</li>
+<li><strong>Routing</strong> of wires between components</li>
+<li>Placement and routing interact, but separating layout design into phases helps us understand the problem and find good solutions <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can you estimate the placement quality before actual wiring ?</p>
+<ul>
+<li>Quality metrics for layout: <strong>area</strong>, <strong>delay</strong></li>
+<li>Area and delay determined in part by wiring</li>
+<li>So <em>estimate wire length</em> without actually performing routing <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the Euclidian and Manhattan wire length measures ?</p>
+<ul>
+<li>Euclidean: sqrt(x^2 + y^2)</li>
+<li>Manhattan: x+y <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is meant by &#x201C;placement by partitioning&#x201D; ?</p>
+<ul>
+<li>Works well for components of fairly uniform size</li>
+<li>Partition netlist to minimize total wire length using <code>min-cut</code> criterion</li>
+<li>Partitioning may be interpreted as 1D or 2D layout <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the idea of <strong>min-cut bisecting</strong> partitioning.</p>
+<ul>
+<li>Figure [582/14]</li>
+<li>Swap A and B:</li>
+<li>B drags 1 net; A drags 3 nets. Total cut increase: 4</li>
+<li>Probably not a good swap, but must be compared with other paris and other subsequent moves <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the main advantage of the <em>Kernighan-Lin</em> partitioning algorithm ?</p>
+<ul>
+<li>Cumpute min-cut criterion: count total net cut change</li>
+<li>Algorithm exchanges sets of nodes to perform hill-climbing: finding improvements where no single swap will improve the cut</li>
+<li>Recursively subdivide to determine placement detail <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the difference between <em>global</em> and <em>detailed routing</em> ?</p>
+<ul>
+<li>Global routing assigns nets to routing areas</li>
+<li>Detailed routing designs the routing areas <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is <em>net ordering</em> important ?</p>
+<ul>
+<li>Net ordering is a major problem. Order in which nets are routed determines quality for results</li>
+<li>Net ordering is heuristic <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why are <em>Steiner trees</em> of interest in routing ?</p>
+<ul>
+<li>A Steiner point is an intermediate point for the creation of new branches</li>
+<li>Finding optimal Steiner points is difficult</li>
+<li>Steiner tree problem &lt;-&gt; minimum spanning tree problem / shortest path <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe <em>Lee &#x301;s maze routing algorithm</em>.</p>
+<ul>
+<li><em>Initialisation</em>: Select start point, mark with 0; i=0</li>
+<li><em>Wave expansion</em>: REPEAT mark all unlabeled neighbors of points marked with i with i+1, i=i+1; UNTIL target reached OR all points marked</li>
+<li><em>Backtrace</em>: Return from target to start point along descending marks</li>
+<li><em>Clerance</em>: Block the path for future wirings, delete all marks <br><br></li>
+</ul>
+</li>
+<li>
+<p>Where does the channel routing problem occur ?</p>
+<ul>
+<li>Routing channels: Tracks from a grid for routing: Spacing between tracks is center-to-center distance between wires; Track spacing depends on wire layer used.</li>
+<li>Different layers are generally used for horizonal and vertical wires: can be routed relatively independently</li>
+<li>Placement of cells determines placement of pins</li>
+<li>Pin placement determines difficulty of routing problem</li>
+<li><em>Density</em>: lower bound on number of horizonal tracks needed to route the channle: maximum number of nets crossing any vertical cut <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the <em>left-edge channel routing algorithm</em> and its limitations.</p>
+<ul>
+<li>Basic channel routing algorithm</li>
+<li>Assumes one horizonal segment per net</li>
+<li>Sweep pins from left to right: assign horizontal segment to lowest available track</li>
+<li><em>Liminations</em>: Some combinations of nets require more than one horizontal segment per net <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <em>&#x201C;dogleg&#x201D;</em> in channel routing ?</p>
+<ul>
+<li>Has more than one horizontal segment</li>
+<li>Figure [603/35] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are the main ideas of the <em>Rivest-Fiduccia</em> channel router ?</p>
+<ul>
+<li>Routes from left to right. Assign all nets that cross the current column to tracks</li>
+<li>Heuristics: [606/37]</li>
+<li>Make connections to pins;</li>
+<li>Add jogs to put multitrack net into one track</li>
+<li>Add jogs to reduce distance in multitrack nets</li>
+<li>Add jogs to move net toward next pin</li>
+<li>Add tracks when necessary <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the <em>scan line algorithm</em> for Boolean mask operations. What is it used for ?</p>
+<ul>
+<li>Mark each edge of polygon with direction</li>
+<li>Sweep scan line across layout</li>
+<li>At each point on scan line, count number of left-hand and right-hand edges to determine what rectangle that point is in</li>
+<li>Example [611/43] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="mume-header" id="102-eda-systems-and-algorithms-225-238613-653">&#xA7;10.2 EDA Systems and Algorithms [225-238][613-653]</h2>
+
+<ol>
+<li>
+<p>What is a Boolean function and how can it be represented ?</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>:</mo><msup><mrow><mn>0</mn><mo separator="true">,</mo><mn>1</mn></mrow><mi>n</mi></msup><mo>&#x2212;</mo><mo>&gt;</mo><mrow><mn>0</mn><mo separator="true">,</mo><mn>1</mn></mrow></mrow><annotation encoding="application/x-tex">f: {0,1}^n -&gt; {0,1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8931720000000001em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord"><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.698732em;"><span style="top:-3.09734em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord">&#x2212;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span></span></span></span></span> e.g. f=a&apos;b+ab&apos;</li>
+<li>a: <em>variable</em>, a and a&apos;: <em>literals</em>, ab&apos;: <em>term</em></li>
+<li>Irredundant, if no <em>literal</em> can be removed without changing the function&apos;s truth value <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a &#x201C;complete&#x201D; set of functions ?</p>
+<ul>
+<li>A set of functions <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi><mo>=</mo><mrow><mi>f</mi><mn>1</mn><mo separator="true">,</mo><mi>f</mi><mn>2</mn><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi></mrow></mrow><annotation encoding="application/x-tex">F={f1,f2,...}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">.</span><span class="mord">.</span><span class="mord">.</span></span></span></span></span> is complete if every Boolean function can be generated by a combination of the functions in <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span>.</li>
+<li>NAND is a complete set. NOR is a complete set. {AND, OR} is not complete</li>
+<li>Not complete -&gt; cannot design arbitrary logic <br><br></li>
+</ul>
+</li>
+<li>
+<p>What tasks are involved in <strong>logic synthesis</strong> ?</p>
+<ul>
+<li>Goal: create a logic gate network which performs a given function or set of functions</li>
+<li>Input is Boolean formulas, gates also implement Boolean functions</li>
+<li><strong>Logic synthesis</strong>: maps onto available gates, restructures for delay, area, testability, power, etc.</li>
+<li>Phases:</li>
+<li><em>Technology-independent</em> optimisations work on logic representations that do not directly model logic gates</li>
+<li><em>Technology-dependent</em> optimizations work on the available set of logic gates <br><br></li>
+</ul>
+</li>
+<li>
+<p>Why is library binding required ?</p>
+<ul>
+<li>Transformation from technology-independent to technology-dependent is called <em>library binding</em>, or technology mapping</li>
+<li>Rewrites Boolean network in terms of available logic functions</li>
+<li>Can optimise for both area and delay</li>
+<li>Can be viewed as a pattern matching problem, tries tto find pattern match which minimizes area/delay cost <br><br></li>
+</ul>
+</li>
+<li>
+<p>What are methods for technology-independent logic optimisation ?</p>
+<ul>
+<li>Don&apos;t know exact gate structure, but can estimate final network cost:</li>
+<li><em>Area</em> estimated by number of liberals (true or complement forms of variables)</li>
+<li><em>Delay</em> estimated ba path length (logic depth) <br><br></li>
+</ul>
+</li>
+<li>
+<p>Define the terms <em>&#x201C;cover&#x201D;</em> and <em>&#x201C;cube&#x201D;</em>.</p>
+<ul>
+<li>Each way to write a function as a sum-of-products is a <em>cover</em> since it covers the on-set.</li>
+<li>A cover is composed of <em>cubes</em>: product terms which define a subspace cube in the function space <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can covers be minimized ?</p>
+<ul>
+<li>Espresso optimisation loop:</li>
+<li><em>Expande</em>: make cubes as large as possible without changin on-set (except don&apos;t-cares)</li>
+<li><em>Make irredundant</em>: remove cubes already covered by other cubes</li>
+<li><em>Reduce</em>: make cubes as short as possible</li>
+<li>Example [627/16] <br><br></li>
+</ul>
+</li>
+<li>
+<p>How can <em>don &#x301;t cares</em> be exploited during logic optimisation ?</p>
+<ul>
+<li>Partially-specified functions:</li>
+<li>Don&apos;t-cares can be implemented in either on-set or off-set</li>
+<li>Don&apos;t-cares provide the greatest opportunities for minimization in many cases <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe a <em>technology mapping</em> procedure.</p>
+<ul>
+<li>Write Boolean network in canonical NAND form</li>
+<li>Write each library gate in canonical NAND form. Assign cost to each library gate</li>
+<li>If network is a tree, can use <em>dynamic programming</em> to select minimum-cost cover of network by library gates.</li>
+<li>Try to cover tree from primary inputs to primary outputs</li>
+<li>Proceed one gate at a time. At the next level, select minimum-cost cover at that point</li>
+<li>Latest selection may require removing some earlier matches</li>
+<li>Example [632/21] <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is a <em>fault model</em> used for ?</p>
+<ul>
+<li>Possible location of faults; I/O behavior produced by the fault</li>
+<li>Good news: if we have a fault model, we can test the nettwork for every possible instantiation of that type of fault</li>
+<li>Bad news: it is difficult to enumerate all types of manufacturing faults  <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the <em>stuck-at</em> fault model.</p>
+<ul>
+<li>Stuck_at_0/1: logic gate output is always stuck at 0 or 1, independent of input values</li>
+<li>Correspondence to real manufacturing defects depends on logic family</li>
+<li>Experiments show that 100% stuck-at-0/1 fault coverage corresponds to high overall fault coverage</li>
+<li>Test: set gate inputs, observe gate output, compare fault-free and observed gate output</li>
+<li>Test vector: set of gate inputs applied to a system <br><br></li>
+</ul>
+</li>
+<li>
+<p>What is the general procedure for combinational logic testing ?</p>
+<ul>
+<li><strong>Controlling</strong> the inputs of possibly (interior) gates</li>
+<li><strong>observing</strong> the outputs of possibly (interior) gates</li>
+<li>Example [644/33-38] <br><br></li>
+</ul>
+</li>
+<li>
+<p>Describe the main ideas of the <em>PODEM algorithm</em> for fault propagation.</p>
+<ul>
+<li>Goal: propagate D value to primary outputs</li>
+<li>PODEM performs combinational test generation</li>
+<li>Uses five values: 0,1,D,D&apos;,X. Start all values at X</li>
+<li>In worst case, must examine all possible inputs, but can be implemented to run quickly</li>
+<li>Example [650/40] <br><br></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 class="mume-header" id="qa">Q&amp;A</h4>
+
+<p>Yes, I have to remember all of them.<br>
+<br><br></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

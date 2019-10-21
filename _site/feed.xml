@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>yuli wu in github.io</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Note for Embedded Systems</title>
+				<description>&lt;p&gt;Here is a &lt;a href=&quot;https://yuliwu.github.io/cloud/emsy/EmSy.pdf&quot; target=&quot;_blank&quot;&gt;note&lt;/a&gt; for the course &lt;em&gt;Introduction to Embedded Systems&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; &lt;em&gt;Size ~35MB&lt;/em&gt;. Note that open a new window you will.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 15 Jul 2019 12:32:41 +0200</pubDate>
+				<link>http://localhost:4000/post/emsy/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/emsy/</guid>
+			</item>
+		
+			<item>
+				<title>Note for Digital Signal Processor</title>
+				<description>&lt;p&gt;Here is a &lt;a href=&quot;https://yuliwu.github.io/cloud/dspnote/dsp.html&quot; target=&quot;_blank&quot;&gt;note&lt;/a&gt; for the course &lt;em&gt;Digital Signal Processor Design Methodologies and Tools&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Make sure MathML (Chrome/FireFox checked) is supported by your browser, such that LaTeX can be displayed correctly. Note that open a new window you will.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 14 Jul 2019 23:42:41 +0200</pubDate>
+				<link>http://localhost:4000/post/dspnote/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/dspnote/</guid>
+			</item>
+		
+			<item>
+				<title>Exercises for Optimisation</title>
+				<description>&lt;p&gt;Here is a note of exercises for the course &lt;em&gt;Optimisation in Engineering&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Or, &lt;a href=&quot;https://yuliwu.github.io/cloud/optimex/optimex.pdf&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;optimex&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; &lt;em&gt;Size ~15MB&lt;/em&gt;. Note that open a new window you will.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 14 Jul 2019 16:56:41 +0200</pubDate>
+				<link>http://localhost:4000/post/optimex/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/optimex/</guid>
+			</item>
+		
+			<item>
+				<title>Note for Machine Learning</title>
+				<description>&lt;p&gt;Here is a &lt;a href=&quot;https://yuliwu.github.io/cloud/mlnote/mlnote.pdf&quot; target=&quot;_blank&quot;&gt;note&lt;/a&gt; for the course &lt;em&gt;Machine Learning&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; &lt;em&gt;Size ~60MB&lt;/em&gt;. Note that open a new window you will.&lt;/p&gt;
+
+</description>
+				<pubDate>Wed, 20 Mar 2019 11:30:41 +0100</pubDate>
+				<link>http://localhost:4000/post/mlnote/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/mlnote/</guid>
+			</item>
+		
+			<item>
+				<title>Note for Computer Graphics</title>
+				<description>&lt;p&gt;Here is a &lt;a href=&quot;https://yuliwu.github.io//cgbasic&quot;&gt;short note&lt;/a&gt; for Computer Graphics Basics.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 01 Feb 2019 12:23:41 +0100</pubDate>
+				<link>http://localhost:4000/post/cg/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/cg/</guid>
+			</item>
+		
+			<item>
+				<title>Keynote for image processing seminar</title>
+				<description>&lt;p&gt;Here is my &lt;a href=&quot;https://yuliwu.github.io//slides&quot;&gt;Keynote&lt;/a&gt; for Image Processing Seminar.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 31 Jan 2019 14:25:41 +0100</pubDate>
+				<link>http://localhost:4000/post/slide/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/slide/</guid>
+			</item>
+		
+			<item>
+				<title>Welcome to my 2. Website!</title>
+				<description>&lt;p&gt;It is a new site powered by page.GitHub.com and Jekyll.
+I am using a beautiful theme from &lt;a href=&quot;https://github.com/thien/blueface&quot;&gt;blueface&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hope you enjoy this learning oriented site, and of course my sophiscate site &lt;a href=&quot;https://www.wuyuli.com&quot;&gt;wuyuli.com&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;See you soon.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 31 Jan 2019 11:40:41 +0100</pubDate>
+				<link>http://localhost:4000/post/wel/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/wel/</guid>
+			</item>
+		
+	</channel>
+</rss>
