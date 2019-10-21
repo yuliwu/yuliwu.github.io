@@ -1,37 +1,27 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title>  Lebenslauf | Y. Wu</title>
-  <link href="media/kjhealy-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/kjhealy-print.css" type="text/css" rel="stylesheet" media="print">
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <p><br /></p>
+I"�<p><br /></p>
 
-<h1 id="yuli-wu">Yuli Wu</h1>
+<h1 id="yuli-wu-de">Yuli Wu DE</h1>
 <p>B.Sc. RWTH</p>
 
 <div id="webaddress">
-<a href="mailto:me@wuyuli.com">me @ wuyuli.com</a><!--( have a try, it really works 😹 )</p> -->
+<a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
+<!--( have a try, it really works 😹 )</p> -->
 </div>
 
 <div id="language">
-<span><a href="zh.md">中文</a></span>
-<span><a href="index.md">English</a></span>
-<span><a href="de.md">Deutsch</a></span>
+<span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
+<span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
+<span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 </div>
 
-<h2 id="interesse-an">Interesse an</h2>
+<h2 id="interested-in">Interested in</h2>
 <p>Machine Learning, Deep Learning, Computer Vision</p>
 
 <p>Signal Processing, Medical / Industrial / Agricultural Image Processing</p>
 
 <p>Embedded System, Cyber-Physical System, Autonomous Driving</p>
 
-<h2 id="erfahrung-in">Erfahrung in</h2>
+<h2 id="experienced-in">Experienced in</h2>
 <p>C, C++, MATLAB, Python</p>
 
 <p>numpy, OpenCV, scikit-image, matplotlib, seaborn</p>
@@ -46,7 +36,7 @@
 
 <p>AutoCAD, Inventor, Simulink</p>
 
-<h2 id="erziehung">Erziehung</h2>
+<h2 id="education">Education</h2>
 
 <p><code class="highlighter-rouge">Sep 2009 - Jul 2012</code>
 <strong>Xuzhou No.1 Middle School</strong></p>
@@ -186,8 +176,4 @@ Chinese Driving License    <strong>C1</strong></p>
 <br />
 <!--
 Last updated: Apr 2019 --></p>
-
-    </div>
-  </div>
-</body>
-</html>
+:ET

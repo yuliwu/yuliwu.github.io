@@ -14,9 +14,9 @@ B.Sc. RWTH
 </div>
 
 <div id="language">
-<span><a href="https://yuliwu.github.io/cv/zh">中文</a></span>
-<span><a href="https://yuliwu.github.io/cv/en">English</a></span>
-<span><a href="https://yuliwu.github.io/cv/de">Deutsch</a></span>
+<span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
+<span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
+<span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 </div>
 
 ## Interested in
