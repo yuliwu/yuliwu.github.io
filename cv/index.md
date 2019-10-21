@@ -1,11 +1,11 @@
 ---
 layout: cv
-title: 简历
+title: Curriculum Vitae
 ---
 
 <br />
 
-# 吴玉立
+# Yuli Wu
 B.Sc. RWTH
 
 <div id="webaddress">
@@ -19,7 +19,7 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 </div>
 
-## 感兴趣
+## Interested in
 Machine Learning, Deep Learning, Computer Vision
 
 Signal Processing, Medical / Industrial / Agricultural Image Processing
@@ -27,7 +27,7 @@ Signal Processing, Medical / Industrial / Agricultural Image Processing
 Embedded System, Cyber-Physical System, Autonomous Driving
 
 
-## 有经验
+## Experienced in
 C, C++, MATLAB, Python
 
 numpy, OpenCV, scikit-image, matplotlib, seaborn
@@ -43,62 +43,62 @@ MacOS, Ubuntu, Windows
 AutoCAD, Inventor, Simulink
 
 
-## 教育
+## Education
 
 `Sep 2009 - Jul 2012`
-__徐州市第一中学__
+__Xuzhou No.1 Middle School__
 
 `Sep 2012 - Apr 2013`
-__南京师范大学__
+__Nanjing Normal University__
 
-电气工程及其自动化-本科 *(第一学期)*
+B.Sc. in Electrical and Electronics Engineering *(1. Semester)*
 
 `Oct 2013 - Dec 2014`
-__斯图加特大学, 亚琛工业大学__
+__University of Stuttgart, RWTH Aachen University__
 
-德语班
+German Course
 
 `Oct 2015 - Sep 2018`
-__亚琛工业大学__
+__RWTH Aachen University__
 
-电气工程、信息技术和计算机工程专业-本科
+B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
-计算机工程方向  *(六学期毕业)*
+with Specialisation of Computer Engineering  *(Completed within 6 Semesters)*
 
 `Oct 2018 - now`
-__亚琛工业大学__
+__RWTH Aachen University__
 
-电气工程、信息技术和计算机工程专业-本科
+M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
-计算机工程方向
+with Specialisation of Computer Engineering
 
-## 工作经历
+## Work Experience
 `Mar 2016 - Aug 2016`
 __TOP Technische Objektplanung GmbH__
 
-学生兼职, 用 AutoCAD LT 设计烟雾报警器等消防设备布局
+Working Student, Assistant of Fire Alarm Plan using AutoCAD LT
 
 `Apr 2017 - Jul 2018`
-__高压电研究所(IFHT)，亚琛工业大学__
+__Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
 
-实验助教，持续三学期
+Teaching Assistant of Multiple Laboratories for 3 Semesters
 
 `Oct 2017 - Mar 2019`
 __Nuance Communications Aachen GmbH__
 
-学生兼职, 翻译和测试车载语音控制系统
+Working Student, Translation and Test for in-car Voice-Control-System
 
 `Jul 2019 - now`
-__图像和计算机视觉所(LfB)，亚琛工业大学__
+__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-学生兼职，细胞图像标注，标注软件开发，分割算法
+Student Assistant, Annotation, Software Development, Segmentation
 
 
-## 项目实验和实习
+## Project & Practice
 `Jun 2015`
-__Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
+__Pro-8 Project, RWTH Aachen & FH Aachen__
 
-用 AutoCAD 和 Inventor 建模
+Modelling using AutoCAD and Inventor
 
 `Dec 2015`
 __Electrical Engineering and Computer Science Project__
@@ -134,14 +134,14 @@ Links: <a href="https://yuliwu.github.io/ba/Thesis.pdf" target="_blank">Thesis</
 
 
 `Oct 2018 - Jan 2019`
-__MATLAB进阶实验：数字信号处理__
+__MATLAB Advanced: Digital Signal Processing__
 
 Various Tasks like Filter Design, Efficient Programming, C API, Beamformer etc.
 
 MATLAB, Signal Processing, Digital Speech Transmission
 
 `Oct 2018 - Jan 2019`
-__研讨会, 图像和计算机视觉所(LfB)，亚琛工业大学__
+__Seminar, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 "Semantic Instance Segmentation"
 
@@ -152,7 +152,7 @@ Review of Various Deep Learning Approaches of Instance Segmentation, 30min Prese
 Links: <a href="https://yuliwu.github.io/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/slides/">Slides</a> *&#126;40MB*
 
 `Apr 2019 - Jul 2019`
-__机器学习实验__
+__Machine Learning Laboratory__
 
 Various Practical Tasks of Machine Learning
 
@@ -160,27 +160,27 @@ Python, scikit-learn, PyTorch
 
 ## Language
 `中文`
-__Chinese__ <i>母语</i>
+__Chinese__ <i>Native</i>
 
 `English`
-__English__  <i>流利</i>
+__English__  <i>Fluent</i>
 
 `Deutsch`
-__German__ <i>流利, DSH-III 证书 *(sehr gut)*</i>
+__German__ <i>Fluent, DSH-III Certificate *(sehr gut)*</i>
 
 `日本語`
-__Japanese__ <i>基础</i>
+__Japanese__ <i>Basic</i>
 
 `Français`
-__French__ <i>基础</i>
+__French__ <i>Basic</i>
 
 
-## 驾照
+## Driving License
 `Apr 2016`
-德国驾照 &emsp;&emsp; __AM/B/L__
+German Driving License &emsp;&emsp; __AM/B/L__
 
 `Sep 2016`
-中国驾照 &emsp;&emsp; __C1__
+Chinese Driving License &emsp;&emsp; __C1__
 
 <br />
 <br />
