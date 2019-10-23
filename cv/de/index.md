@@ -130,7 +130,7 @@ Supervisor: Philipp Gräbel
 
 Python, OpenCV, scikit-image, matplotlib, LaTeX, 30min Presentation in German
 
-Links: <a href="https://yuliwu.github.io/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
+Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
 `Oct 2018 - Jan 2019`
@@ -149,7 +149,7 @@ Supervisor: Long Chen
 
 Review of Various Deep Learning Approaches of Instance Segmentation, 30min Presentation in English
 
-Links: <a href="https://yuliwu.github.io/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/slides/">Slides</a> *&#126;40MB*
+Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">Slides</a> *&#126;40MB*
 
 `Apr 2019 - Jul 2019`
 __Machine Learning Laboratory__

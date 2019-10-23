@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: cv_zh
 title: 简历
 ---
 
@@ -20,11 +20,11 @@ B.Sc. RWTH
 </div>
 
 ## 感兴趣
-Machine Learning, Deep Learning, Computer Vision
+机器学习，深度学习，计算机视觉
 
-Signal Processing, Medical / Industrial / Agricultural Image Processing
+信号处理， 医学/工业/农业图像处理
 
-Embedded System, Cyber-Physical System, Autonomous Driving
+嵌入式系统，网络实体系统，自动驾驶
 
 
 ## 有经验
@@ -45,120 +45,122 @@ AutoCAD, Inventor, Simulink
 
 ## 教育
 
-`Sep 2009 - Jul 2012`
+`2009年9月 - 2012年7月`
 __徐州市第一中学__
 
-`Sep 2012 - Apr 2013`
+`2012年9月 - 2013年4月`
 __南京师范大学__
 
 电气工程及其自动化-本科 *(第一学期)*
 
-`Oct 2013 - Dec 2014`
+`2013年10月 - 2014年12月`
 __斯图加特大学, 亚琛工业大学__
 
 德语班
 
-`Oct 2015 - Sep 2018`
+`2015年10月 - 2018年9月`
 __亚琛工业大学__
 
-电气工程、信息技术和计算机工程专业-本科
+本科 - 电气工程、信息技术和计算机工程专业
 
 计算机工程方向  *(六学期毕业)*
 
-`Oct 2018 - now`
+`2018年10月 至今`
 __亚琛工业大学__
 
-电气工程、信息技术和计算机工程专业-本科
+硕士 - 电气工程、信息技术和计算机工程专业
 
 计算机工程方向
 
 ## 工作经历
-`Mar 2016 - Aug 2016`
+`2016年3月 - 2016年8月`
 __TOP Technische Objektplanung GmbH__
 
 学生兼职, 用 AutoCAD LT 设计烟雾报警器等消防设备布局
 
-`Apr 2017 - Jul 2018`
+`2017年4月 - 2018年7月`
 __高压电研究所(IFHT)，亚琛工业大学__
 
 实验助教，持续三学期
 
-`Oct 2017 - Mar 2019`
+`2017年10月 - 2019年3月`
 __Nuance Communications Aachen GmbH__
 
 学生兼职, 翻译和测试车载语音控制系统
 
-`Jul 2019 - now`
+`2019年7月 - 2019年12月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 学生兼职，细胞图像标注，标注软件开发，分割算法
 
 
-## 项目实验和实习
-`Jun 2015`
+## 实验项目和实习
+`2015年6月`
 __Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
 
 用 AutoCAD 和 Inventor 建模
 
-`Dec 2015`
-__Electrical Engineering and Computer Science Project__
+`2015年12月`
+__电气工程和计算机实验项目__
 
-Build of a Simple Pianist Robot using Various Sensors
+利用各种传感器搭建简易弹钢琴机器人
 
 LEGO Mindstorms, MATLAB
 
-`Jul 2016 , Jan 2017`
-__Practice Computer Science Laboratory__
+`2016年7月，2017年1月`
+__计算机编程实验项目__
 
-Simulation of Street Traffic containing Various Types of Vehicles
+模拟道路交通，包含不同交通工具
 
 C, C++
 
-`Apr 2017 - Jul 2017`
-__Project Kinect, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+`2017年4月 - 2017年7月`
+__Project Kinect, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
-Classification of Localised Objects in an Vision-based Autonomous Store using Kinect
+利用Kinect基于视觉的无人售货店商品分类
 
-C++, OpenCV, Image Processing, SVM, Random Forest
+C++, OpenCV, 信号处理, SVM, Random Forest
 
-`Apr 2018 - Oct 2018`
-__Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+`2018年4月 - 2018年10月`
+__本科毕设, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
 
-Supervisor: Philipp Gräbel
+「染色脊髓扫描下白细胞分割的轮廓优化」
 
-Python, OpenCV, scikit-image, matplotlib, LaTeX, 30min Presentation in German
+导师: Philipp Gräbel
 
-Links: <a href="https://yuliwu.github.io/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
+Python, OpenCV, scikit-image, matplotlib, LaTeX, 30分钟德语演讲
+
+链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">论文</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">演讲</a> *&#126;100MB*
 
 
-`Oct 2018 - Jan 2019`
-__MATLAB进阶实验：数字信号处理__
+`2018年10月 - 2019年1月`
+__MATLAB进阶实验：数字信号处理，通信系统所(IKS)，亚琛工业大学__
 
-Various Tasks like Filter Design, Efficient Programming, C API, Beamformer etc.
+包含不同实验，如滤波器设计，高效编程，C API，波束赋形等
 
-MATLAB, Signal Processing, Digital Speech Transmission
+MATLAB, 信号处理, 数字语音传输
 
-`Oct 2018 - Jan 2019`
-__研讨会, 图像和计算机视觉所(LfB)，亚琛工业大学__
+`2018年10月 - 2019年1月`
+__研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Semantic Instance Segmentation"
+"语意个例分割"
 
-Supervisor: Long Chen
+导师: Long Chen
 
-Review of Various Deep Learning Approaches of Instance Segmentation, 30min Presentation in English
+分析评阅基于深度学习的个例分割论文，30分钟英语演讲
 
-Links: <a href="https://yuliwu.github.io/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/slides/">Slides</a> *&#126;40MB*
+链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">文档</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">演讲</a> *&#126;40MB*
 
-`Apr 2019 - Jul 2019`
-__机器学习实验__
+`2019年4月 - 2019年7月`
+__机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
 
-Various Practical Tasks of Machine Learning
+机器学习上手实验
 
 Python, scikit-learn, PyTorch
 
-## Language
+## 语言
 `中文`
 __Chinese__ <i>母语</i>
 
@@ -176,10 +178,10 @@ __French__ <i>基础</i>
 
 
 ## 驾照
-`Apr 2016`
+`016年4月`
 德国驾照 &emsp;&emsp; __AM/B/L__
 
-`Sep 2016`
+`2016年9月`
 中国驾照 &emsp;&emsp; __C1__
 
 <br />

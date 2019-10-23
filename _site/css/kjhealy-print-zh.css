@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -50,41 +51,39 @@ table {
 /* end of reset */
 
 
-/* Grandparent */
+
 body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
+	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	margin-top: 1em;
 }
 
-/* Parent Class */
 p {
 	font-size: 90%;
 	position: relative;
 	left: 35%;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.25em;
 	margin-right: 0;
 	width: 65%;
 }
 
-/* year and month */
 code {
 	font: normal normal;
 	font-size: 80%;
+	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #315572;
 }
 
-/* year and month */
 p code {
 	position: absolute;
-	left: -19%;
-	white-space: pre;
+	left: -18%;
 }
 
-/* unordered list */
+
 ul {
 	position: relative;
 	left: 35%;
@@ -101,7 +100,6 @@ ul {
 	left: -0.25em;
 }*/
 
-/* list item */
 li {
 	/*second line indent*/
 	padding-left: 1.25em;
@@ -109,7 +107,6 @@ li {
 	/*color: #777;*/
 }
 
-/* list item unordered list */
 li ul {
 	position: relative;
 	left: 0;
@@ -127,7 +124,7 @@ h1 {
 	font-family: "Lucida Console", Monaco, monospace;
   padding-top: 30px;
 	text-align: left;
-	font-size: 4.1em;
+	font-size: 3.1em;
 	line-height: 1em;
 	position: relative;
 	width: 30%;
@@ -137,7 +134,6 @@ h1 {
 	white-space: nowrap;
 }
 
-/* B.Sc RWTH */
 h1+p {
 	/*subtitle*/
 	font-style: italic;
@@ -153,7 +149,7 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 2.7em;
+	margin-top: 1.5em;
 	position: relative;
 	top: 1.4em;
 	text-align: right;
@@ -170,7 +166,6 @@ h3 {
 	width: 20%;
 }
 
-/* link */
 a {
 	color: #b91414;
 }
@@ -179,7 +174,6 @@ a:hover {
 	color:#315572;
 }
 
-/* link italic */
 p a {
 	font-size: 100%;
 	font-style: italic;
@@ -191,6 +185,7 @@ p a {
 	color: #315572;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 100%;
+	margin-bottom: -1em;
 }
 
 #webaddress a {
@@ -209,17 +204,12 @@ em {
 	color:#b91414;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 80%;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 }
 
 #language span{
-	font-size: 90%;
-	display: block;
-	position: relative;
-	top: -5.8em;
-	text-align: right;
-	width: 20%;
+	display: none;
 }
 
 strong {
@@ -227,18 +217,16 @@ strong {
 }
 
 i {
-	display: inline-block;
-	position: absolute;
-	left: 15%;
+		display: inline-block;
+		position: absolute;
+		left: 15%;
 }
 
 #address {
 	display: none;
 }
 
-
-
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/
+#ghbutton {
+	display: none;
+	visibility: hidden;
+}
