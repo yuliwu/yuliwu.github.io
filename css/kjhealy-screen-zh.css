@@ -63,7 +63,7 @@ body {
 p {
 	font-size: 90%;
 	position: relative;
-	left: 39%;
+	left: 37%;
 	margin-bottom: 0.5em;
 	margin-right: 0;
 	width: 65%;
@@ -80,7 +80,7 @@ code {
 /* year and month */
 p code {
 	position: absolute;
-	left: -19%;
+	left: -21%;
 	white-space: pre;
 }
 

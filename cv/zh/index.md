@@ -122,7 +122,7 @@ __Project Kinect, 图像和计算机视觉所(LfB)，亚琛工业大学__
 C++, OpenCV, 信号处理, SVM, Random Forest
 
 `2018年4月 - 2018年10月`
-__本科毕设, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+__本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
 
@@ -132,7 +132,7 @@ __本科毕设, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Python, OpenCV, scikit-image, matplotlib, LaTeX, 30分钟德语演讲
 
-链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">论文</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">演讲</a> *&#126;100MB*
+链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
 `2018年10月 - 2019年1月`
@@ -151,7 +151,7 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 分析评阅基于深度学习的个例分割论文，30分钟英语演讲
 
-链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">文档</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">演讲</a> *&#126;40MB*
+链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">Slides</a> *&#126;40MB*
 
 `2019年4月 - 2019年7月`
 __机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -160,25 +160,37 @@ __机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 Python, scikit-learn, PyTorch
 
+`2019年10月 - 2020年5月`
+__进行中：硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
+
+"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images" 
+
+「基于深度学习的医学图像个例分割中的损失函数分析」
+
+导师: Long Chen
+
+Python, TensorFlow
+
+
 ## 语言
 `中文`
-__Chinese__ <i>母语</i>
+__中文__ <i>母语</i>
 
 `English`
-__English__  <i>流利</i>
+__英语__  <i>流利</i>
 
 `Deutsch`
-__German__ <i>流利, DSH-III 证书 *(sehr gut)*</i>
+__德语__ <i>流利, DSH-III 证书 *(sehr gut)*</i>
 
 `日本語`
-__Japanese__ <i>基础</i>
+__日语__ <i>基础</i>
 
 `Français`
-__French__ <i>基础</i>
+__法语__ <i>基础</i>
 
 
 ## 驾照
-`016年4月`
+`2016年4月`
 德国驾照 &emsp;&emsp; __AM/B/L__
 
 `2016年9月`
@@ -186,5 +198,6 @@ __French__ <i>基础</i>
 
 <br />
 <br />
+<br />
 <!--
-Last updated: Apr 2019 -->
+Last updated: Oct 2019 -->

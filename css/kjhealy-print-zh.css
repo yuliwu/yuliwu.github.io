@@ -64,7 +64,7 @@ body {
 p {
 	font-size: 90%;
 	position: relative;
-	left: 35%;
+	left: 37%;
 	margin-bottom: 0.25em;
 	margin-right: 0;
 	width: 65%;
@@ -80,7 +80,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -18%;
+	left: -21%;
 }
 
 
@@ -140,7 +140,7 @@ h1+p {
 	font-size: 100%;
 	position: relative;
 	width: 30%;
-	left: 35%;
+	left: 30%;
 	display: inline-block;
 	overflow: hidden;
 	white-space: nowrap;

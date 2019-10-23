@@ -158,6 +158,16 @@ Various Practical Tasks of Machine Learning
 
 Python, scikit-learn, PyTorch
 
+`Oct 2019 - May 2020`
+__Work in Progress: Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+
+"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images" 
+
+Supervisor: Long Chen
+
+Python, TensorFlow
+
+
 ## Language
 `中文`
 __Chinese__ <i>Native</i>
