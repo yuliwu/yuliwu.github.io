@@ -50,69 +50,51 @@ table {
 
 /* end of reset */
 
-
-
+/* Grandparent */
+html,
 body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	margin-top: 1em;
+	overflow-x: hidden;
+	min-width: 1200px;
 }
 
+/* Parent Class */
 p {
-	font-size: 90%;
+	font-size: 86%;
 	position: relative;
+	display: inline-block;
 	left: 37%;
-	margin-bottom: 0.25em;
-	margin-right: 0;
+	margin-bottom: 0.5em;
 	width: 65%;
 }
 
-code {
-	font: normal normal;
+
+/* year and month */
+p code {
 	font-size: 80%;
-	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #315572;
-}
-
-p code {
-	position: absolute;
+	position: relative;
+	display: inline-block;
 	left: -21%;
+	width: 35%;
+	text-align: left;
 }
 
-
-ul {
+strong {
+	font-size: 100%;
+	font-weight: bold;
 	position: relative;
-	left: 35%;
-	width: 65%;
-	margin-bottom: 1.5em;
-	padding-top: 50px;
-	margin-top: -0.5em;
+	display: inline-grid;
+	left: -36%;
+	line-height: 2;
+	text-align: left;
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
-
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
-}
-
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
-}
 
 h1,h2,h3,h4 {
 	font-weight: 400;
@@ -127,45 +109,35 @@ h1 {
 	font-size: 3.1em;
 	line-height: 1em;
 	position: relative;
-	width: 30%;
-	left: 35%;
+	width: 35%;
+	left: 37%;
 	display: inline-block;
-	overflow: hidden;
-	white-space: nowrap;
 }
 
+/* B.Sc RWTH */
 h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-size: 100%;
 	position: relative;
+	text-align: left;
 	width: 30%;
-	left: 30%;
+	left: 24%;
 	display: inline-block;
-	overflow: hidden;
-	white-space: nowrap;
 }
 
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 1.5em;
+	margin-top: 2.7em;
 	position: relative;
+	display: block;
 	top: 1.4em;
 	text-align: right;
 	width: 20%;
 }
 
-h3 {
-	font-size: 1em;
-	color: #b91414;
-	line-height: 1em;
-	position: relative;
-	top: 1.2em;
-	text-align: right;
-	width: 20%;
-}
-
+/* link */
 a {
 	color: #b91414;
 }
@@ -174,6 +146,7 @@ a:hover {
 	color:#315572;
 }
 
+/* link italic */
 p a {
 	font-size: 100%;
 	font-style: italic;
@@ -181,11 +154,10 @@ p a {
 
 #webaddress {
 	position: relative;
-	left: 36%;
+	left: 38%;
 	color: #315572;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 100%;
-	margin-bottom: -1em;
 }
 
 #webaddress a {
@@ -204,7 +176,7 @@ em {
 	color:#b91414;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 80%;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 }
 
@@ -212,21 +184,17 @@ em {
 	display: none;
 }
 
-strong {
-	font-weight: bold;
-}
-
 i {
-		display: inline-block;
-		position: absolute;
-		left: 15%;
+	display: inline-block;
+	position: absolute;
+	left: 15%;
 }
 
-#address {
-	display: none;
-}
-
-#ghbutton {
-	display: none;
-	visibility: hidden;
+ii {
+	display: inline-block;
+	font-style: italic;
+	position: absolute;
+	text-align: left;
+	left: 25%;
+	top: 0.2em;
 }
