@@ -58,7 +58,6 @@ body {
 	font-family: Avenir,Verdana,sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
-	min-width: 1200px;
 }
 
 /* Parent Class */
@@ -128,7 +127,7 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 2.7em;
+	margin-top: 2em;
 	position: relative;
 	display: block;
 	top: 1.4em;
