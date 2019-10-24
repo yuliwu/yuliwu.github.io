@@ -58,11 +58,12 @@ body {
 	font-family: Avenir,Verdana,sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
+	min-width: 1200px;
 }
 
 /* Parent Class */
 p {
-	font-size: 90%;
+	font-size: 86%;
 	position: relative;
 	display: inline-block;
 	left: 37%;
@@ -120,7 +121,7 @@ h1+p {
 	position: relative;
 	text-align: left;
 	width: 30%;
-	left: 28%;
+	left: 24%;
 	display: inline-block;
 }
 
