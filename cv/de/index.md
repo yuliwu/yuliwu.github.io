@@ -5,7 +5,8 @@ title: Curriculum Vitae
 
 <br />
 
-# Yuli Wu DE
+# Yuli Wu Deutsche Version T.B.U.
+
 B.Sc. RWTH
 
 <div id="webaddress">
@@ -177,11 +178,14 @@ __French__ <i>Basic</i>
 
 ## Driving License
 `Apr 2016`
-German Driving License &emsp;&emsp; __AM/B/L__
+__German Driving License__ <ii>AM/B/L</ii>
 
 `Sep 2016`
-Chinese Driving License &emsp;&emsp; __C1__
+__Chinese Driving License__ <ii>C1</ii>
 
+<br />
+<br />
+<br />
 <br />
 <br />
 <!--
