@@ -187,10 +187,10 @@ __French__ <i>Basic</i>
 
 ## Driving License
 `Apr 2016`
-German Driving License &emsp;&emsp; __AM/B/L__
+German Driving License &emsp;&emsp; <i>AM/B/L</i>
 
 `Sep 2016`
-Chinese Driving License &emsp;&emsp; __C1__
+Chinese Driving License &emsp;&emsp; <i>C1</i>
 
 <br />
 <br />
