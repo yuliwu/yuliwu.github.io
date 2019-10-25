@@ -56,7 +56,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -75,7 +75,7 @@ p {
 /* year and month */
 p code {
 	font-size: 85%;
-	font-family: 'Anonymous Pro', monospace;
+	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
 	display: inline-block;
@@ -89,7 +89,7 @@ strong {
 	font-weight: bold;
 	position: relative;
 	display: inline-grid;
-	left: -36%;
+	left: -37.5%;
 	line-height: 2;
 	text-align: left;
 }
@@ -97,7 +97,7 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	width: 65%;
 }
 
@@ -117,7 +117,7 @@ h1 {
 h1+p {
 	/*subtitle*/
 	font-style: italic;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 100%;
 	position: relative;
 	text-align: left;
