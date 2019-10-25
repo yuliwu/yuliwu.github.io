@@ -55,7 +55,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: Avenir,Verdana,sans-serif;
+	font-family: 'Noto Sans SC', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -74,7 +74,7 @@ p {
 /* year and month */
 p code {
 	font-size: 80%;
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: 'Anonymous Pro', monospace;
 	color: #315572;
 	position: relative;
 	display: inline-block;
@@ -96,12 +96,12 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
+	font-family: 'Noto Sans SC', sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "STKaiTi", "华文楷体", "Kaiti" , "楷体", serif;
   padding-top: 30px;
 	text-align: left;
 	font-size: 3.1em;
@@ -154,7 +154,7 @@ p a {
 	position: relative;
 	left: 38%;
 	color: #315572;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 100%;
 }
 
@@ -172,7 +172,7 @@ em {
 #webaddress p {
 	left: 0.1%;
 	color:#b91414;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 80%;
 	display: block;
 	text-decoration: none;

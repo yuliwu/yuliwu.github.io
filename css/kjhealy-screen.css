@@ -102,7 +102,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-	font-family:  'Rambla', sans-serif;
+	font-family: 'Source Code Pro', monospace;
   padding-top: 30px;
 	text-align: left;
 	font-size: 3.1em;
@@ -155,7 +155,7 @@ p a {
 	position: relative;
 	left: 38%;
 	color: #315572;
-	font-family:'Rambla', sans-serif;
+	font-family:'Source Code Pro', monospace;
 	font-size: 100%;
 }
 
@@ -173,7 +173,7 @@ em {
 #webaddress p {
 	left: 0.1%;
 	color:#b91414;
-	font-family: 'Rambla', sans-serif;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 80%;
 	display: block;
 	text-decoration: none;
