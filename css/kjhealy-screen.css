@@ -74,7 +74,7 @@ p {
 
 /* year and month */
 p code {
-	font-size: 80%;
+	font-size: 85%;
 	font-family: 'Anonymous Pro', monospace;
 	color: #315572;
 	position: relative;
@@ -105,7 +105,7 @@ h1 {
 	font-family: 'Source Code Pro', monospace;
   padding-top: 30px;
 	text-align: left;
-	font-size: 3.1em;
+	font-size: 4.1em;
 	line-height: 1em;
 	position: relative;
 	width: 35%;
@@ -117,6 +117,7 @@ h1 {
 h1+p {
 	/*subtitle*/
 	font-style: italic;
+	font-family: 'Nunito Sans', sans-serif;
 	font-size: 100%;
 	position: relative;
 	text-align: left;

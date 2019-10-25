@@ -161,9 +161,9 @@ Python, scikit-learn, PyTorch
 `Oct 2019 - May 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-__Work in Progress__
+Work-in-Progress ... 
 
-"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images" 
+"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images"
 
 Supervisor: Long Chen
 
