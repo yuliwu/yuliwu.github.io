@@ -55,7 +55,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: 'Noto Sans SC', sans-serif;
+	font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -73,7 +73,7 @@ p {
 
 /* year and month */
 p code {
-	font-size: 82%;
+	font-size: 85%;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
@@ -96,12 +96,12 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: 'Noto Sans SC', sans-serif;
+	font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: STKaiti, "华文楷体", "KaiTi" , "楷体";
+	font-family: STKaiti, "华文楷体", "KaiTi" , "楷体", serif;
   padding-top: 30px;
 	text-align: left;
 	font-size: 3.1em;

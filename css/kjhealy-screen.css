@@ -86,10 +86,10 @@ p code {
 
 strong {
 	font-size: 100%;
-	font-weight: bold;
+	font-weight: bolder;
 	position: relative;
 	display: inline-grid;
-	left: -37.5%;
+	left: -38%;
 	line-height: 2;
 	text-align: left;
 }
