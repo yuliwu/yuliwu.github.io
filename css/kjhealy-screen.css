@@ -56,7 +56,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -97,7 +97,7 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	width: 65%;
 }
 
@@ -117,7 +117,7 @@ h1 {
 h1+p {
 	/*subtitle*/
 	font-style: italic;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	position: relative;
 	text-align: left;
