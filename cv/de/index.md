@@ -174,27 +174,27 @@ Python, TensorFlow
 
 
 ## Sprachkenntnisse
-`中文`
+<tt>中文</tt>
 __Chinesisch__ <i>Muttersprache</i>
 
-`English`
+<tt>English</tt>
 __Englisch__  <i>Fließend</i>
 
-`Deutsch`
+<tt>Deutsch</tt>
 __Deutsch__ <i>Fließend, DSH-III Zertifikat *(sehr gut)*</i>
 
-`日本語`
+<tt>日本語</tt>
 __Japanisch__ <i>Grundlage</i>
 
-`Français`
+<tt>Français</tt>
 __Französisch__ <i>Grundlage</i>
 
 
 ## Führerschein
-`Apr 2016`
+<tt>Apr 2016</tt>
 __Deutscher Führerschein__ <ii>AM/B/L</ii>
 
-`Sep 2016`
+<tt>Sep 2016</tt>
 __Chinesischer Führerschein__ <ii>C1</ii>
 
 <br />

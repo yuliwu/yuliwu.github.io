@@ -55,13 +55,14 @@ html,
 body {
 	font: normal normal 400;
 	font-size: 100%;
-	line-height: 1.5em;
+	line-height:1.5em;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
 
 /* Parent Class */
+/* Contents */
 p {
 	font-size: 90%;
 	position: relative;
@@ -84,12 +85,24 @@ p code {
 	text-align: left;
 }
 
-strong {
+p tt{
+	font-size: 85%;
+	font-family: 'Source Code Pro', monospace;
+	color: #315572;
+	position: relative;
+	display: inline-block;
+	left: -21%;
+	width: 37%;
+	text-align: left;
+}
+
+/* Bold Text */
+p strong {
 	font-size: 100%;
-	font-weight: bolder;
+	font-weight: bold;
 	position: relative;
 	display: inline-grid;
-	left: -38%;
+	left: -37.5%;
 	line-height: 2;
 	text-align: left;
 }
@@ -152,6 +165,7 @@ p a {
 	font-style: italic;
 }
 
+/* email */
 #webaddress {
 	position: relative;
 	left: 38%;

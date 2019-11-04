@@ -51,121 +51,110 @@ table {
 /* end of reset */
 
 
-
+/* Grandparent */
+html,
 body {
 	font: normal normal 400;
 	font-size: 100%;
-	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir,Verdana,sans-serif;
+	line-height: 1.2em;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 1em;
+	overflow-x: hidden;
 }
 
+/* Parent Class */
+/* Contents */
 p {
 	font-size: 90%;
 	position: relative;
-	left: 35%;
-	margin-bottom: 0.25em;
-	margin-right: 0;
-	width: 65%;
+	display: inline-block;
+	left: 25%;
+	margin-bottom: 0.5em;
+	width: 75%;
 }
 
-code {
-	font: normal normal;
-	font-size: 80%;
-	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #315572;
-}
 
+
+/* year and month */
 p code {
+	font-size: 85%;
+	font-family: 'Source Code Pro', monospace;
+	color: #315572;
+	position: relative;
+	display: inline-block;
+	left: -36%;
+	right: 5em;
+	width: 30%;
+	text-align: right;
+}
+
+p tt {
+	font-size: 85%;
+	font-family: 'Source Code Pro', monospace;
+	color: #315572;
 	position: absolute;
-	left: -18%;
+	display: inline;
+	top: 0.4em;
+	left: -37%;
+	width: 30%;
+	text-align: right;
 }
 
-
-ul {
+/* Bold Text */
+p strong {
+	font-size: 100%;
+	font-weight: bold;
 	position: relative;
-	left: 35%;
-	width: 65%;
-	margin-bottom: 1.5em;
-	padding-top: 50px;
-	margin-top: -0.5em;
+	display: inline-block;
+	width: 75%;
+	line-height: 2;
+	text-align: left;
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
-
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
-}
-
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
-}
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: "Lucida Console", Monaco, monospace;
-  padding-top: 30px;
+	font-family: 'Source Code Pro', monospace;
 	text-align: left;
-	font-size: 4.2em;
+	font-size: 3.5em;
 	line-height: 1em;
 	position: relative;
-	width: 30%;
-	left: 35%;
+	width: 35%;
+	left: 25%;
 	display: inline-block;
-	overflow: hidden;
-	white-space: nowrap;
 }
 
+/* B.Sc RWTH */
 h1+p {
 	/*subtitle*/
 	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	position: relative;
+	text-align: left;
 	width: 30%;
-	left: 35%;
+	left: 26%;
 	display: inline-block;
-	overflow: hidden;
-	white-space: nowrap;
 }
 
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 1.5em;
+	margin-bottom: 1.7em;
 	position: relative;
+	display: block;
 	top: 1.4em;
+	left: 0.8%;
 	text-align: right;
 	width: 20%;
 }
 
-h3 {
-	font-size: 1em;
-	color: #b91414;
-	line-height: 1em;
-	position: relative;
-	top: 1.2em;
-	text-align: right;
-	width: 20%;
-}
-
+/* link */
 a {
 	color: #b91414;
 }
@@ -174,18 +163,20 @@ a:hover {
 	color:#315572;
 }
 
+/* link italic */
 p a {
 	font-size: 100%;
 	font-style: italic;
 }
 
+/* email */
 #webaddress {
 	position: relative;
-	left: 36%;
+	left: 26%;
 	color: #315572;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family:'Source Code Pro', monospace;
 	font-size: 100%;
-	margin-bottom: -1em;
+	margin-bottom: 2em;
 }
 
 #webaddress a {
@@ -202,9 +193,9 @@ em {
 #webaddress p {
 	left: 0.1%;
 	color:#b91414;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 80%;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 }
 
@@ -212,15 +203,23 @@ em {
 	display: none;
 }
 
-strong {
-	font-weight: bold;
+i {
+	display: inline-block;
+	position: absolute;
+	text-align: left;
+	left: 35%;
+	top: 0.3em;
 }
 
-i {
-		display: inline-block;
-		position: absolute;
-		left: 15%;
+ii {
+	display: inline-block;
+	font-style: italic;
+	position: absolute;
+	text-align: left;
+	left: 35%;
+	top: 0.3em;
 }
+
 
 #address {
 	display: none;
