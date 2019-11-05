@@ -3,8 +3,6 @@ layout: cv
 title: Lebenslauf
 ---
 
-<br />
-
 # Yuli Wu
 
 B.Sc. RWTH
@@ -84,7 +82,7 @@ __Institut für Hochspannungstechnik (IFHT), RWTH Aachen__
 
 HiWi, Betreuung der verschiedenen Praktika für 3 Semester
 
-`Oct 2017 - Mär 2019`
+`Okt 2017 - Mär 2019`
 __Nuance Communications Aachen GmbH__
 
 Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
@@ -100,6 +98,9 @@ HiWi, Annotation, Software Development, Segmentation
 __Pro-8 Projekt, RWTH Aachen & FH Aachen__
 
 Modellerstellung mithilfe AutoCAD und Inventor
+
+<br />
+<br />
 
 `Dez 2015`
 __Projekt Elektrotechnik und Informatik__
@@ -122,7 +123,7 @@ Bildverarbeitung für ein interaktives Shop-System: Erkennung des Produktes
 
 C++, OpenCV, Image Processing, SVM, Random Forest
 
-`Apr 2018 - Oct 2018`
+`Apr 2018 - Okt 2018`
 __Bachelorarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
