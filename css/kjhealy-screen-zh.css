@@ -55,7 +55,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
+	font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -88,7 +88,7 @@ strong {
 	font-weight: bold;
 	position: relative;
 	display: inline-grid;
-	left: -36%;
+	left: -36.5%;
 	line-height: 2;
 	text-align: left;
 }
@@ -96,12 +96,12 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
+	font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: STKaiti, "华文楷体", "KaiTi" , "楷体", serif;
+	font-family: 'STKaiti', '华文楷体', 'KaiTi' , '楷体', serif;
   padding-top: 30px;
 	text-align: left;
 	font-size: 3.1em;
@@ -152,7 +152,7 @@ p a {
 
 #webaddress {
 	position: relative;
-	left: 38%;
+	left: 37%;
 	color: #315572;
 	font-family: 'Source Code Pro', monospace;
 	font-size: 100%;
