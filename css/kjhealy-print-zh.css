@@ -55,42 +55,55 @@ html,
 body {
 	font: normal normal 400;
 	font-size: 100%;
-	line-height: 1.5em;
-	font-family: Avenir,Verdana,sans-serif;
+	line-height: 1.2em;
+	font-family:'Open Sans', 'Noto Sans SC', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
-	min-width: 1200px;
 }
 
 /* Parent Class */
 p {
-	font-size: 86%;
+	font-size: 88%;
 	position: relative;
 	display: inline-block;
-	left: 37%;
+	left: 25%;
 	margin-bottom: 0.5em;
-	width: 65%;
+	width: 75%;
 }
 
 
 /* year and month */
 p code {
 	font-size: 80%;
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
 	display: inline-block;
-	left: -21%;
-	width: 35%;
-	text-align: left;
+	left: -36%;
+	right: 5em;
+	width: 30%;
+	text-align: right;
 }
 
-strong {
+p tt {
+	font-size: 85%;
+	font-family: 'Source Code Pro', monospace;
+	color: #315572;
+	position: absolute;
+	display: inline;
+	top: 0.4em;
+	left: -37%;
+	width: 30%;
+	text-align: right;
+}
+
+/* Bold Text */
+p strong {
 	font-size: 100%;
 	font-weight: bold;
 	position: relative;
-	display: inline-grid;
-	left: -36%;
+	display: inline-block;
+	width: 75%;
 	line-height: 2;
 	text-align: left;
 }
@@ -98,19 +111,18 @@ strong {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
+	font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: "Lucida Console", Monaco, monospace;
-  padding-top: 30px;
+	font-family: 'STKaiti', '华文楷体', 'KaiTi' , '楷体', serif;
 	text-align: left;
-	font-size: 3.1em;
+	font-size: 3em;
 	line-height: 1em;
 	position: relative;
 	width: 35%;
-	left: 37%;
+	left: 25%;
 	display: inline-block;
 }
 
@@ -118,6 +130,7 @@ h1 {
 h1+p {
 	/*subtitle*/
 	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	position: relative;
 	text-align: left;
@@ -129,10 +142,11 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 2.7em;
+	margin-bottom: 1.7em;
 	position: relative;
 	display: block;
 	top: 1.4em;
+	left: 0.8%;
 	text-align: right;
 	width: 20%;
 }
@@ -152,12 +166,14 @@ p a {
 	font-style: italic;
 }
 
+/* email */
 #webaddress {
 	position: relative;
-	left: 38%;
+	left: 26%;
 	color: #315572;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family:'Source Code Pro', monospace;
 	font-size: 100%;
+	margin-bottom: 2em;
 }
 
 #webaddress a {
@@ -174,7 +190,7 @@ em {
 #webaddress p {
 	left: 0.1%;
 	color:#b91414;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 80%;
 	display: block;
 	text-decoration: none;
@@ -187,7 +203,9 @@ em {
 i {
 	display: inline-block;
 	position: absolute;
-	left: 15%;
+	text-align: left;
+	left: 35%;
+	top: 0.3em;
 }
 
 ii {
@@ -195,6 +213,16 @@ ii {
 	font-style: italic;
 	position: absolute;
 	text-align: left;
-	left: 25%;
-	top: 0.2em;
+	left: 35%;
+	top: 0.3em;
+}
+
+
+#address {
+	display: none;
+}
+
+#ghbutton {
+	display: none;
+	visibility: hidden;
 }
