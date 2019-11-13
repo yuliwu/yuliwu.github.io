@@ -172,29 +172,27 @@ Python, TensorFlow
 
 
 ## Language
-`中文`
+<tt>中文</tt>
 __Chinese__ <i>Native</i>
 
-`English`
+<tt>English</tt>
 __English__  <i>Fluent</i>
 
-`Deutsch`
+<tt>Deutsch</tt>
 __German__ <i>Fluent, DSH-III Certificate *(sehr gut)*</i>
 
-`日本語`
+<tt>日本語</tt>
 __Japanese__ <i>Basic</i>
 
-`Français`
+<tt>Français</tt>
 __French__ <i>Basic</i>
 
-
 ## Driving License
-`Apr 2016`
+<tt>Apr 2016</tt>
 __German Driving License__ <ii>AM/B/L</ii>
 
-`Sep 2016`
+<tt>Sep 2016</tt>
 __Chinese Driving License__ <ii>C1</ii>
-
 <br />
 <br />
 <br />

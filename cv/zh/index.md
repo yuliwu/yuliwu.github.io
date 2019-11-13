@@ -174,30 +174,28 @@ Python, TensorFlow
 
 
 ## 语言
-`中文`
+<tt>中文</tt>
 __中文__ <i>母语</i>
 
-`English`
+<tt>English</tt>
 __英语__  <i>流利</i>
 
-`Deutsch`
+<tt>Deutsch</tt>
 __德语__ <i>流利, DSH-III 证书 *(sehr gut)*</i>
 
-`日本語`
+<tt>日本語</tt>
 __日语__ <i>基础</i>
 
-`Français`
+<tt>Français</tt>
 __法语__ <i>基础</i>
 
 
 ## 驾照
-`2016年4月`
+<tt>2016年4月</tt>
 __德国驾照__ <ii>AM/B/L</ii>
 
-`2016年9月`
+<tt>2016年4月</tt>
 __中国驾照__ <ii>C1</ii>
-
-<br />
 <br />
 <br />
 <br />
