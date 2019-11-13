@@ -3,8 +3,9 @@ layout: cv
 title: Lebenslauf
 ---
 
-# Yuli Wu
+<br />
 
+# Yuli Wu
 B.Sc. RWTH
 
 <div id="webaddress">
