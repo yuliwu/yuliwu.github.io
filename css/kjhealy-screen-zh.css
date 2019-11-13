@@ -90,7 +90,7 @@ p tt{
 	position: relative;
 	display: inline-block;
 	left: -21%;
-	width: 37%;
+	width: 35%;
 	text-align: left;
 }
 
@@ -100,7 +100,7 @@ p strong {
 	font-weight: bold;
 	position: relative;
 	display: inline-grid;
-	left: -37.5%;
+	left: -35.5%;
 	line-height: 2;
 	text-align: left;
 }
@@ -113,10 +113,10 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-	font-family: 'Zhi Mang Xing', 'Ma Shan Zheng', cursive;
+	font-family: 'Zhi Mang Xing', cursive;
   padding-top: 30px;
 	text-align: left;
-	font-size: 3.1em;
+	font-size: 4.3em;
 	line-height: 1em;
 	position: relative;
 	width: 35%;
@@ -164,7 +164,7 @@ p a {
 
 #webaddress {
 	position: relative;
-	left: 37%;
+	left: 38%;
 	color: #315572;
 	font-family: 'Source Code Pro', monospace;
 	font-size: 100%;
@@ -194,7 +194,7 @@ em {
 	font-size: 90%;
 	display: block;
 	position: relative;
-	top: -5.8em;
+	top: -7em;
 	text-align: right;
 	width: 20%;
 }
@@ -210,6 +210,6 @@ ii {
 	font-style: italic;
 	position: absolute;
 	text-align: left;
-	left: 25%;
+	left: 15%;
 	top: 0.2em;
 }
