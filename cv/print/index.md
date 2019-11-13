@@ -4,8 +4,9 @@ title: Curriculum Vitae
 ---
 
 <br />
+<br />
 
-__Print Friendly PDFs__
+Print Friendly PDFs
 
 _中文:_ <a href="https://yuliwu.github.io/cv/print/简历_吴玉立.pdf" target="_blank">简历.pdf</a>
 
