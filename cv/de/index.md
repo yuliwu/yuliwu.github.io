@@ -101,9 +101,6 @@ __Pro-8 Projekt, RWTH Aachen & FH Aachen__
 
 Modellerstellung mithilfe AutoCAD und Inventor
 
-<br />
-<br />
-
 `Dez 2015`
 __Projekt Elektrotechnik und Informatik__
 

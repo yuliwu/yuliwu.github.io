@@ -20,8 +20,6 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style="width:18px;height:18px;margin-top: 10px;"></a></span>
 </div>
 
-<br />
-
 ## 感兴趣
 机器学习，深度学习，计算机视觉
 
