@@ -1,9 +1,7 @@
 ---
-layout: cv_zh
+layout: cv_zh_print
 title: 简历
 ---
-
-<br />
 
 # 吴玉立
 B.Sc. RWTH
@@ -19,8 +17,6 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style="width:18px;height:18px;margin-top: 10px;"></a></span>
 </div>
-
-<br />
 
 ## 感兴趣
 机器学习，深度学习，计算机视觉
@@ -84,7 +80,7 @@ __TOP Technische Objektplanung GmbH__
 `2017年4月 - 2018年7月`
 __高压电所(IFHT)，亚琛工业大学__
 
-电路实验（电气专业）和测量技术实验（机械专业）助教，持续三学期
+电路实验（电气专业）和测量技术实验（机械专业）助教，共三学期
 
 `2017年10月 - 2019年3月`
 __Nuance Communications Aachen GmbH__
@@ -102,6 +98,12 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 __Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
 
 用 AutoCAD 和 Inventor 建模
+
+<br />
+<br />
+<br />
+<br />
+<br />
 
 `2015年12月`
 __电气工程和计算机实验项目__
