@@ -19,4 +19,4 @@ Deutsch:   <a href="https://yuliwu.github.io/cv/print/Lebenslauf_Wu.pdf" target=
 <br />
 <br />
 
-E-mail: <div id="webaddress"><a href="mailto:me@wuyuli.com">me @ wuyuli.com</a></div>
+E-mail: <a href="mailto:me@wuyuli.com">me@wuyuli.com</a>
