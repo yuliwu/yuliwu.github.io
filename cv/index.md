@@ -1,9 +1,7 @@
 ---
-layout: cv
+layout: cv_print
 title: Curriculum Vitae
 ---
-
-<br />
 
 # Yuli Wu
 B.Sc. RWTH
@@ -100,6 +98,10 @@ Student Assistant, Annotation, Software Development, Segmentation
 __Pro-8 Project, RWTH Aachen & FH Aachen__
 
 Modelling using AutoCAD and Inventor
+
+<br />
+<br />
+<br />
 
 `Dec 2015`
 __Electrical Engineering and Computer Science Project__
