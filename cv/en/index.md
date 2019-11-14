@@ -3,6 +3,8 @@ layout: cv
 title: Curriculum Vitae
 ---
 
+<br />
+
 # Yuli Wu
 B.Sc. RWTH
 
