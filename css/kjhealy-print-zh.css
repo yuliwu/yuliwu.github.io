@@ -56,7 +56,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.2em;
-	font-family:'Open Sans', 'Noto Sans SC', sans-serif;
+	font-family:  'Open Sans', sans-serif;
 	margin-top: 1em;
 	overflow-x: hidden;
 }
@@ -74,7 +74,7 @@ p {
 
 /* year and month */
 p code {
-	font-size: 80%;
+	font-size: 85%;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
@@ -85,6 +85,7 @@ p code {
 	text-align: right;
 }
 
+/* language Code */
 p tt {
 	font-size: 85%;
 	font-family: 'Source Code Pro', monospace;
@@ -92,7 +93,7 @@ p tt {
 	position: absolute;
 	display: inline;
 	top: 0.4em;
-	left: -37%;
+	left: -36%;
 	width: 30%;
 	text-align: right;
 }
@@ -104,21 +105,21 @@ p strong {
 	position: relative;
 	display: inline-block;
 	width: 75%;
-	line-height: 2;
+	line-height: 1em;
 	text-align: left;
 }
 
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
+	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 65%;
 }
 
 h1 {
-	font-family: 'STKaiti', '华文楷体', 'KaiTi' , '楷体', serif;
+	font-family:  'Zhi Mang Xing', cursive;
 	text-align: left;
-	font-size: 3em;
+	font-size: 3.5em;
 	line-height: 1em;
 	position: relative;
 	width: 35%;
@@ -142,7 +143,7 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-bottom: 1.7em;
+	margin-bottom: 2em;
 	position: relative;
 	display: block;
 	top: 1.4em;
@@ -166,7 +167,6 @@ p a {
 	font-style: italic;
 }
 
-/* email */
 #webaddress {
 	position: relative;
 	left: 26%;
@@ -200,22 +200,24 @@ em {
 	display: none;
 }
 
+
+/* language Index */
 i {
 	display: inline-block;
 	position: absolute;
-	text-align: left;
-	left: 35%;
-	top: 0.3em;
+	left: 15%;
 }
 
+/* Driving Index */
 ii {
 	display: inline-block;
 	font-style: italic;
 	position: absolute;
 	text-align: left;
-	left: 35%;
-	top: 0.3em;
+	left: 15%;
+	top: 0.2em;
 }
+
 
 
 #address {
