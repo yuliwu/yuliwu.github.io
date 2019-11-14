@@ -152,7 +152,7 @@ Betreuer: Long Chen
 
 Review von Deep Learning Vorgehensweisen in Instance Segmentation, 30min Vortrag auf Englisch
 
-Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">Slides</a> *&#126;40MB*
+Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
 `Apr 2019 - Jul 2019`
 __Machine Learning Labor, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__

@@ -152,7 +152,7 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 分析评阅基于深度学习的个例分割论文，30分钟英语演讲
 
-链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/">Slides</a> *&#126;40MB*
+链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
 `2019年4月 - 2019年7月`
 __机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
