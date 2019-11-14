@@ -3,6 +3,8 @@ layout: cv
 title: Curriculum Vitae
 ---
 
+<br />
+
 # Yuli Wu
 B.Sc. RWTH
 
@@ -142,7 +144,7 @@ MATLAB, Signal Processing, Digital Speech Transmission
 `Oct 2018 - Jan 2019`
 __Seminar, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-"Intelligent Processing and Analysis of Data: Semantic Instance Segmentation"
+"Semantic Instance Segmentation"
 
 Supervisor: Long Chen
 
