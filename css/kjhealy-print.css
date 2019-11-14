@@ -107,7 +107,7 @@ p strong {
 	position: relative;
 	display: inline-block;
 	width: 75%;
-	line-height: 2;
+	line-height: 1;
 	text-align: left;
 }
 
