@@ -89,10 +89,15 @@ __Nuance Communications Aachen GmbH__
 
 Working Student, Translation and Test for in-car Voice-Control-System
 
-`Jul 2019 - now`
+`Jul 2019 - Dec 2019`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Student Assistant, Annotation, Software Development, Segmentation
+
+`Nov 2019 - Dec 2019`
+__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+
+Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 
 ## Project & Practice
@@ -102,9 +107,11 @@ __Pro-8 Project, RWTH Aachen & FH Aachen__
 Modelling using AutoCAD and Inventor
 
 `Dec 2015`
-__Electrical Engineering and Computer Science Project__
+__Project MATLAB meets LEGO Mindstorms__
 
-Build of a Simple Pianist Robot using Various Sensors
+Build of a Simple Pianist Robot using Lego and Various Sensors
+
+Institute for Man and Machine Interaction (MMI), RWTH Aachen
 
 LEGO Mindstorms, MATLAB
 
@@ -159,12 +166,12 @@ Various Practical Tasks of Machine Learning
 
 Python, scikit-learn, PyTorch
 
-`Oct 2019 - May 2020`
+`Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Work-in-Progress ... 
 
-"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images"
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
 
 Supervisor: Long Chen
 

@@ -82,7 +82,7 @@ __TOP Technische Objektplanung GmbH__
 `2017年4月 - 2018年7月`
 __高压电所(IFHT)，亚琛工业大学__
 
-电路实验（电气专业）和测量技术实验（机械专业）助教，持续三学期
+助教，电路实验（电气专业）和测量技术实验（机械专业），持续三学期
 
 `2017年10月 - 2019年3月`
 __Nuance Communications Aachen GmbH__
@@ -94,6 +94,11 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 学生兼职，细胞图像标注，标注软件开发，算法开发
 
+`2019年11月 - 2019年12月`
+__图像和计算机视觉所(LfB)，亚琛工业大学__
+
+助教，实验项目 MATLAB meets LEGO Mindstorms
+
 
 ## 实验项目和实习
 `2015年6月`
@@ -102,9 +107,11 @@ __Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
 用 AutoCAD 和 Inventor 建模
 
 `2015年12月`
-__电气工程和计算机实验项目__
+__MATLAB meets LEGO Mindstorms 实验项目__
 
 利用各种传感器搭建简易弹钢琴机器人
+
+人机交互所(MMI)，亚琛工业大学
 
 LEGO Mindstorms, MATLAB
 
@@ -150,7 +157,7 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 导师: Long Chen
 
-分析评阅基于深度学习的个例分割论文，30分钟英语演讲
+分析评阅基于深度学习的实例分割论文，30分钟英语演讲
 
 链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
@@ -164,9 +171,9 @@ Python, scikit-learn, PyTorch
 `2019年10月 - 2020年5月`
 __进行中：硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images" 
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
 
-「基于深度学习的医学图像个例分割中的损失函数分析」
+「基于深度像素嵌入的稠密物体实例分割」
 
 导师: Long Chen
 

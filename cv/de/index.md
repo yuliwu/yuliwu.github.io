@@ -89,10 +89,15 @@ __Nuance Communications Aachen GmbH__
 
 Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
 
-`Jul 2019 - Jetzt`
+`Jul 2019 - Dez 2019`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 HiWi, Annotation, Software Development, Segmentation
+
+`Nov 2019 - Dez 2019`
+__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
+
+HiWi, Betreuung des Projekts MATLAB meets LEGO Mindstorms
 
 
 ## Projekte & Praktika
@@ -102,9 +107,11 @@ __Pro-8 Projekt, RWTH Aachen & FH Aachen__
 Modellerstellung mithilfe AutoCAD und Inventor
 
 `Dez 2015`
-__Projekt Elektrotechnik und Informatik__
+__Projekt MATLAB meets LEGO Mindstorms__
 
-Roboterbau mit verschiedenen Sensoren
+Roboterbau mit Lego und verschiedenen Sensoren
+
+Institut für Mensch-Maschine-Interaktion (MMI), RWTH Aachen
 
 LEGO Mindstorms, MATLAB
 
@@ -161,12 +168,14 @@ Verschiedene praktische Aufgaben in Machine Learning
 
 Python, scikit-learn, PyTorch
 
-`Okt 2019 - Mai 2020`
+`Okt 2019 - Jun 2020`
 __Masterarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 Work-in-Progress ... 
 
-"Study of Loss Functions in Deep Networks for Instance Segmentation of Medical Images"
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
+
+Deutsch: "Instanzsegmentierung dichter Objeckte mittels Deep-Pixel-Embeddings"
 
 Betreuer: Long Chen
 
