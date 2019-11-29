@@ -82,7 +82,9 @@ Working Student, Assistant of Fire Alarm Plan using AutoCAD LT
 `Apr 2017 - Jul 2018`
 __Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
 
-Teaching Assistant of Multiple Laboratories for 3 Semesters
+Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
+
+Teaching Assistant of Practice Metrological Laboratory for 1 Semester
 
 `Oct 2017 - Mar 2019`
 __Nuance Communications Aachen GmbH__

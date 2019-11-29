@@ -82,7 +82,9 @@ Werkstudent, Brandmelderplanung mithilfe AutoCAD LT
 `Apr 2017 - Jul 2018`
 __Institut für Hochspannungstechnik (IFHT), RWTH Aachen__
 
-HiWi, Betreuung der verschiedenen Praktika für 3 Semester
+HiWi, Betreuung des Praktikums Elektrotechnik für 2 Semester, und
+
+HiWi, Betreuung des Praktikums Messtechnisches Labor für 1 Semester
 
 `Okt 2017 - Mär 2019`
 __Nuance Communications Aachen GmbH__
