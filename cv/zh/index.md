@@ -168,7 +168,7 @@ __机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 Python, scikit-learn, PyTorch
 
-`2019年10月 - 2020年5月`
+`2019年10月 - 2020年6月`
 __进行中：硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding"
