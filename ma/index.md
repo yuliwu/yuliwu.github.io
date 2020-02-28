@@ -5,9 +5,9 @@ title: Master Thesis
 
 Here, you can find all information about my Master Thesis: 
 
-***Instance Segmentation of Dense Objects via Deep Pixel Embedding***,
+*Instance Segmentation of Dense Objects via Deep Pixel Embedding*,
 
-supervised by <a href="https://www.lfb.rwth-aachen.de/en/institute/team/chen/" target="_blank">Long Chen</a> in the <a href="https://www.lfb.rwth-aachen.de/en/" target="_blank">Institute of Imaging & Computer Vision, RWTH Aachen University</a>.
+supervised by <a href="https://www.lfb.rwth-aachen.de/en/institute/team/chen/" target="_blank">Long Chen</a> in the <a href="https://www.lfb.rwth-aachen.de/en/" target="_blank">Institute of Imaging & Computer Vision</a>, RWTH Aachen University.
 
 
 What you can do:
