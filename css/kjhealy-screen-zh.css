@@ -66,30 +66,35 @@ body {
 			font-size: 90%;
 		}
 }
-@media (max-width: 1100px) and (min-width: 800px){
+@media (max-width: 1100px) and (min-width: 700px){
 		html,
 		body {
-			font-size: 85%;
+			font-size: 82%;
 		}
 }
-@media (max-width: 800px) and (min-width: 500px){
+@media (max-width: 700px) and (min-width: 500px){
 		html,
 		body {
-			font-size: 72%;
-		}
-}
-
-@media (max-width: 500px) and (min-width: 350px){
-		html,
-		body {
-			font-size: 62%;
+			font-size: 78%;
 		}
 }
 
+@media (max-width: 500px) and (min-width: 400px){
+		html,
+		body {
+			font-size: 70%;
+		}
+}
+@media (max-width: 400px) and (min-width: 350px){
+		html,
+		body {
+			font-size: 68%;
+		}
+}
 @media (max-width: 350px){
 		html,
 		body {
-			font-size: 55%;
+			font-size: 62%;
 		}
 }
 
@@ -135,7 +140,7 @@ p strong {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline-grid;
+	display: inline;
 	left: -35.5%;
 	width: 65%;
 	line-height: 1em;
@@ -170,6 +175,7 @@ h1+p {
 	text-align: left;
 	width: 30%;
 	left: 24%;
+	top:-0.5em;
 	display: inline-block;
 }
 
@@ -231,7 +237,7 @@ em {
 	font-size: 0.9em;
 	display: block;
 	position: relative;
-	top: -7rem;
+	top: -7em;
 	text-align: right;
 	width: 20%;
 }
@@ -256,12 +262,82 @@ ii {
 	top: 0.2em;
 }
 
+@media (max-width: 1100px) and (min-width: 700px){
+	/* year and month */
+	p code {
+		font-size: 0.85em;
+		font-family: 'Source Code Pro', monospace;
+		color: #315572;
+		position: relative;
+		display: inline-block;
+		left: -22%;
+		width: 37%;
+		text-align: left;
+	}
+	/* Bold Text */
+	p strong {
+		font-size: 1em;
+		font-weight: bold;
+		position: relative;
+		display: inline;
+		left: -37.5%;
+		width: 70%;
+		line-height: 2;
+		text-align: left;
+	}
+	/* B.Sc RWTH */
+	h1+p {
+		/*subtitle*/
+		font-style: italic;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+		position: relative;
+		text-align: left;
+		top:-0.5em;
+		width: 30%;
+		left: 20%;
+		display: inline-block;
+	}
+	h2 {
+		font-size: 1.1em;
+		color: #b91414;
+		margin-top: 2rem;
+		position: relative;
+		display: block;
+		top: 1.1rem;
+		text-align: right;
+		width: 20%;
+	}
+	/* email */
+	#webaddress {
+		position: relative;
+		left: 39%;
+		color: #315572;
+		font-family:'Source Code Pro', monospace;
+		font-size: 1em;
+	}
+	/* upleft corner*/
+	#language span{
+		font-size: 0.9em;
+		display: block;
+		position: relative;
+		top: -6.5em;
+		text-align: right;
+		width: 20%;
+	}
+}
+
+
+
+
+
+
 
 /* PHONE */
 /* 500px */
 /* Mobile */
 
-@media (max-width: 500px){
+@media (max-width: 700px){
 					p {
 						font-size: 1.1em;
 						position: relative;
@@ -341,6 +417,7 @@ ii {
 						text-align: left;
 						width: 30%;
 						left: 26%;
+						top:-0.5em;
 						display: inline-block;
 					}
 
@@ -404,7 +481,7 @@ ii {
 						font-size: 0.9em;
 						display: block;
 						position: relative;
-						top: -3.5rem;     			/* language niveau */
+						top: -7em;     			/* language niveau */
 						text-align: right;
 						right:1em;
 						width: 20%;
