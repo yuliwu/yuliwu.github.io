@@ -63,36 +63,79 @@ body {
 
 }
 
+
 @media (max-width: 1200px) and (min-width: 1100px){
 		html,
 		body {
 			font-size: 90%;
 		}
 }
-@media (max-width: 1100px) and (min-width: 800px){
+@media (max-width: 1120px) and (min-width: 1000px){
 		html,
 		body {
 			font-size: 85%;
 		}
 }
-@media (max-width: 800px) and (min-width: 500px){
+@media (max-width: 1000px) and (min-width: 900px){
 		html,
 		body {
-			font-size: 72%;
+			font-size: 80%;
+		}
+}
+@media (max-width: 900px) and (min-width: 800px){
+		html,
+		body {
+			font-size: 76%;
+		}
+}
+@media (max-width: 800px) and (min-width: 700px){
+		html,
+		body {
+			font-size: 82%;
+		}
+}
+@media (max-width: 700px) and (min-width: 590px){
+		html,
+		body {
+			font-size: 77%;
 		}
 }
 
-@media (max-width: 500px) and (min-width: 350px){
+@media (max-width: 590px) and (min-width: 500px){
 		html,
 		body {
-			font-size: 60%;
+			font-size: 71%;
 		}
 }
 
-@media (max-width: 350px){
+@media (max-width: 500px) and (min-width: 460px){
 		html,
 		body {
-			font-size: 52%;
+			font-size: 68%;
+		}
+}
+@media (max-width: 460px) and (min-width: 400px){
+		html,
+		body {
+			font-size: 63%;
+		}
+}
+@media (max-width: 400px) and (min-width: 350px){
+		html,
+		body {
+			font-size: 58%;
+		}
+}
+@media (max-width: 350px) and (min-width: 330px){
+		html,
+		body {
+			font-size: 55%;
+		}
+}
+@media (max-width: 330px){
+		html,
+		body {
+			font-size: 50%;
 		}
 }
 /* Parent Class */
@@ -139,10 +182,10 @@ p strong {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline-grid;
+	display: inline;
 	left: -37.5%;
-	width: 65%;
-	line-height: 2;
+	width: 85%;
+	line-height: 1.5em;
 	text-align: left;
 }
 
@@ -171,11 +214,12 @@ h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 100%;
+	font-size: 1rem;
 	position: relative;
 	text-align: left;
 	width: 30%;
 	left: 28%;
+	top:-0em;
 	display: inline-block;
 }
 
@@ -222,7 +266,7 @@ p a {
 }
 
 em {
-	font-size: 0.9em;
+	font-size: 1em;
 	font-style: italic;
 }
 
@@ -240,7 +284,7 @@ em {
 	font-size: 0.9em;
 	display: block;
 	position: relative;
-	top: -5.8rem;
+	top: -6em;
 	text-align: right;
 	width: 20%;
 }
@@ -267,12 +311,11 @@ ii {
 
 
 
-
 /* PHONE */
 /* 500px */
 /* Mobile */
 
-@media (max-width: 500px){
+@media (max-width: 800px){
 				p {
 					font-size: 1.1em;
 					position: relative;
@@ -347,9 +390,10 @@ ii {
 						/*subtitle*/
 						font-style: italic;
 						font-family: 'Open Sans', sans-serif;
-						font-size: 0.8rem;
+						font-size: 1em;
 						position: relative;
 						text-align: left;
+						top:0em;
 						width: 30%;
 						left: 23%;
 						display: inline-block;
@@ -417,7 +461,7 @@ ii {
 						font-size: 0.9em;
 						display: block;
 						position: relative;
-						top: -3.2rem;
+						top: -6em;
 						text-align: right;
 						right:0em;
 						width: 20%;
