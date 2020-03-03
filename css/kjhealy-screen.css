@@ -75,21 +75,26 @@ body {
 			font-size: 85%;
 		}
 }
-@media (max-width: 800px) and (min-width: 600px){
+@media (max-width: 800px) and (min-width: 500px){
 		html,
 		body {
 			font-size: 72%;
 		}
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px) and (min-width: 350px){
 		html,
 		body {
-			font-size: 59%;
+			font-size: 60%;
 		}
 }
 
-
+@media (max-width: 350px){
+		html,
+		body {
+			font-size: 52%;
+		}
+}
 /* Parent Class */
 /* Contents */
 p {
@@ -136,6 +141,7 @@ p strong {
 	position: relative;
 	display: inline-grid;
 	left: -37.5%;
+	width: 65%;
 	line-height: 2;
 	text-align: left;
 }
@@ -266,12 +272,12 @@ ii {
 /* 500px */
 /* Mobile */
 
-@media (max-width: 600px){
+@media (max-width: 500px){
 				p {
 					font-size: 1.1em;
 					position: relative;
 					display: inline-block;
-					left: 15%;
+					left: 10%;
 					margin-top: 0.2rem;
 					margin-bottom: 0.2rem;
 					width: 85%;
@@ -310,7 +316,7 @@ ii {
 						position: relative;
 						display: inline-block;
 						left: 0%;
-						width: 75%;
+						width: 90%;
 						line-height: 0em;
 						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
@@ -332,7 +338,7 @@ ii {
 						line-height: 1rem;
 						position: relative;
 						width: 35%;
-						left: 35%;
+						left: 30%;
 						display: inline-block;
 					}
 
@@ -345,7 +351,7 @@ ii {
 						position: relative;
 						text-align: left;
 						width: 30%;
-						left: 28%;
+						left: 23%;
 						display: inline-block;
 					}
 
@@ -358,8 +364,8 @@ ii {
 						display: inline-block;
 						top: 1.4rem;
 						text-align: left;
-						left: 15%; 										/* p:: left */
-						width: 70%;
+						left: 10%; 										/* p:: left */
+						width: 90%;
 					}
 
 					/* link */
@@ -380,7 +386,7 @@ ii {
 					/* email */
 					#webaddress {
 						position: relative;
-						left: 37%;
+						left: 32%;
 						color: #315572;
 						font-family:'Source Code Pro', monospace;
 						font-size: 0.8rem;
@@ -411,9 +417,9 @@ ii {
 						font-size: 0.9em;
 						display: block;
 						position: relative;
-						top: -3.2rem;     			/* language niveau */
+						top: -3.2rem;
 						text-align: right;
-						right:-2em;
+						right:0em;
 						width: 20%;
 					}
 
@@ -428,7 +434,7 @@ ii {
 						position: absolute;
 						text-align: left;
 						width: 50%;
-						left: 25%;
+						left: 20%;
 					}
 
 					/* driving cataloge */
