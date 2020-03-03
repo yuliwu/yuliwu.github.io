@@ -72,17 +72,24 @@ body {
 			font-size: 85%;
 		}
 }
-@media (max-width: 800px) and (min-width: 600px){
+@media (max-width: 800px) and (min-width: 500px){
 		html,
 		body {
 			font-size: 72%;
 		}
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px) and (min-width: 350px){
 		html,
 		body {
-			font-size: 59%;
+			font-size: 62%;
+		}
+}
+
+@media (max-width: 350px){
+		html,
+		body {
+			font-size: 55%;
 		}
 }
 
@@ -130,6 +137,7 @@ p strong {
 	position: relative;
 	display: inline-grid;
 	left: -35.5%;
+	width: 65%;
 	line-height: 1em;
 	text-align: left;
 }
@@ -253,13 +261,13 @@ ii {
 /* 500px */
 /* Mobile */
 
-@media (max-width: 600px){
+@media (max-width: 500px){
 					p {
 						font-size: 1.1em;
 						position: relative;
 						display: inline-block;
-						left: 15%; /* normal p */
-						margin-bottom: 0.2rem;
+						left: 12%; /* normal p */
+						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
 						width: 85%;
 					}
@@ -285,8 +293,8 @@ ii {
 						color: #315572;
 						position: absolute;
 						display: inline-block;
-						left: 20%;
-						width: 25%;
+						left: 60%;
+						width: 22%;
 						text-align: left;
 					}
 
@@ -319,7 +327,7 @@ ii {
 						line-height: 1rem;
 						position: relative;
 						width: 35%;
-						left: 29%;
+						left: 28%;
 						display: inline-block;
 					}
 
@@ -332,7 +340,7 @@ ii {
 						position: relative;
 						text-align: left;
 						width: 30%;
-						left: 20%;
+						left: 26%;
 						display: inline-block;
 					}
 
@@ -345,7 +353,7 @@ ii {
 						display: inline-block;
 						top: 1.4rem;
 						text-align: left;
-						left: 15%; 										/* p:: left */
+						left: 12%; 										/* p:: left */
 						width: 70%;
 					}
 
@@ -366,7 +374,7 @@ ii {
 
 					#webaddress {
 						position: relative;
-						left: 32%;
+						left: 31%;
 						color: #315572;
 						font-family: 'Source Code Pro', monospace;
 						font-size: 0.8rem;
@@ -398,7 +406,7 @@ ii {
 						position: relative;
 						top: -3.5rem;     			/* language niveau */
 						text-align: right;
-						right:-2em;
+						right:1em;
 						width: 20%;
 					}
 
@@ -413,7 +421,7 @@ ii {
 						position: absolute;
 						text-align: left;
 						width: 50%;
-						left: 40%;
+						left: 20%;
 					}
 
 					/* driving cataloge */
@@ -422,7 +430,8 @@ ii {
 						font-style: italic;
 						position: absolute;
 						text-align: left;
-						left: 40%;
+						left: 20%;
+						top: 0;
 					}
 
 }
