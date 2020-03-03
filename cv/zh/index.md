@@ -4,7 +4,6 @@ title: 简历
 ---
 
 <br />
-
 # 吴玉立
 B.Sc. RWTH
 
@@ -17,25 +16,27 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style="width:18px;height:18px;margin-top: 10px;"></a></span>
+<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>
 </div>
 
 ## 感兴趣
-机器学习，深度学习，计算机视觉
 
-信号处理， 医学 / 工业 / 农业图像处理
+<samp>机器学习，深度学习，计算机视觉</samp>
+
+信号处理， <samp>医学 / 工业 / 农业图像处理</samp>
 
 嵌入式系统，网络实体系统，自动驾驶
 
 
 ## 有经验
-C, C++, MATLAB, Python
+
+C, C++, MATLAB, <samp>Python</samp>
 
 numpy, OpenCV, scikit-image, matplotlib, seaborn
 
-scikit-learn, PyTorch, TensorFlow
+scikit-learn, PyTorch, <samp>TensorFlow</samp>
 
-LaTeX, TikZ, Markdown, iWork, Microsoft Office, HTML, jekyll
+<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
 
 GitHub, GitLab
 
@@ -74,6 +75,7 @@ __亚琛工业大学__
 计算机工程方向 *(在读)*
 
 ## 工作经历
+
 `2016年3月 - 2016年8月`
 __TOP Technische Objektplanung GmbH__
 
@@ -89,10 +91,10 @@ __Nuance Communications Aachen GmbH__
 
 学生兼职, 翻译和测试车载语音控制系统
 
-`2019年7月 - 2019年12月`
+`2019年7月 - 2020年4月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
-学生兼职，细胞图像标注，标注软件开发，算法开发
+学生兼职，研究助理，细胞图像标注，标注软件开发，算法开发
 
 `2019年11月 - 2019年12月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -101,6 +103,7 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 
 ## 实验项目和实习
+
 `2015年6月`
 __Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
 
@@ -155,8 +158,6 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "图像处理和内容分析：语义实例分割"
 
-导师: Long Chen
-
 分析评阅基于深度学习的实例分割论文，30分钟英语演讲
 
 链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
@@ -178,6 +179,16 @@ __进行中：硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大�
 导师: Long Chen
 
 Python, TensorFlow
+
+链接: <a href="https://yuliwu.github.io/ma/" target="_blank">主页</a> *: 最新信息* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">中期答辩</a> *&#126;86MB*
+
+
+`2020年2月`
+__叶片分割挑战（Leaf Segmentation Challenge）第一名__
+
+实例分割结果优于所有其他参与者 *（基于BestDice）*
+
+链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *用户名:LfB. 时间戳: 2020年2月28日*
 
 
 ## 语言

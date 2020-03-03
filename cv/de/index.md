@@ -17,25 +17,27 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style="width:18px;height:18px;margin-top: 10px;"></a></span>
+<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style=></a></span>
 </div>
 
 ## Interesse
-Machine Learning, Deep Learning, Computer Vision
 
-Signalverarbeitung, Medizinische / Industrielle / Landwirtschaftliche Bildverarbeitung
+<samp>Machine Learning, Deep Learning, Computer Vision</samp>
+
+Signalverarbeitung, <samp>Medizinische / Industrielle / Landwirtschaftliche Bildverarbeitung</samp>
 
 Embedded System, Cyber-Physical System, Autonomes Fahren
 
 
 ## Erfahrungen
-C, C++, MATLAB, Python
+
+C, C++, MATLAB, <samp>Python</samp>
 
 numpy, OpenCV, scikit-image, matplotlib, seaborn
 
-scikit-learn, PyTorch, TensorFlow
+scikit-learn, PyTorch, <samp>TensorFlow</samp>
 
-LaTeX, TikZ, Markdown, iWork, Microsoft Office, HTML, jekyll
+<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
 
 GitHub, GitLab
 
@@ -91,10 +93,10 @@ __Nuance Communications Aachen GmbH__
 
 Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
 
-`Jul 2019 - Dez 2019`
+`Jul 2019 - Apr 2020`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
-HiWi, Annotation, Software Development, Segmentation
+HiWi, Forschungsassistant, Annotation, Software Development, Segmentation
 
 `Nov 2019 - Dez 2019`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
@@ -157,8 +159,6 @@ __Seminar, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 "Bildverarbeitung und Inhaltsanalyse: Semantic Instance Segmentation"
 
-Betreuer: Long Chen
-
 Review von Deep Learning Vorgehensweisen in Instance Segmentation, 30min Vortrag auf Englisch
 
 Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
@@ -182,6 +182,16 @@ Deutsch: "Instanzsegmentierung dichter Objeckte mittels Deep-Pixel-Embeddings"
 Betreuer: Long Chen
 
 Python, TensorFlow
+
+Links: <a href="https://yuliwu.github.io/ma/" target="_blank">Homepage</a> *: Aktuelles* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">Zwischenvortrag</a> *&#126;86MB*
+
+
+`Feb 2020`
+__No.1 in Leaf Segmentation Challenge Leaderboard__
+
+Die Ergebnisse meiner Instanzsegmentierung übertrafen alle anderen Teilnehmer *bzgl. BestDice*
+
+Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Letzte Prüfung: 28 Feb 2020*
 
 
 ## Sprachkenntnisse

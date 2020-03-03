@@ -60,20 +60,48 @@ body {
 	overflow-x: hidden;
 }
 
-/* Parent Class */
-p {
-	font-size: 88%;
-	position: relative;
-	display: inline-block;
-	left: 37%;
-	margin-bottom: 0.5em;
-	width: 65%;
+@media (max-width: 1200px) and (min-width: 1100px){
+		html,
+		body {
+			font-size: 90%;
+		}
+}
+@media (max-width: 1100px) and (min-width: 800px){
+		html,
+		body {
+			font-size: 85%;
+		}
+}
+@media (max-width: 800px) and (min-width: 600px){
+		html,
+		body {
+			font-size: 72%;
+		}
 }
 
+@media (max-width: 600px){
+		html,
+		body {
+			font-size: 59%;
+		}
+}
 
+/* Parent Class */
+/* Normal P */
+p {
+	font-size: 0.9em;
+	position: relative;
+	display: inline-block;
+	left: 37%; /* normal p */
+	margin-bottom: 0.5rem;
+	width: 65%;
+}
+p samp{
+  font-weight: bold;
+}
 /* year and month */
 p code {
-	font-size: 85%;
+	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
@@ -83,8 +111,9 @@ p code {
 	text-align: left;
 }
 
+
 p tt{
-	font-size: 85%;
+	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
 	position: relative;
@@ -96,12 +125,12 @@ p tt{
 
 /* Bold Text */
 p strong {
-	font-size: 100%;
+	font-size: 1em;
 	font-weight: bold;
 	position: relative;
 	display: inline-grid;
 	left: -35.5%;
-	line-height: 2;
+	line-height: 1em;
 	text-align: left;
 }
 
@@ -116,8 +145,8 @@ h1 {
 	font-family: 'Zhi Mang Xing', cursive;
   padding-top: 30px;
 	text-align: left;
-	font-size: 4.3em;
-	line-height: 1em;
+	font-size: 4.5em;
+	line-height: 1rem;
 	position: relative;
 	width: 35%;
 	left: 37%;
@@ -128,7 +157,7 @@ h1 {
 h1+p {
 	/*subtitle*/
 	font-style: italic;
-	font-size: 100%;
+	font-size: 1rem;
 	position: relative;
 	text-align: left;
 	width: 30%;
@@ -139,10 +168,10 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	color: #b91414;
-	margin-top: 2em;
+	margin-top: 2rem;
 	position: relative;
 	display: block;
-	top: 1.4em;
+	top: 1.4rem;
 	text-align: right;
 	width: 20%;
 }
@@ -158,7 +187,7 @@ a:hover {
 
 /* link italic */
 p a {
-	font-size: 100%;
+	font-size: 1em;
 	font-style: italic;
 }
 
@@ -177,7 +206,7 @@ p a {
 }
 
 em {
-	font-size: 90%;
+	font-size: 1em;
 	font-style: italic;
 }
 
@@ -185,18 +214,23 @@ em {
 	left: 0.1%;
 	color:#b91414;
 	font-family: 'Source Code Pro', monospace;
-	font-size: 80%;
+	font-size:0.8em;
 	display: block;
 	text-decoration: none;
 }
 
 #language span{
-	font-size: 90%;
+	font-size: 0.9em;
 	display: block;
 	position: relative;
-	top: -7em;
+	top: -7rem;
 	text-align: right;
 	width: 20%;
+}
+
+img {
+	width: 7%;
+	height: auto;
 }
 
 i {
@@ -212,4 +246,183 @@ ii {
 	text-align: left;
 	left: 15%;
 	top: 0.2em;
+}
+
+
+/* PHONE */
+/* 500px */
+/* Mobile */
+
+@media (max-width: 600px){
+					p {
+						font-size: 1.1em;
+						position: relative;
+						display: inline-block;
+						left: 15%; /* normal p */
+						margin-bottom: 0.2rem;
+						margin-bottom: 0.2rem;
+						width: 85%;
+					}
+
+					/* year and month */
+					p code {
+						font-size: 0.9em;
+						font-family: 'Source Code Pro', monospace;
+						color: #315572;
+						position: relative;
+						display: inline-block;
+						left: 0%;
+						width: 75%;
+						text-align: left;
+						margin-top: 1em;
+						margin-bottom: 0.2rem;
+					}
+
+
+					p tt{
+						font-size: 0.9em;
+						font-family: 'Source Code Pro', monospace;
+						color: #315572;
+						position: absolute;
+						display: inline-block;
+						left: 20%;
+						width: 25%;
+						text-align: left;
+					}
+
+					/* Bold Text */
+					p strong {
+						font-size: 1em;
+						font-weight: bold;
+						position: relative;
+						display: inline-grid;
+						left: 0%;
+						width: 75%;
+						line-height: 0rem;
+						margin-bottom: 0.2rem;
+						margin-top: 0.2rem;
+						text-align: left;
+					}
+
+
+					h1,h2,h3,h4 {
+						font-weight: 400;
+						font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
+						width: 65%;
+					}
+
+					h1 {
+						font-family: 'Zhi Mang Xing', cursive;
+					  padding-top: 1em;
+						text-align: left;
+						font-size: 6em;
+						line-height: 1rem;
+						position: relative;
+						width: 35%;
+						left: 29%;
+						display: inline-block;
+					}
+
+					/* B.Sc RWTH */
+					h1+p {
+						/*subtitle*/
+						font-style: italic;
+						font-family: 'Open Sans', sans-serif;
+						font-size: 1em;
+						position: relative;
+						text-align: left;
+						width: 30%;
+						left: 20%;
+						display: inline-block;
+					}
+
+					h2 {
+						font-size: 1.05rem;
+						color: #b91414;
+						margin-top: 1rem;
+						margin-bottom: 2rem;
+						position: relative;
+						display: inline-block;
+						top: 1.4rem;
+						text-align: left;
+						left: 15%; 										/* p:: left */
+						width: 70%;
+					}
+
+					/* link */
+					a {
+						color: #b91414;
+					}
+
+					a:hover {
+						color:#315572;
+					}
+
+					/* link italic */
+					p a {
+						font-size: 1em;
+						font-style: italic;
+					}
+
+					#webaddress {
+						position: relative;
+						left: 32%;
+						color: #315572;
+						font-family: 'Source Code Pro', monospace;
+						font-size: 0.8rem;
+					}
+
+					#webaddress a {
+						color:#315572;
+						display: inline-block;
+						text-decoration: none;
+					}
+
+					em {
+						font-size: 0.9em;
+						font-style: italic;
+					}
+
+					#webaddress p {
+						left: 0.1%;
+						color:#b91414;
+						font-family: 'Source Code Pro', monospace;
+						font-size:0.8em;
+						display: block;
+						text-decoration: none;
+					}
+
+					#language span{
+						font-size: 0.9em;
+						display: block;
+						position: relative;
+						top: -3.5rem;     			/* language niveau */
+						text-align: right;
+						right:-2em;
+						width: 20%;
+					}
+
+					img {
+						width: 7%;
+						height: auto;
+					}
+
+					/* language niveau */
+					i {
+						display: inline;
+						position: absolute;
+						text-align: left;
+						width: 50%;
+						left: 40%;
+					}
+
+					/* driving cataloge */
+					ii {
+						display: inline;
+						font-style: italic;
+						position: absolute;
+						text-align: left;
+						left: 40%;
+					}
+
 }

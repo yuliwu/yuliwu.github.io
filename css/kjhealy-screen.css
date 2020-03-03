@@ -75,17 +75,17 @@ body {
 			font-size: 85%;
 		}
 }
-@media (max-width: 800px) and (min-width: 500px){
+@media (max-width: 800px) and (min-width: 600px){
 		html,
 		body {
 			font-size: 72%;
 		}
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 		html,
 		body {
-			font-size: 58%;
+			font-size: 59%;
 		}
 }
 
@@ -266,13 +266,13 @@ ii {
 /* 500px */
 /* Mobile */
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 				p {
 					font-size: 1.1em;
 					position: relative;
 					display: inline-block;
 					left: 15%;
-					margin-bottom: 0.2rem;
+					margin-top: 0.2rem;
 					margin-bottom: 0.2rem;
 					width: 85%;
 				}
@@ -312,7 +312,7 @@ ii {
 						left: 0%;
 						width: 75%;
 						line-height: 0em;
-						margin-bottom: 0.2rem;
+						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
 						text-align: left;
 					}
