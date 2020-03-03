@@ -2,9 +2,6 @@
 layout: cv
 title: Curriculum Vitae
 ---
-
-<br />
-
 # Yuli Wu
 B.Sc. RWTH
 
@@ -12,30 +9,31 @@ B.Sc. RWTH
 <a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
 <!--( have a try, it really works 😹 )</p> -->
 </div>
-
 <div id="language">
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" style="width:18px;height:18px;margin-top: 10px;"></a></span>
+<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
 </div>
 
 ## Interested in
-Machine Learning, Deep Learning, Computer Vision
 
-Signal Processing, Medical / Industrial / Agricultural Image Processing
+<samp>Machine Learning, Deep Learning, Computer Vision</samp>
+
+Signal Processing, <samp>Medical / Industrial / Agricultural Image Processing</samp>
 
 Embedded System, Cyber-Physical System, Autonomous Driving
 
 
 ## Experienced in
-C, C++, MATLAB, Python
+
+C, C++, MATLAB, <samp>Python</samp>
 
 numpy, OpenCV, scikit-image, matplotlib, seaborn
 
-scikit-learn, PyTorch, TensorFlow
+scikit-learn, keras, PyTorch, <samp>TensorFlow</samp>
 
-LaTeX, TikZ, Markdown, iWork, Microsoft Office, HTML, jekyll
+<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
 
 GitHub, GitLab
 
@@ -91,16 +89,15 @@ __Nuance Communications Aachen GmbH__
 
 Working Student, Translation and Test for in-car Voice-Control-System
 
-`Jul 2019 - Dec 2019`
+`Jul 2019 - Apr 2020`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-Student Assistant, Annotation, Software Development, Segmentation
+Student Assistant, Research Assistant, Annotation, Software Development
 
 `Nov 2019 - Dec 2019`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
-
 
 ## Project & Practice
 `Jun 2015`
@@ -144,18 +141,16 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 
 `Oct 2018 - Jan 2019`
-__MATLAB Advanced: Digital Signal Processing__
+__MATLAB Advanced Lab: Digital Signal Processing__
 
 Various Tasks like Filter Design, Efficient Programming, C API, Beamformer etc.
 
 MATLAB, Signal Processing, Digital Speech Transmission
 
 `Oct 2018 - Jan 2019`
-__Seminar, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+__Seminar: Image Processing and Content Analysis__
 
-"Semantic Instance Segmentation"
-
-Supervisor: Long Chen
+"Semantic Instance Segmentation with a Discriminative Loss Function"
 
 Review of Various Deep Learning Approaches of Instance Segmentation, 30min Presentation in English
 
@@ -179,9 +174,20 @@ Supervisor: Long Chen
 
 Python, TensorFlow
 
+Links: <a href="https://yuliwu.github.io/ma/" target="_blank">Homepage</a> *: Latest Infos* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">Interim Slides</a> *&#126;86MB*
+
+
+`Feb 2020`
+__No.1 in Leaf Segmentation Challenge Leaderboard__
+
+My Instance Segmentation Results Outperformed All Other Participants *w.r.t. BestDice*
+
+Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Feb 2020*
+
+
 
 ## Language
-<tt>中文</tt>
+<tt>中文</tt> 
 __Chinese__ <i>Native</i>
 
 <tt>English</tt>
