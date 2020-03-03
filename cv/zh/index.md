@@ -135,7 +135,7 @@ C++, OpenCV, 信号处理, 支持向量机, 随机森林
 `2018年4月 - 2018年10月`
 __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
+"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
 
 「染色脊髓扫描下白细胞分割的轮廓优化」
 
