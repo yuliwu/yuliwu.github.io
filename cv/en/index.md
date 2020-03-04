@@ -2,6 +2,8 @@
 layout: cv
 title: Curriculum Vitae
 ---
+
+<br />
 # Yuli Wu
 B.Sc. RWTH
 
@@ -20,7 +22,7 @@ B.Sc. RWTH
 
 <samp>Machine Learning, Deep Learning, Computer Vision</samp>
 
-Signal Processing, <samp>Medical / Industrial / Agricultural Image Processing</samp>
+Signal Processing, <samp>Biomedical / Industrial / Agricultural Image Processing</samp>
 
 Embedded System, Cyber-Physical System, Autonomous Driving
 
@@ -166,7 +168,7 @@ Python, scikit-learn, PyTorch
 `Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-Work-in-Progress ... 
+Ongoing ... 
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding"
 

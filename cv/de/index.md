@@ -4,7 +4,6 @@ title: Lebenslauf
 ---
 
 <br />
-
 # Yuli Wu
 B.Sc. RWTH
 
@@ -20,11 +19,11 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
 </div>
 
-## Interesse
+## Interessen
 
 <samp>Machine Learning, Deep Learning, Computer Vision</samp>
 
-Signalverarbeitung, <samp>Medizinische / Industrielle / Landwirtschaftliche Bildverarbeitung</samp>
+Signalverarbeitung, <samp>Biomedizinische / Industrielle / Landwirtschaftliche Bildverarbeitung</samp>
 
 Embedded System, Cyber-Physical System, Autonomes Fahren
 
@@ -173,7 +172,7 @@ Python, scikit-learn, PyTorch
 `Okt 2019 - Jun 2020`
 __Masterarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
-Work-in-Progress ... 
+Laufend ... 
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding"
 
@@ -211,7 +210,7 @@ __Japanisch__ <i>Grundlage</i>
 __Französisch__ <i>Grundlage</i>
 
 
-## Führerschein
+## Führerscheine
 <tt>Apr 2016</tt>
 __Deutscher Führerschein__ <ii>AM/B/L</ii>
 
