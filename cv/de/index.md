@@ -63,14 +63,14 @@ Deutschkurs
 `Okt 2015 - Sep 2018`
 __RWTH Aachen University__
 
-B.Sc. in Elektrotechnik, Infomationstechnik und Technische Informatik
+B.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
 
 mit Vertiefung Technische Informatik *(absolviert in 6 Semester)*
 
 `Okt 2018 - Jetzt`
 __RWTH Aachen University__
 
-M.Sc. in Elektrotechnik, Infomationstechnik und Technische Informatik
+M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
 
 mit Vertiefung Technische Informatik
 
