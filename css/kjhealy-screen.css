@@ -402,7 +402,7 @@ ii {
 						line-height: 1rem;
 						position: relative;
 						width: 35%;
-						left: 30%;
+						left: 25%;
 						display: inline-block;
 					}
 
@@ -416,7 +416,7 @@ ii {
 						text-align: left;
 						top:0em;
 						width: 30%;
-						left: 23%;
+						left: 18%;
 						display: inline-block;
 					}
 
@@ -451,7 +451,7 @@ ii {
 					/* email */
 					#webaddress {
 						position: relative;
-						left: 32%;
+						left: 27%;
 						color: #315572;
 						font-family:'Source Code Pro', monospace;
 						font-size: 0.8rem;
