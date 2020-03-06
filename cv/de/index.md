@@ -195,27 +195,27 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 
 ## Sprachkenntnisse
 <tt>中文</tt>
-__Chinesisch__ <i>Muttersprache</i>
+<var>Chinesisch</var> <i>Muttersprache</i>
 
 <tt>English</tt>
-__Englisch__  <i>Fließend</i>
+<var>Englisch</var> <i>Fließend</i>
 
 <tt>Deutsch</tt>
-__Deutsch__ <i>Fließend, DSH-III Zertifikat *(sehr gut)*</i>
+<var>Deutsch</var> <i>Fließend, DSH-III Zertifikat *(sehr gut)*</i>
 
 <tt>日本語</tt>
-__Japanisch__ <i>Grundlage</i>
+<var>Japanisch</var> <i>Grundlage</i>
 
 <tt>Français</tt>
-__Französisch__ <i>Grundlage</i>
+<var>Französisch</var> <i>Grundlage</i>
 
 
 ## Führerscheine
 <tt>Apr 2016</tt>
-__Deutscher Führerschein__ <ii>AM/B/L</ii>
+<var>Deutscher Führerschein</var> <ii>AM/B/L</ii>
 
 <tt>Sep 2016</tt>
-__Chinesischer Führerschein__ <ii>C1</ii>
+<var>Chinesischer Führerschein</var> <ii>C1</ii>
 
 <br />
 <br />

@@ -187,29 +187,28 @@ My Instance Segmentation Results Outperformed All Other Participants *w.r.t. Bes
 Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Feb 2020*
 
 
-
 ## Language
 <tt>中文</tt> 
-__Chinese__ <i>Native</i>
+<var>Chinese</var> <i>Native</i>
 
 <tt>English</tt>
-__English__  <i>Fluent</i>
+<var>English</var>  <i>Fluent</i>
 
 <tt>Deutsch</tt>
-__German__ <i>Fluent, DSH-III Certificate *(sehr gut)*</i>
+<var>German</var> <i>Fluent, DSH-III Certificate *(sehr gut)*</i>
 
 <tt>日本語</tt>
-__Japanese__ <i>Basic</i>
+<var>Japanese</var> <i>Basic</i>
 
 <tt>Français</tt>
-__French__ <i>Basic</i>
+<var>French</var> <i>Basic</i>
 
 ## Driving License
 <tt>Apr 2016</tt>
-__German Driving License__ <ii>AM/B/L</ii>
+<var>German Driving License</var> <ii>AM/B/L</ii>
 
 <tt>Sep 2016</tt>
-__Chinese Driving License__ <ii>C1</ii>
+<var>Chinese Driving License</var> <ii>C1</ii>
 <br />
 <br />
 <br />

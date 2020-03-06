@@ -63,31 +63,13 @@ body {
 @media (max-width: 1200px) and (min-width: 1100px){
 		html,
 		body {
-			font-size: 92%;
-		}
-}
-@media (max-width: 1100px) and (min-width: 1050px){
-		html,
-		body {
-			font-size: 88%;
-		}
-}
-@media (max-width: 1050px) and (min-width: 900px){
-		html,
-		body {
 			font-size: 90%;
 		}
 }
-@media (max-width: 900px) and (min-width: 800px){
+@media (max-width: 1100px) and (min-width: 700px){
 		html,
 		body {
-			font-size: 86%;
-		}
-}
-@media (max-width: 800px) and (min-width: 700px){
-		html,
-		body {
-			font-size: 83%;
+			font-size: 82%;
 		}
 }
 @media (max-width: 700px) and (min-width: 500px){
@@ -128,16 +110,6 @@ p {
 }
 p samp{
   font-weight: bold;
-}
-p var {
-	font-size: 1em;
-	font-weight: bold;
-	position: relative;
-	display: inline;
-	left: -35.5%;
-	width: 65%;
-	line-height: 1em;
-	text-align: left;
 }
 /* year and month */
 p code {
@@ -290,6 +262,71 @@ ii {
 	top: 0.2em;
 }
 
+@media (max-width: 1100px) and (min-width: 700px){
+	/* year and month */
+	p code {
+		font-size: 0.85em;
+		font-family: 'Source Code Pro', monospace;
+		color: #315572;
+		position: relative;
+		display: inline-block;
+		left: -22%;
+		width: 37%;
+		text-align: left;
+	}
+	/* Bold Text */
+	p strong {
+		font-size: 1em;
+		font-weight: bold;
+		position: relative;
+		display: inline;
+		left: -37.5%;
+		width: 70%;
+		line-height: 2;
+		text-align: left;
+	}
+	/* B.Sc RWTH */
+	h1+p {
+		/*subtitle*/
+		font-style: italic;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+		position: relative;
+		text-align: left;
+		top:-0.5em;
+		width: 30%;
+		left: 20%;
+		display: inline-block;
+	}
+	h2 {
+		font-size: 1.1em;
+		color: #b91414;
+		margin-top: 2rem;
+		position: relative;
+		display: block;
+		top: 1.1rem;
+		text-align: right;
+		width: 20%;
+	}
+	/* email */
+	#webaddress {
+		position: relative;
+		left: 39%;
+		color: #315572;
+		font-family:'Source Code Pro', monospace;
+		font-size: 1em;
+	}
+	/* upleft corner*/
+	#language span{
+		font-size: 0.9em;
+		display: block;
+		position: relative;
+		top: -6.5em;
+		text-align: right;
+		width: 20%;
+	}
+}
+
 
 
 
@@ -350,19 +387,7 @@ ii {
 						margin-top: 0.2rem;
 						text-align: left;
 					}
-					/* Bold Text */
-					p var {
-						font-size: 1em;
-						font-weight: bold;
-						position: relative;
-						display: inline-grid;
-						left: 0%;
-						width: 75%;
-						line-height: 0rem;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
-						text-align: left;
-					}
+
 
 					h1,h2,h3,h4 {
 						font-weight: 400;
@@ -486,181 +511,4 @@ ii {
 						top: 0;
 					}
 
-}
-
-@media (max-width: 1050px) and (min-width: 700px){
-	/* Parent Class */
-	p {
-		font-size: 88%;
-		position: relative;
-		display: inline-block;
-		left: 30%;
-		margin-bottom: 0.5em;
-		margin-top: 0.2em;
-		width: 75%;
-	}
-
-	p samp{
-	  font-weight: bold;
-	}
-	p var {
-		font-size: 90%;
-		position: relative;
-		display: inline-block;
-		left: 0%;
-		margin-bottom: 0.5em;
-		margin-top: 0.2em;
-		width: 75%;
-		font-weight: bold;
-	}
-	/* year and month */
-	p code {
-		font-size: 85%;
-		font-family: 'Source Code Pro', monospace;
-		color: #315572;
-		position: relative;
-		display: inline-block;
-		left: -40%;
-		width: 30%;
-		text-align: right;
-	}
-
-	/* language Code */
-	p tt {
-		font-size: 85%;
-		font-family: 'Source Code Pro', monospace;
-		color: #315572;
-		position: absolute;
-		display: inline;
-		top: 0em;
-		left: -40%;
-		width: 30%;
-		text-align: right;
-	}
-
-	/* Bold Text */
-	p strong {
-		font-size: 100%;
-		font-weight: bold;
-		position: relative;
-		display: inline;
-		left: -30.5%;
-		width: 75%;
-		line-height: 1em;
-		text-align: left;
-	}
-
-
-	h1,h2,h3,h4 {
-		font-weight: 400;
-		font-family: Avenir,Cousine,Verdana,sans-serif;
-		width: 65%;
-	}
-
-	h1 {
-		font-family:  'Zhi Mang Xing', cursive;
-		text-align: left;
-		font-size: 4.5em;
-		line-height: 1em;
-		position: relative;
-		width: 35%;
-		left: 28%;
-		display: inline-block;
-	}
-
-	/* B.Sc RWTH */
-	h1+p {
-		/*subtitle*/
-		font-style: italic;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 100%;
-		position: relative;
-		text-align: left;
-		width: 30%;
-		left: 18%;
-		display: inline-block;
-	}
-
-	h2 {
-		font-size: 1.1em;
-		color: #b91414;
-		margin-bottom: 2em;
-		position: relative;
-		display: block;
-		top: 1.4em;
-		left: 2.8%;
-		text-align: right;
-		width: 20%;
-	}
-
-	/* link */
-	a {
-		color: #b91414;
-	}
-
-	a:hover {
-		color:#315572;
-	}
-
-	/* link italic */
-	p a {
-		font-size: 100%;
-		font-style: italic;
-	}
-
-	#webaddress {
-		position: relative;
-		left: 30%;
-		color: #315572;
-		font-family:'Source Code Pro', monospace;
-		font-size: 100%;
-		margin-bottom: -3em;
-	}
-
-	#webaddress a {
-		color:#315572;
-		display: inline-block;
-		text-decoration: none;
-	}
-
-	em {
-		font-size: 90%;
-		font-style: italic;
-	}
-
-	#webaddress p {
-		left: 0.1%;
-		color:#b91414;
-		font-family: 'Source Code Pro', monospace;
-		font-size: 80%;
-		display: block;
-		text-decoration: none;
-	}
-
-	i {
-		display: inline;
-		position: absolute;
-		text-align: left;
-		left: 20%;
-		width: 50%;
-	}
-
-	ii {
-		display: inline;
-		font-style: italic;
-		position: absolute;
-		text-align: left;
-		left: 20%;
-	}
-
-
-	/* upleft corner*/
-	#language span{
-		font-size: 0.9em;
-		display: block;
-		position: relative;
-		top: -3.5em;
-		text-align: right;
-		width: 20%;
-	}
 }

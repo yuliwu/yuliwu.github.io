@@ -193,27 +193,27 @@ __叶片分割挑战（Leaf Segmentation Challenge）第一名__
 
 ## 语言
 <tt>中文</tt>
-__中文__ <i>母语</i>
+<var>中文</var> <i>母语</i>
 
 <tt>English</tt>
-__英语__  <i>流利</i>
+<var>英语</var>  <i>流利</i>
 
 <tt>Deutsch</tt>
-__德语__ <i>流利, DSH-III 证书 *(sehr gut)*</i>
+<var>德语</var> <i>流利, DSH-III 证书 *(sehr gut)*</i>
 
 <tt>日本語</tt>
-__日语__ <i>基础</i>
+<var>日语</var> <i>基础</i>
 
 <tt>Français</tt>
-__法语__ <i>基础</i>
+<var>法语</var> <i>基础</i>
 
 
 ## 驾照
 <tt>2016年4月</tt>
-__德国驾照__ <ii>AM/B/L</ii>
+<var>德国驾照</var> <ii>AM/B/L</ii>
 
 <tt>2016年9月</tt>
-__中国驾照__ <ii>C1</ii>
+<var>中国驾照</var> <ii>C1</ii>
 <br />
 <br />
 <br />
