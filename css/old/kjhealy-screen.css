@@ -79,13 +79,13 @@ body {
 @media (max-width: 1000px) and (min-width: 900px){
 		html,
 		body {
-			font-size: 85%;
+			font-size: 80%;
 		}
 }
 @media (max-width: 900px) and (min-width: 800px){
 		html,
 		body {
-			font-size: 80%;
+			font-size: 75%;
 		}
 }
 @media (max-width: 800px) and (min-width: 700px){
@@ -189,16 +189,6 @@ p strong {
 	text-align: left;
 }
 
-p var {
-	font-size: 1em;
-	font-weight: bold;
-	position: relative;
-	display: inline;
-	left: -37.5%;
-	width: 85%;
-	line-height: 1.5em;
-	text-align: left;
-}
 
 h1,h2,h3,h4 {
 	font-weight: 400;
@@ -375,18 +365,7 @@ ii {
 						margin-bottom: 0.2rem;
 						text-align: left;
 					}
-					p var {
-						font-size: 1em;
-						font-weight: bold;
-						position: relative;
-						display: inline-block;
-						left: 0%;
-						width: 90%;
-						line-height: 0em;
-						margin-top: 0.2rem;
-						margin-bottom: 0.2rem;
-						text-align: left;
-					}
+
 
 					h1,h2,h3,h4 {
 						font-weight: 400;
@@ -513,7 +492,7 @@ ii {
 }
 
 
-@media (max-width: 1000px) and (min-width: 800px){
+@media (max-width: 1000px) and (max-width: 800px){
 
 	/* Parent Class */
 	/* Contents */
@@ -529,17 +508,6 @@ ii {
 
 	p samp{
 	  font-weight: bold;
-	}
-
-	p var {
-		font-size: 90%;
-		position: relative;
-		display: inline-block;
-		left: 0%;
-		margin-bottom: 0.5em;
-		margin-top: 0.2em;
-		width: 75%;
-		font-weight: bold;
 	}
 
 	/* year and month */
@@ -605,7 +573,7 @@ ii {
 		position: relative;
 		text-align: left;
 		width: 30%;
-		left: 20%;
+		left: 24%;
 		display: inline-block;
 	}
 
@@ -643,7 +611,7 @@ ii {
 		color: #315572;
 		font-family:'Source Code Pro', monospace;
 		font-size: 100%;
-		margin-bottom: -3em;
+		margin-bottom: 2em;
 	}
 
 	#webaddress a {
@@ -666,20 +634,8 @@ ii {
 		text-decoration: none;
 	}
 
-	/* upleft corner*/
 	#language span{
-		font-size: 0.9em;
-		display: block;
-		top:-2.5em;
-		margin-bottom: 0em;
-		position: relative;
-		text-align: right;
-		width: 20%;
-	}
-
-	img {
-		width: 7%;
-		height: auto;
+		display: none;
 	}
 
 	i {
