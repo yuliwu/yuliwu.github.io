@@ -7,7 +7,7 @@ Here, you can find all information about my Master Thesis:
 
 ***Instance Segmentation of Dense Objects via Deep Pixel Embedding***,
 
-supervised by <a href="https://www.lfb.rwth-aachen.de/en/institute/team/chen/" target="_blank">Long Chen</a> in the <a href="https://www.lfb.rwth-aachen.de/en/" target="_blank">Institute of Imaging & Computer Vision</a>, RWTH Aachen.
+supervised by Long Chen at Institute of Imaging & Computer Vision, RWTH Aachen.
 
 
 What you can do:
@@ -18,4 +18,6 @@ What you can do:
 
 + Check a simple python implementation of <a href="https://gist.github.com/yuliwu/7b1e05952a0653d7877761d9eec3a200" target="_blank">Mutex Watershed</a>, a clustering algorithm.
 
-+ Last but not least, generously offer me a job after seeing my <a href="https://yuliwu.github.io/cv/en/" target="_blank">CV</a>.
++ Read the <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">manuscript</a> (under review) for CVPPP'20, an ECCV'20 Workshop.
+
++ Last but not least, generously offer me a job after seeing my <a href="https://yuliwu.github.io/cv/" target="_blank">CV</a>.
