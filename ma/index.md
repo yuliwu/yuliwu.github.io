@@ -8,9 +8,11 @@ Here, you can find all information about my Master Thesis:
 ***Instance Segmentation of Dense Objects via Deep Pixel Embedding***,
 
 supervised by Long Chen at Institute of Imaging & Computer Vision, RWTH Aachen.
+<br/><br/> 
 
+What you can do here:
 
-What you can do:
++ Read <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">thesis</a>.
 
 + Watch slides for <a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">Interim Presentation</a>.
 
