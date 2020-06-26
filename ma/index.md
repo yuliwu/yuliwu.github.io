@@ -14,7 +14,9 @@ What you can do here:
 
 + Read <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">thesis</a>.
 
-+ Watch slides for <a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">Interim Presentation</a>.
++ Watch slides for <a href="https://yuliwu.github.io/cloud/ma/interim_slides/" target="_blank">Interim Presentation</a>.
+
++ Watch slides for <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Final Presentation</a>.
 
 + Check the <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">leaderboard</a> of Leaf Segmentation Challenge *(username: LfB)*.
 
