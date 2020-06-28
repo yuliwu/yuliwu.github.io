@@ -168,23 +168,20 @@ Python, scikit-learn, PyTorch
 `Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-Ongoing ... 
-
-"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding" *(1,0)*
 
 Supervisor: Long Chen
 
-Python, TensorFlow
+Python, TensorFlow, 2x30min (Interim & Final) Presentation in English
 
-Links: <a href="https://yuliwu.github.io/ma/" target="_blank">Homepage</a> *: Latest Infos* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">Interim Slides</a> *&#126;86MB*
+Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
 
-
-`Feb 2020`
+`Jun 2020`
 __No.1 in Leaf Segmentation Challenge Leaderboard__
 
 My Instance Segmentation Results Outperformed All Other Participants *w.r.t. BestDice*
 
-Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Feb 2020*
+Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Jun 2020*
 
 
 ## Language
@@ -215,4 +212,4 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 <br />
 <br />
 <!--
-Last updated: Apr 2019 -->
+Last updated: Jun 2020 -->

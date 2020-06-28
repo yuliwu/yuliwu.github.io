@@ -135,7 +135,7 @@ C++, OpenCV, 信号处理, 支持向量机, 随机森林
 `2018年4月 - 2018年10月`
 __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
+"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
 
 「染色脊髓扫描下白细胞分割的轮廓优化」
 
@@ -170,25 +170,25 @@ __机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
 Python, scikit-learn, PyTorch
 
 `2019年10月 - 2020年6月`
-__进行中：硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
+__硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding" *(1,0)*
 
 「基于深度像素嵌入的稠密物体实例分割」
 
 导师: Long Chen
 
-Python, TensorFlow
+Python, TensorFlow, 2x30分钟英语演讲(中期答辩/总答辩)
 
-链接: <a href="https://yuliwu.github.io/ma/" target="_blank">主页</a> *: 最新信息* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/ma/slide-interim/" target="_blank">中期答辩</a> *&#126;86MB*
+链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
-`2020年2月`
+`2020年6月`
 __叶片分割挑战（Leaf Segmentation Challenge）第一名__
 
 实例分割结果优于所有其他参与者 *（基于BestDice）*
 
-链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *用户名:LfB. 时间戳: 2020年2月28日*
+链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *用户名:LfB. 时间戳: 2020年6月28日*
 
 
 ## 语言
