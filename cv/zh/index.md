@@ -180,11 +180,11 @@ __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 Python, TensorFlow, 2x30分钟英语演讲(中期答辩/总答辩)
 
-链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
 
 
 `2020年6月`
-__叶片分割挑战（Leaf Segmentation Challenge）第一名__
+__叶片分割挑战第一名（Leaf Segmentation Challenge, ECCV2020 Workshop）__
 
 实例分割结果优于所有其他参与者 *（基于BestDice）*
 

@@ -174,12 +174,12 @@ Supervisor: Long Chen
 
 Python, TensorFlow, 2x30min (Interim & Final) Presentation in English
 
-Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
 
 `Jun 2020`
-__No.1 in Leaf Segmentation Challenge Leaderboard__
+__No.1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
-My Instance Segmentation Results Outperformed All Other Participants *w.r.t. BestDice*
+The Proposed Instance Segmentation Results Outperformed All Other Participants *w.r.t. BestDice*
 
 Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Jun 2020*
 
