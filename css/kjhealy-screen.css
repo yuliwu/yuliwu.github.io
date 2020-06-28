@@ -64,7 +64,7 @@ body {
 }
 
 
-@media (max-width: 137500px) and (min-width: 1200px){
+@media (max-width: 1375px) and (min-width: 1200px){
 		html,
 		body {
 			font-size: 95%;
