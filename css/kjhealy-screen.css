@@ -196,7 +196,7 @@ p strong {
 	position: relative;
 	display: inline;
 	left: -37.5%;
-	width: 85%;
+	width: 95%;
 	line-height: 1.5em;
 	text-align: left;
 }
@@ -381,7 +381,7 @@ ii {
 						position: relative;
 						display: inline-block;
 						left: 0%;
-						width: 90%;
+						width: 95%;
 						line-height: 0em;
 						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
@@ -585,7 +585,7 @@ ii {
 		position: relative;
 		display: inline;
 		left: -30.5%;
-		width: 80%;
+		width: 95%;
 		line-height: 1;
 		text-align: left;
 	}
