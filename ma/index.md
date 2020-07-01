@@ -3,7 +3,7 @@ layout: default
 title: Master Thesis
 ---
 
-Here, you can find all information about my Master Thesis: 
+Here, you can find all information about my Master Thesis *(1,0)*: 
 
 ***Instance Segmentation of Dense Objects via Deep Pixel Embedding***,
 
