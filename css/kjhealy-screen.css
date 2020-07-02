@@ -144,10 +144,28 @@ body {
 			font-size: 54%;
 		}
 }
-@media (max-width: 330px){
+@media (max-width: 330px) and (min-width: 300px){
 		html,
 		body {
 			font-size: 50%;
+		}
+}
+@media (max-width: 300px) and (min-width: 280px){
+		html,
+		body {
+			font-size: 47%;
+		}
+}
+@media (max-width: 280px) and (min-width: 240px){
+		html,
+		body {
+			font-size: 44%;
+		}
+}
+@media (max-width: 240px){
+		html,
+		body {
+			font-size: 42%;
 		}
 }
 /* Parent Class */

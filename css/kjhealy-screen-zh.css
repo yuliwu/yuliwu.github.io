@@ -114,10 +114,34 @@ body {
 			font-size: 68%;
 		}
 }
-@media (max-width: 350px){
+@media (max-width: 350px) and (min-width: 330px){
+		html,
+		body {
+			font-size: 65%;
+		}
+}
+@media (max-width: 330px) and (min-width: 300px){
 		html,
 		body {
 			font-size: 62%;
+		}
+}
+@media (max-width: 300px) and (min-width: 280px){
+		html,
+		body {
+			font-size: 57%;
+		}
+}
+@media (max-width: 280px) and (min-width: 240px){
+		html,
+		body {
+			font-size: 54%;
+		}
+}
+@media (max-width: 240px){
+		html,
+		body {
+			font-size: 52%;
 		}
 }
 
