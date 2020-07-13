@@ -184,7 +184,7 @@ Python, TensorFlow, 2x30分钟英语演讲(中期答辩/总答辩)
 
 
 `2020年6月`
-__叶片分割挑战第一名（Leaf Segmentation Challenge, ECCV2020 Workshop）__
+__叶片分割挑战第一名（ECCV2020 Workshop）__
 
 实例分割结果优于所有其他参与者 *（基于BestDice）*
 
