@@ -190,6 +190,22 @@ Die Ergebnisse meiner Instanzsegmentierung übertrafen alle anderen Teilnehmer *
 
 Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Letzte Prüfung: 28 Jun 2020*
 
+## Veröffentlichungen
+`2020`
+__Improving Pixel Embedding Learning through Intermediate Distance__
+
+<samp>Regression Supervision for Instance Segmentation</samp>
+
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
+
+`2020`
+__Semi-supervised Instance Segmentation with a Learned Shape Prior__
+
+*MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
+
+Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 ## Sprachkenntnisse
 <tt>中文</tt>

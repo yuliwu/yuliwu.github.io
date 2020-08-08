@@ -183,6 +183,22 @@ The Proposed Instance Segmentation Results Outperformed All Other Participants *
 
 Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Jun 2020*
 
+## Publications
+`2020`
+__Improving Pixel Embedding Learning through Intermediate Distance__
+
+<samp>Regression Supervision for Instance Segmentation</samp>
+
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
+
+`2020`
+__Semi-supervised Instance Segmentation with a Learned Shape Prior__
+
+*MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
+
+Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 ## Language
 <tt>中文</tt> 

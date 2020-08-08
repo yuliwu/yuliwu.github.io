@@ -185,18 +185,20 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 
 ## Publications
 `2020`
-Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation
+__Improving Pixel Embedding Learning through Intermediate Distance__
 
-ECCV2020 Workshop on Computer Vision Problems in Plant Phenotyping
+<samp>Regression Supervision for Instance Segmentation</samp>
 
-<samp>Yuli Wu</samp>, Long Chen, Dorit Merhof
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 `2020`
-Semi-supervised Instance Segmentation with a Learned Shape Prior
+__Semi-supervised Instance Segmentation with a Learned Shape Prior__
 
-MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data
+*MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
 
-Long Chen, Weiwen Zhang, <samp>Yuli Wu</samp>, Martin Strauch, Dorit Merhof
+Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 
 ## Language
