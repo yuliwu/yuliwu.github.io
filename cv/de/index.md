@@ -47,19 +47,6 @@ AutoCAD, Inventor, Simulink
 
 ## Schulbildung & Studium
 
-`Sep 2009 - Jul 2012`
-__Xuzhou No.1 Middle School, China__
-
-`Sep 2012 - Apr 2013`
-__Nanjing Normal University, China__
-
-B.Sc. in Elektrotechnik und Automatisierung *(1. Semester)*
-
-`Okt 2013 - Dez 2014`
-__Universität Stuttgart, RWTH Aachen University__
-
-Deutschkurs
-
 `Okt 2015 - Sep 2018`
 __RWTH Aachen University__
 
@@ -104,11 +91,6 @@ HiWi, Betreuung des Projekts MATLAB meets LEGO Mindstorms
 
 
 ## Projekte & Praktika
-`Jun 2015`
-__Pro-8 Projekt, RWTH Aachen & FH Aachen__
-
-Modellerstellung mithilfe AutoCAD und Inventor
-
 `Dez 2015`
 __Projekt MATLAB meets LEGO Mindstorms__
 
@@ -180,11 +162,10 @@ Betreuer: Long Chen
 
 Python, TensorFlow, 2x30min (zwischen und final) Vortrag auf Englisch
 
-Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
-
+Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* 
 
 `Jun 2020`
-__No.1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
+__No.1 in Leaf Segmentation Challenge Leaderboard (ECCV Workshop)__
 
 Die Ergebnisse meiner Instanzsegmentierung übertrafen alle anderen Teilnehmer *bzgl. BestDice*
 
@@ -192,9 +173,9 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 
 ## Veröffentlichungen
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
-<samp>Regression Supervision for Instance Segmentation</samp>
+<a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> *&#126;10MB*
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
@@ -215,7 +196,7 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <var>Englisch</var> <i>Fließend</i>
 
 <tt>Deutsch</tt>
-<var>Deutsch</var> <i>Fließend, DSH-III Zertifikat *(sehr gut)*</i>
+<var>Deutsch</var> <i>Fließend, DSH-III *(sehr gut)*</i>
 
 <tt>日本語</tt>
 <var>Japanisch</var> <i>Grundlage</i>

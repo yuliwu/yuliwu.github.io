@@ -47,19 +47,6 @@ AutoCAD, Inventor, Simulink
 
 ## 教育
 
-`2009年9月 - 2012年7月`
-__徐州市第一中学__
-
-`2012年9月 - 2013年4月`
-__南京师范大学__
-
-本科 - 电气工程及其自动化 *(第一学期)*
-
-`2013年10月 - 2014年12月`
-__斯图加特大学, 亚琛工业大学__
-
-德语班
-
 `2015年10月 - 2018年9月`
 __亚琛工业大学__
 
@@ -103,11 +90,6 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 
 ## 实验项目和实习
-
-`2015年6月`
-__Pro-8 Project, 亚琛工业大学 & 亚琛应用科技大学__
-
-用 AutoCAD 和 Inventor 建模
 
 `2015年12月`
 __MATLAB meets LEGO Mindstorms 实验项目__
@@ -180,11 +162,11 @@ __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 Python, TensorFlow, 2x30分钟英语演讲(中期答辩/总答辩)
 
-链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
+链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* 
 
 
 `2020年6月`
-__叶片分割挑战第一名（ECCV2020 Workshop）__
+__叶片分割挑战第一名（ECCV Workshop）__
 
 实例分割结果优于所有其他参与者 *（基于BestDice）*
 
@@ -192,9 +174,9 @@ __叶片分割挑战第一名（ECCV2020 Workshop）__
 
 ## 会议论文
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
-<samp>Regression Supervision for Instance Segmentation</samp>
+<a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
@@ -236,4 +218,4 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <br />
 <br />
 <!--
-Last updated: Oct 2019 -->
+Last updated: Aug 2020 -->

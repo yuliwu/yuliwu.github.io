@@ -22,7 +22,7 @@ B.Sc. RWTH
 
 <samp>Machine Learning, Deep Learning, Computer Vision</samp>
 
-Signal Processing, <samp>Biomedical / Industrial / Agricultural Image Processing</samp>
+Signal Processing, <samp>Biomedical/Industrial/Agricultural Image Processing</samp>
 
 Embedded System, Cyber-Physical System, Autonomous Driving
 
@@ -45,19 +45,6 @@ AutoCAD, Inventor, Simulink
 
 
 ## Education
-
-`Sep 2009 - Jul 2012`
-__Xuzhou No.1 Middle School__
-
-`Sep 2012 - Apr 2013`
-__Nanjing Normal University__
-
-B.Sc. in Electrical and Electronics Engineering *(1. Semester)*
-
-`Oct 2013 - Dec 2014`
-__University of Stuttgart, RWTH Aachen University__
-
-German Course
 
 `Oct 2015 - Sep 2018`
 __RWTH Aachen University__
@@ -102,10 +89,6 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 ## Project & Practice
-`Jun 2015`
-__Pro-8 Project, RWTH Aachen & FH Aachen__
-
-Modelling using AutoCAD and Inventor
 
 `Dec 2015`
 __Project MATLAB meets LEGO Mindstorms__
@@ -174,7 +157,7 @@ Supervisor: Long Chen
 
 Python, TensorFlow, 2x30min (Interim & Final) Presentation in English
 
-Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Preprint</a> *&#126;10MB*
+Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
 
 `Jun 2020`
 __No.1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
@@ -185,9 +168,9 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 
 ## Publications
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
-<samp>Regression Supervision for Instance Segmentation</samp>
+<a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> *&#126;10MB*
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
@@ -200,7 +183,6 @@ __Semi-supervised Instance Segmentation with a Learned Shape Prior__
 
 Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
-
 ## Language
 <tt>中文</tt> 
 <var>Chinese</var> <i>Native</i>
@@ -209,7 +191,7 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <var>English</var>  <i>Fluent</i>
 
 <tt>Deutsch</tt>
-<var>German</var> <i>Fluent, DSH-III Certificate *(sehr gut)*</i>
+<var>German</var> <i>Fluent, DSH-III *(sehr gut)*</i>
 
 <tt>日本語</tt>
 <var>Japanese</var> <i>Basic</i>

@@ -212,10 +212,10 @@ p strong {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline;
-	left: -37.5%;
+	display: inline-block;
+	left: 0%;
 	width: 95%;
-	line-height: 1.5em;
+	line-height: 1em;
 	text-align: left;
 }
 
@@ -223,10 +223,10 @@ p var {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline;
-	left: -37.5%;
-	width: 85%;
-	line-height: 1.5em;
+	display: inline-block;
+	left: 0%;
+	width: 65%;
+	line-height: 1em;
 	text-align: left;
 }
 
@@ -345,7 +345,7 @@ ii {
 	font-style: italic;
 	position: absolute;
 	text-align: left;
-	left: 25%;
+	left: 15%;
 	top: 0.2em;
 }
 
@@ -394,16 +394,16 @@ ii {
 
 					/* Bold Text */
 					p strong {
-						font-size: 1em;
+						font-size: 100%;
+						line-height: 150%;
 						font-weight: bold;
 						position: relative;
 						display: inline-block;
 						left: 0%;
 						width: 95%;
-						line-height: 0em;
-						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
-						text-align: left;
+						margin-top: 0.2rem;
+						-webkit-text-size-adjust: none;
 					}
 					p var {
 						font-size: 1em;
@@ -510,6 +510,7 @@ ii {
 
 					#language span{
 						font-size: 0.9em;
+						line-height: 160%;
 						display: block;
 						position: relative;
 						top: -6em;
@@ -601,10 +602,10 @@ ii {
 		font-size: 100%;
 		font-weight: bold;
 		position: relative;
-		display: inline;
-		left: -30.5%;
+		display: inline-block;
+		left: 0%;
 		width: 95%;
-		line-height: 1;
+		line-height: 1em;
 		text-align: left;
 	}
 
