@@ -184,7 +184,6 @@ p {
 	left: 37%; /* normal p */
 	margin-bottom: 0.5rem;
 	width: 65%;
-	-webkit-text-size-adjust: none;
 }
 p samp{
   font-weight: bold;
@@ -252,7 +251,6 @@ h1 {
 	width: 35%;
 	left: 37%;
 	display: inline-block;
-	-webkit-text-size-adjust: none;
 }
 
 /* B.Sc RWTH */
@@ -277,7 +275,6 @@ h2 {
 	top: 1.4rem;
 	text-align: right;
 	width: 20%;
-	-webkit-text-size-adjust: none;
 }
 
 /* link */
@@ -372,7 +369,6 @@ ii {
 						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
 						width: 85%;
-						-webkit-text-size-adjust: none;
 					}
 
 					/* year and month */
@@ -412,7 +408,6 @@ ii {
 						width: 95%;
 						margin-bottom: 0.2rem;
 						margin-top: 0.2rem;
-						-webkit-text-size-adjust: none;
 					}
 
 					/* Bold Text */
@@ -433,7 +428,6 @@ ii {
 						font-weight: 400;
 						font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 						width: 65%;
-						-webkit-text-size-adjust: none;
 					}
 
 					h1 {
