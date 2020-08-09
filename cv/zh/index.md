@@ -190,7 +190,7 @@ __叶片分割挑战第一名（ECCV2020 Workshop）__
 
 链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *用户名:LfB. 时间戳: 2020年6月28日*
 
-## Publications
+## 会议论文
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance__
 

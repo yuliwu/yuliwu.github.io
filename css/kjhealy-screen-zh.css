@@ -108,46 +108,70 @@ body {
 			font-size: 72%;
 		}
 }
-@media (max-width: 500px) and (min-width: 400px){
+@media (max-width: 500px) and (min-width: 470px){
 		html,
 		body {
 			font-size: 70%;
 		}
 }
-@media (max-width: 400px) and (min-width: 350px){
+@media (max-width: 470px) and (min-width: 440px){
 		html,
 		body {
 			font-size: 68%;
 		}
 }
-@media (max-width: 350px) and (min-width: 330px){
+@media (max-width: 440px) and (min-width: 410px){
 		html,
 		body {
-			font-size: 65%;
+			font-size: 66%;
 		}
 }
-@media (max-width: 330px) and (min-width: 300px){
+@media (max-width: 410px) and (min-width: 385px){
+		html,
+		body {
+			font-size: 64%;
+		}
+}
+@media (max-width: 385px) and (min-width: 361px){
 		html,
 		body {
 			font-size: 62%;
 		}
 }
+@media (max-width: 361px) and (min-width: 340px){
+		html,
+		body {
+			font-size: 60%;
+		}
+}
+@media (max-width: 340px) and (min-width: 325px){
+		html,
+		body {
+			font-size: 58%;
+		}
+}
+@media (max-width: 325px) and (min-width: 300px){
+		html,
+		body {
+			font-size: 50%;
+		}
+}
 @media (max-width: 300px) and (min-width: 280px){
 		html,
 		body {
-			font-size: 57%;
+			font-size: 48%;
 		}
 }
 @media (max-width: 280px) and (min-width: 240px){
 		html,
 		body {
-			font-size: 54%;
+			font-size: 46%;
 		}
 }
 @media (max-width: 240px){
 		html,
 		body {
-			font-size: 52%;
+			font-size: 40%;
 		}
 }
 
@@ -379,7 +403,7 @@ ii {
 						position: relative;
 						display: inline-grid;
 						left: 0%;
-						width: 75%;
+						width: 85%;
 						line-height: 0rem;
 						margin-bottom: 0.2rem;
 						margin-top: 0.2rem;
