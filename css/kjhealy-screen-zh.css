@@ -135,19 +135,19 @@ body {
 @media (max-width: 385px) and (min-width: 361px){
 		html,
 		body {
-			font-size: 62%;
+			font-size: 55%;
 		}
 }
 @media (max-width: 361px) and (min-width: 340px){
 		html,
 		body {
-			font-size: 60%;
+			font-size: 50%;
 		}
 }
 @media (max-width: 340px) and (min-width: 325px){
 		html,
 		body {
-			font-size: 58%;
+			font-size: 50%;
 		}
 }
 @media (max-width: 325px) and (min-width: 300px){
@@ -184,6 +184,7 @@ p {
 	left: 37%; /* normal p */
 	margin-bottom: 0.5rem;
 	width: 65%;
+	-webkit-text-size-adjust: none;
 }
 p samp{
   font-weight: bold;
@@ -192,8 +193,8 @@ p var {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline;
-	left: -35.5%;
+	display: inline-block;
+	left: 0%;
 	width: 65%;
 	line-height: 1em;
 	text-align: left;
@@ -203,11 +204,11 @@ p code {
 	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
-	position: relative;
-	display: inline-block;
-	left: -21%;
-	width: 35%;
-	text-align: left;
+	position: absolute;
+	display: inline;
+	left: -40%;
+	width: 30%;
+	text-align: right;
 }
 
 
@@ -215,11 +216,11 @@ p tt{
 	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
-	position: relative;
-	display: inline-block;
-	left: -21%;
-	width: 35%;
-	text-align: left;
+	position: absolute;
+	display: inline;
+	left: -40%;
+	width: 30%;
+	text-align: right;
 }
 
 /* Bold Text */
@@ -227,8 +228,8 @@ p strong {
 	font-size: 1em;
 	font-weight: bold;
 	position: relative;
-	display: inline;
-	left: -35.5%;
+	display: inline-block;
+	left: 0%;
 	width: 95%;
 	line-height: 1em;
 	text-align: left;
@@ -251,6 +252,7 @@ h1 {
 	width: 35%;
 	left: 37%;
 	display: inline-block;
+	-webkit-text-size-adjust: none;
 }
 
 /* B.Sc RWTH */
@@ -275,6 +277,7 @@ h2 {
 	top: 1.4rem;
 	text-align: right;
 	width: 20%;
+	-webkit-text-size-adjust: none;
 }
 
 /* link */
@@ -322,6 +325,7 @@ em {
 
 #language span{
 	font-size: 0.9em;
+	line-height: 200%;
 	display: block;
 	position: relative;
 	top: -7em;
@@ -368,6 +372,7 @@ ii {
 						margin-top: 0.2rem;
 						margin-bottom: 0.2rem;
 						width: 85%;
+						-webkit-text-size-adjust: none;
 					}
 
 					/* year and month */
@@ -398,23 +403,24 @@ ii {
 
 					/* Bold Text */
 					p strong {
-						font-size: 1em;
+						font-size: 100%;
+						line-height: 150%;
 						font-weight: bold;
 						position: relative;
-						display: inline-grid;
+						display: inline-block;
 						left: 0%;
-						width: 85%;
-						line-height: 0rem;
+						width: 95%;
 						margin-bottom: 0.2rem;
 						margin-top: 0.2rem;
-						text-align: left;
+						-webkit-text-size-adjust: none;
 					}
+
 					/* Bold Text */
 					p var {
 						font-size: 1em;
 						font-weight: bold;
 						position: relative;
-						display: inline-grid;
+						display: inline-block;
 						left: 0%;
 						width: 75%;
 						line-height: 0rem;
@@ -427,6 +433,7 @@ ii {
 						font-weight: 400;
 						font-family: 'Open Sans', 'Noto Sans SC', sans-serif;
 						width: 65%;
+						-webkit-text-size-adjust: none;
 					}
 
 					h1 {
@@ -456,7 +463,7 @@ ii {
 					}
 
 					h2 {
-						font-size: 1.05rem;
+						font-size: 1.2em;
 						color: #b91414;
 						margin-top: 1rem;
 						margin-bottom: 2rem;
@@ -513,11 +520,11 @@ ii {
 
 					#language span{
 						font-size: 0.9em;
+						line-height: 160%;
 						display: block;
 						position: relative;
-						top: -7em;     			/* language niveau */
+						top: -5.5em;     			/* language niveau */
 						text-align: right;
-						right:1em;
 						width: 20%;
 					}
 
@@ -577,8 +584,8 @@ ii {
 		font-size: 85%;
 		font-family: 'Source Code Pro', monospace;
 		color: #315572;
-		position: relative;
-		display: inline-block;
+		position: absolute;
+		display: inline;
 		left: -40%;
 		width: 30%;
 		text-align: right;
@@ -602,9 +609,9 @@ ii {
 		font-size: 100%;
 		font-weight: bold;
 		position: relative;
-		display: inline;
-		left: -30.5%;
-		width: 75%;
+		display: inline-block;
+		left: 0%;
+		width: 95%;
 		line-height: 1em;
 		text-align: left;
 	}
@@ -716,6 +723,7 @@ ii {
 	/* upleft corner*/
 	#language span{
 		font-size: 0.9em;
+		line-height: 160%;
 		display: block;
 		position: relative;
 		top: -3.5em;
