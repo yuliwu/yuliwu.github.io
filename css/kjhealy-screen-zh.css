@@ -205,7 +205,7 @@ p code {
 	color: #315572;
 	position: absolute;
 	display: inline;
-	left: -40%;
+	left: -37%;
 	width: 30%;
 	text-align: right;
 }
@@ -366,8 +366,8 @@ ii {
 						position: relative;
 						display: inline-block;
 						left: 12%; /* normal p */
-						margin-top: 0.2rem;
-						margin-bottom: 0.2rem;
+						margin-top: 0.2em;
+						margin-bottom: 0.2em;
 						width: 85%;
 					}
 
@@ -382,7 +382,7 @@ ii {
 						width: 75%;
 						text-align: left;
 						margin-top: 1em;
-						margin-bottom: 0.2rem;
+						margin-bottom: 0.2em;
 					}
 
 
@@ -406,8 +406,8 @@ ii {
 						display: inline-block;
 						left: 0%;
 						width: 95%;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
+						margin-bottom: 0.2em;
+						margin-top: 0.2em;
 					}
 
 					/* Bold Text */
@@ -418,9 +418,9 @@ ii {
 						display: inline-block;
 						left: 0%;
 						width: 75%;
-						line-height: 0rem;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
+						line-height: 0em;
+						margin-bottom: 0.2em;
+						margin-top: 0.2em;
 						text-align: left;
 					}
 
@@ -434,8 +434,8 @@ ii {
 						font-family: 'Zhi Mang Xing', cursive;
 					  padding-top: 1em;
 						text-align: left;
-						font-size: 6em;
-						line-height: 1rem;
+						font-size: 7em;
+						line-height: 1em;
 						position: relative;
 						width: 35%;
 						left: 28%;
@@ -457,10 +457,10 @@ ii {
 					}
 
 					h2 {
-						font-size: 1.2em;
+						font-size: 2.6em;
 						color: #b91414;
-						margin-top: 1rem;
-						margin-bottom: 2rem;
+						margin-top: 1em;
+						margin-bottom: 2em;
 						position: relative;
 						display: inline-block;
 						top: 1.4rem;
@@ -517,13 +517,15 @@ ii {
 						line-height: 160%;
 						display: block;
 						position: relative;
-						top: -5.5em;     			/* language niveau */
+						top: -6em;     			/* language niveau */
 						text-align: right;
 						width: 20%;
+						margin-top: 0.2em;
+						margin-bottom: 0.2em;
 					}
 
 					img {
-						width: 7%;
+						width: 15%;
 						height: auto;
 					}
 
@@ -555,7 +557,7 @@ ii {
 		position: relative;
 		display: inline-block;
 		left: 30%;
-		margin-bottom: 0.5em;
+		margin-bottom: 0.2em;
 		margin-top: 0.2em;
 		width: 75%;
 	}
@@ -568,7 +570,8 @@ ii {
 		position: relative;
 		display: inline-block;
 		left: 0%;
-		margin-bottom: 0.5em;
+		line-height: 0em;
+		margin-bottom: 0.2em;
 		margin-top: 0.2em;
 		width: 75%;
 		font-weight: bold;
@@ -606,8 +609,10 @@ ii {
 		display: inline-block;
 		left: 0%;
 		width: 95%;
-		line-height: 1em;
+		line-height: 150%;
 		text-align: left;
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
 	}
 
 

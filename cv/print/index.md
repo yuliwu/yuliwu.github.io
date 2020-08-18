@@ -6,7 +6,7 @@ title: Curriculum Vitae
 <br />
 <br />
 
-<p style="font-weight: bold; font-size: 120%;">Print Friendly PDFs</p>
+<p style="font-weight: bold; font-size: 120%;">Print Friendly PDFs. Last Update: June 2020 (not the latest version!)</p>
 <br />
 <br />
 

@@ -188,7 +188,7 @@ p code {
 	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	left: -21%;
 	width: 37%;
@@ -200,12 +200,13 @@ p tt{
 	font-size: 0.85em;
 	font-family: 'Source Code Pro', monospace;
 	color: #315572;
-	position: relative;
-	display: inline-block;
+	position: absolute;
+	display: inline;
 	left: -21%;
 	width: 37%;
 	text-align: left;
 }
+
 
 /* Bold Text */
 p strong {
@@ -226,9 +227,12 @@ p var {
 	display: inline-block;
 	left: 0%;
 	width: 65%;
-	line-height: 1em;
+	line-height: 0em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
 	text-align: left;
 }
+
 
 h1,h2,h3,h4 {
 	font-weight: 400;
@@ -345,7 +349,7 @@ ii {
 	font-style: italic;
 	position: absolute;
 	text-align: left;
-	left: 15%;
+	left: 25%;
 	top: 0.2em;
 }
 
@@ -357,12 +361,12 @@ ii {
 
 @media (max-width: 800px){
 				p {
-					font-size: 1.1em;
+					font-size: 1.2em;
 					position: relative;
 					display: inline-block;
 					left: 10%;
-					margin-top: 0.2rem;
-					margin-bottom: 0.2rem;
+					margin-top: 0.2em;
+					margin-bottom: 0.2em;
 					width: 85%;
 				}
 
@@ -377,7 +381,7 @@ ii {
 						width: 75%;
 						text-align: left;
 						margin-top: 1em;
-						margin-bottom: 0.2rem;
+						margin-bottom: 0.2em;
 					}
 
 					/* language name */
@@ -401,8 +405,8 @@ ii {
 						display: inline-block;
 						left: 0%;
 						width: 95%;
-						margin-bottom: 0.2rem;
-						margin-top: 0.2rem;
+						margin-bottom: 0.2em;
+						margin-top: 0.2em;
 					}
 					p var {
 						font-size: 1em;
@@ -412,8 +416,8 @@ ii {
 						left: 0%;
 						width: 90%;
 						line-height: 0em;
-						margin-top: 0.2rem;
-						margin-bottom: 0.2rem;
+						margin-top: 0.2em;
+						margin-bottom: 0.2em;
 						text-align: left;
 					}
 
@@ -427,8 +431,8 @@ ii {
 						font-family: 'Source Code Pro', monospace;
 					  padding-top: 1.5em;
 						text-align: left;
-						font-size: 4.1em;
-						line-height: 1rem;
+						font-size: 6.1em;
+						line-height: 1em;
 						position: relative;
 						width: 35%;
 						left: 25%;
@@ -445,18 +449,18 @@ ii {
 						text-align: left;
 						top:0em;
 						width: 30%;
-						left: 18%;
+						left: 28%;
 						display: inline-block;
 					}
 
 					h2 {
-						font-size: 1.05rem;
+						font-size: 3em;
 						color: #b91414;
-						margin-top: 1rem;
-						margin-bottom: 2rem;
+						margin-top: 1em;
+						margin-bottom: 2em;
 						position: relative;
 						display: inline-block;
-						top: 1.4rem;
+						top: 1.4em;
 						text-align: left;
 						left: 10%; 										/* p:: left */
 						width: 90%;
@@ -516,10 +520,12 @@ ii {
 						text-align: right;
 						right:0em;
 						width: 20%;
+						margin-top: 0.2em;
+						margin-bottom: 0.2em;
 					}
 
 					img {
-						width: 7%;
+						width: 16%;
 						height: auto;
 					}
 
@@ -561,24 +567,16 @@ ii {
 	  font-weight: bold;
 	}
 
-	p var {
-		font-size: 90%;
-		position: relative;
-		display: inline-block;
-		left: 0%;
-		margin-bottom: 0.5em;
-		margin-top: 0.2em;
-		width: 75%;
-		font-weight: bold;
-	}
 
 	/* year and month */
 	p code {
 		font-size: 85%;
 		font-family: 'Source Code Pro', monospace;
 		color: #315572;
-		position: relative;
-		display: inline-block;
+		position: absolute;
+		display: inline;
+		margin-top: 0em;
+		top: 0em;
 		left: -36%;
 		width: 30%;
 		text-align: right;
@@ -591,9 +589,20 @@ ii {
 		position: absolute;
 		display: inline;
 		top: 0em;
-		left: -37%;
+		left: -36%;
 		width: 30%;
 		text-align: right;
+	}
+
+	p var {
+		font-size: 100%;
+		position: relative;
+		display: inline-block;
+		left: 0%;
+		margin-bottom: 0.5em;
+		margin-top: 0.2em;
+		width: 75%;
+		font-weight: bold;
 	}
 
 	/* Bold Text */
@@ -603,8 +612,7 @@ ii {
 		position: relative;
 		display: inline-block;
 		left: 0%;
-		width: 95%;
-		line-height: 1em;
+		width: 85%;
 		text-align: left;
 	}
 
