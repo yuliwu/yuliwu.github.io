@@ -326,11 +326,14 @@ em {
 /* upleft corner*/
 #language span{
 	font-size: 0.9em;
+	line-height: 160%;
 	display: block;
 	position: relative;
 	top: -6em;
 	text-align: right;
 	width: 20%;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
 }
 
 img {
