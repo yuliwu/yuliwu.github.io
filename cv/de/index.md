@@ -175,7 +175,7 @@ Links: <a href="https://competitions.codalab.org/competitions/18405#results" tar
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
-<a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> *&#126;10MB*
+Links: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp10min.mp4" target="_blank">Video(8min)</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp60s.mp4" target="_blank">Poster(1min)</a>
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
