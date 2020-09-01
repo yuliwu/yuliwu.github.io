@@ -22,6 +22,6 @@ What you can do here:
 
 + Check a simple python implementation of <a href="https://gist.github.com/yuliwu/7b1e05952a0653d7877761d9eec3a200" target="_blank">Mutex Watershed</a>, a clustering algorithm.
 
-+ Read the <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Manuscript</a> (under review) for CVPPP'20, an ECCV'20 Workshop.
++ Read the <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> version (accepted at CVPPP'20, an ECCV'20 Workshop).
 
 + Last but not least, generously offer me a job after seeing my <a href="https://yuliwu.github.io/cv/" target="_blank">CV</a>.
