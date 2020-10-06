@@ -89,12 +89,12 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mar 2021`
-__SAP China Co., Ltd.__
+__SAP China Co., Ltd., Nanjing__
 
-Software Engineer Intern at SAP Nanjing Branch (Innovation Center Network)
+Software Engineer Intern at SAP Nanjing Innovation Center Network (ICN)
 
 
-## Project & Thesis
+## Projects & Theses
 `Apr 2017 - Jul 2017`
 __Project Kinect, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
