@@ -88,25 +88,12 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 助教，实验项目 MATLAB meets LEGO Mindstorms
 
+`2020年9月 - 2021年3月`
+__思爱普中国有限公司（SAP China Co., Ltd.）__
 
-## 实验项目和实习
+软件工程师实习，思爱普南京创新中心(SAP ICN Nanjing)
 
-`2015年12月`
-__MATLAB meets LEGO Mindstorms 实验项目__
-
-利用各种传感器搭建简易弹钢琴机器人
-
-人机交互所(MMI)，亚琛工业大学
-
-LEGO Mindstorms, MATLAB
-
-`2016年7月，2017年1月`
-__计算机编程实验项目__
-
-模拟包含不同交通工具的道路交通
-
-C, C++
-
+## 项目和毕设
 `2017年4月 - 2017年7月`
 __Project Kinect, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
@@ -143,13 +130,6 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 分析评阅基于深度学习的实例分割论文，30分钟英语演讲
 
 链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
-
-`2019年4月 - 2019年7月`
-__机器学习实验，图像和计算机视觉所(LfB)，亚琛工业大学__
-
-机器学习/深度学习实验
-
-Python, scikit-learn, PyTorch
 
 `2019年10月 - 2020年6月`
 __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__

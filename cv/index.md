@@ -88,24 +88,13 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
-## Project & Practice
+`Sep 2020 - Mar 2021`
+__SAP China Co., Ltd.__
 
-`Dec 2015`
-__Project MATLAB meets LEGO Mindstorms__
+Software Engineer Intern at SAP Nanjing Branch (Innovation Center Network)
 
-Build of a Simple Pianist Robot using Lego and Various Sensors
 
-Institute for Man and Machine Interaction (MMI), RWTH Aachen
-
-LEGO Mindstorms, MATLAB
-
-`Jul 2016 , Jan 2017`
-__Practice Computer Science Laboratory__
-
-Simulation of Street Traffic containing Various Types of Vehicles
-
-C, C++
-
+## Project & Thesis
 `Apr 2017 - Jul 2017`
 __Project Kinect, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
@@ -126,13 +115,6 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 
 `Oct 2018 - Jan 2019`
-__MATLAB Advanced Lab: Digital Signal Processing__
-
-Various Tasks like Filter Design, Efficient Programming, C API, Beamformer etc.
-
-MATLAB, Signal Processing, Digital Speech Transmission
-
-`Oct 2018 - Jan 2019`
 __Seminar: Image Processing and Content Analysis__
 
 "Semantic Instance Segmentation with a Discriminative Loss Function"
@@ -141,12 +123,6 @@ Review of Various Deep Learning Approaches of Instance Segmentation, 30min Prese
 
 Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
-`Apr 2019 - Jul 2019`
-__Machine Learning Laboratory__
-
-Various Practical Tasks of Machine Learning
-
-Python, scikit-learn, PyTorch
 
 `Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
