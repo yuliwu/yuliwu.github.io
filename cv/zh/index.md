@@ -160,6 +160,8 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
+*</u>Best Paper Honorable Mention</u>* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">证书</a>
+
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 `2020`

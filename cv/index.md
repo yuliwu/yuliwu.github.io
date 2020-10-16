@@ -60,7 +60,7 @@ M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
 with Specialisation of Computer Engineering
 
-## Work Experience
+## Work Experiences
 `Mar 2016 - Aug 2016`
 __TOP Technische Objektplanung GmbH__
 
@@ -156,6 +156,8 @@ Links: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank
 __Semi-supervised Instance Segmentation with a Learned Shape Prior__
 
 *MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
+
+*</u>Best Paper Honorable Mention</u>* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 
 Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
