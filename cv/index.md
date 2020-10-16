@@ -150,14 +150,14 @@ Links: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
+</u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
+
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 `2020`
 __Semi-supervised Instance Segmentation with a Learned Shape Prior__
 
 *MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
-
-*</u>Best Paper Honorable Mention</u>* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 
 Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 

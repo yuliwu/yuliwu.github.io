@@ -154,7 +154,7 @@ Links: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
-*</u>Best Paper Honorable Mention</u>* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Zertifikat</a>
+</u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Zertifikat</a>
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
