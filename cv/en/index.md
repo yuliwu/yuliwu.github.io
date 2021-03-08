@@ -25,7 +25,7 @@ I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-Member of RTG <a href="http://rtg2610.org" target="_blank">InnoRetVision</a> about Image Processing on Retinal Neuroprosthetics.
+Member of RTG <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> about Image Processing on Retinal Neuroprosthetics.
 
 
 ## Education
@@ -35,14 +35,14 @@ __RWTH Aachen University__
 
 B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
-with Specialisation of Computer Engineering  *(Completed within 6 Semesters)*
+with Specialization of Computer Engineering  *(Completed within 6 Semesters)*
 
 `Oct 2018 - Mar 2021`
 __RWTH Aachen University__
 
 M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
-with Specialisation of Computer Engineering
+with Specialization of Computer Engineering
 
 ## Work Experiences
 
