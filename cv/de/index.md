@@ -5,8 +5,6 @@ title: Lebenslauf
 
 <br />
 # Yuli Wu
-B.Sc. RWTH
-
 <div id="webaddress">
 <a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
 <!--( have a try, it really works 😹 )</p> -->
@@ -19,30 +17,13 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
 </div>
 
-## Interessen
+## Aktuell
 
-<samp>Machine Learning, Deep Learning, Computer Vision</samp>
+Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
 
-Signalverarbeitung, <samp>Biomedizinische / Industrielle / Landwirtschaftliche Bildverarbeitung</samp>
+Meine Arbeit umfasst Computer Vision und Biomedizinische Bildverarbeitung mit Deep Learning.
 
-Embedded System, Cyber-Physical System, Autonomes Fahren
-
-
-## Erfahrungen
-
-C, C++, MATLAB, <samp>Python</samp>
-
-numpy, OpenCV, scikit-image, matplotlib, seaborn
-
-scikit-learn, PyTorch, <samp>TensorFlow</samp>
-
-<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
-
-GitHub, GitLab
-
-MacOS, Ubuntu, Windows
-
-AutoCAD, Inventor, Simulink
+Mitglied vom GK <a href="http://rtg2610.org" target="_blank">InnoRetVision</a> über Bildverarbeitung in der Netzhautneuroprothetik.
 
 
 ## Schulbildung & Studium
@@ -62,10 +43,6 @@ M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
 mit Vertiefung Technische Informatik
 
 ## Berufserfahrungen
-`Mär 2016 - Aug 2016`
-__TOP Technische Objektplanung GmbH__
-
-Werkstudent, Brandmelderplanung mithilfe AutoCAD LT
 
 `Apr 2017 - Jul 2018`
 __Institut für Hochspannungstechnik (IFHT), RWTH Aachen__
@@ -90,18 +67,11 @@ __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 HiWi, Betreuung des Projekts MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mär 2021`
-__SAP China Co., Ltd.__
+__SAP SE__
 
-Praktikum bei SAP Nanjing Innovation Center Network als Softwareentwickler
+Praktikum bei SAP Innovation Center Network in Nanjing, China
 
 ## Projekte & Arbeiten
-`Apr 2017 - Jul 2017`
-__Projekt Kinect, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
-
-Bildverarbeitung für ein interaktives Shop-System: Erkennung des Produktes
-
-C++, OpenCV, Image Processing, SVM, Random Forest
-
 `Apr 2018 - Okt 2018`
 __Bachelorarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
@@ -111,17 +81,15 @@ Deutsch: "Konturverbesserung von Leukozytensegmentierungen in Aufnahmen von gef�
 
 Betreuer: Philipp Gräbel
 
-Python, OpenCV, scikit-image, matplotlib, LaTeX, 30min Vortrag auf Deutsch
-
 Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
 `Okt 2018 - Jan 2019`
 __Seminar, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
-"Bildverarbeitung und Inhaltsanalyse: Semantic Instance Segmentation"
+"Semantic Instance Segmentation with a Discriminative Loss Function"
 
-Review von Deep Learning Vorgehensweisen in Instance Segmentation, 30min Vortrag auf Englisch
+Deutsch: "Bildverarbeitung und Inhaltsanalyse: Semantic Instance Segmentation"
 
 Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
@@ -135,18 +103,23 @@ Deutsch: "Instanzsegmentierung dichter Objeckte mittels Deep-Pixel-Embeddings"
 
 Betreuer: Long Chen
 
-Python, TensorFlow, 2x30min (zwischen und final) Vortrag auf Englisch
-
 Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* 
 
 `Jun 2020`
 __No.1 in Leaf Segmentation Challenge Leaderboard (ECCV Workshop)__
 
-Die Ergebnisse meiner Instanzsegmentierung übertrafen alle anderen Teilnehmer *bzgl. BestDice*
+Bei der Abgabefrist. Die Ergebnisse *bzgl. BestDice* mit *Username:LfB*.
 
 Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Letzte Prüfung: 28 Jun 2020*
 
 ## Veröffentlichungen
+`2021`
+__Object Detection Based Handwriting Localization__
+
+*Unpublished*
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 

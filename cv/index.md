@@ -5,8 +5,6 @@ title: Curriculum Vitae
 
 <br />
 # Yuli Wu
-B.Sc. RWTH
-
 <div id="webaddress">
 <a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
 <!--( have a try, it really works 😹 )</p> -->
@@ -18,30 +16,16 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
 </div>
 
-## Interested in
+## Currently
 
-<samp>Machine Learning, Deep Learning, Computer Vision</samp>
+`May 2021 - now`
+__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-Signal Processing, <samp>Biomedical/Industrial/Agricultural Image Processing</samp>
+I am a PhD Student and Research Scientist.
 
-Embedded System, Cyber-Physical System, Autonomous Driving
+My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-
-## Experienced in
-
-C, C++, MATLAB, <samp>Python</samp>
-
-numpy, OpenCV, scikit-image, matplotlib, seaborn
-
-scikit-learn, keras, PyTorch, <samp>TensorFlow</samp>
-
-<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
-
-GitHub, GitLab
-
-MacOS, Ubuntu, Windows
-
-AutoCAD, Inventor, Simulink
+Member of RTG <a href="http://rtg2610.org" target="_blank">InnoRetVision</a> about Image Processing on Retinal Neuroprosthetics.
 
 
 ## Education
@@ -53,7 +37,7 @@ B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
 with Specialisation of Computer Engineering  *(Completed within 6 Semesters)*
 
-`Oct 2018 - now`
+`Oct 2018 - Mar 2021`
 __RWTH Aachen University__
 
 M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
@@ -61,10 +45,6 @@ M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 with Specialisation of Computer Engineering
 
 ## Work Experiences
-`Mar 2016 - Aug 2016`
-__TOP Technische Objektplanung GmbH__
-
-Working Student, Assistant of Fire Alarm Plan using AutoCAD LT
 
 `Apr 2017 - Jul 2018`
 __Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
@@ -89,18 +69,12 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mar 2021`
-__SAP China Co., Ltd., Nanjing__
+__SAP SE__
 
-Software Engineer Intern at SAP Nanjing Innovation Center Network (ICN)
+Intern at SAP Innovation Center Network in Nanjing, China
 
 
 ## Projects & Theses
-`Apr 2017 - Jul 2017`
-__Project Kinect, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
-
-Classification of Localised Objects in an Vision-based Autonomous Store using Kinect
-
-C++, OpenCV, Image Processing, SVM, Random Forest
 
 `Apr 2018 - Oct 2018`
 __Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
@@ -109,8 +83,6 @@ __Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Supervisor: Philipp Gräbel
 
-Python, OpenCV, scikit-image, matplotlib, LaTeX, 30min Presentation in German
-
 Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
@@ -118,8 +90,6 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 __Seminar: Image Processing and Content Analysis__
 
 "Semantic Instance Segmentation with a Discriminative Loss Function"
-
-Review of Various Deep Learning Approaches of Instance Segmentation, 30min Presentation in English
 
 Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
@@ -131,18 +101,23 @@ __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Supervisor: Long Chen
 
-Python, TensorFlow, 2x30min (Interim & Final) Presentation in English
-
 Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
 
 `Jun 2020`
-__No.1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
+__Ranked #1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
-The Proposed Instance Segmentation Results Outperformed All Other Participants *w.r.t. BestDice*
+By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
 
-Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *Username:LfB. Last Check: 28 Jun 2020*
+Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> 
 
 ## Publications
+`2021`
+__Object Detection Based Handwriting Localization__
+
+*Unpublished*
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
