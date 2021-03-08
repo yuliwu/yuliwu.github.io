@@ -19,11 +19,14 @@ title: Lebenslauf
 
 ## Aktuell
 
+`May 2021 - now`
+__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
+
 Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
 
 Meine Arbeit umfasst Computer Vision und Biomedizinische Bildverarbeitung mit Deep Learning.
 
-Mitglied vom GK <a href="http://rtg2610.org" target="_blank">InnoRetVision</a> über Bildverarbeitung in der Netzhautneuroprothetik.
+Mitglied vom GK <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> über Bildverarbeitung in der Netzhautneuroprothetik.
 
 
 ## Schulbildung & Studium

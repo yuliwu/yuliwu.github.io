@@ -25,7 +25,7 @@ I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-Member of RTG <a href="http://rtg2610.org" target="_blank">InnoRetVision</a> about Image Processing on Retinal Neuroprosthetics.
+Member of RTG <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> about Image Processing on Retinal Neuroprosthetics.
 
 
 ## Education
