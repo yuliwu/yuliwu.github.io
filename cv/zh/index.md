@@ -26,7 +26,7 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 研究方向：基于深度学习的计算机视觉和生物医学图像处理。
 
-德国自然科学基金会项目<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>成员，负责视网膜神经假体的图像处理。
+德国自然科学基金会项目 <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> 成员，负责视网膜神经假体的图像处理。
 
 
 ## 教育
