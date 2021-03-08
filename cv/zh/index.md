@@ -5,8 +5,6 @@ title: 简历
 
 <br />
 # 吴玉立
-B.Sc. RWTH
-
 <div id="webaddress">
 <a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
 <!--( have a try, it really works 😹 )</p> -->
@@ -19,30 +17,14 @@ B.Sc. RWTH
 <span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>
 </div>
 
-## 感兴趣
+## 当前职位
 
-<samp>机器学习，深度学习，计算机视觉</samp>
+`2021年5月 至今`
+__图像和计算机视觉所(LfB)，亚琛工业大学__
 
-信号处理， <samp>生物医学 / 工业 / 农业图像处理</samp>
+博士在读，科研助理，教学助理。研究方向：基于深度学习的计算机视觉和生物医学图像处理。
 
-嵌入式系统，网络实体系统，自动驾驶
-
-
-## 有经验
-
-C, C++, MATLAB, <samp>Python</samp>
-
-numpy, OpenCV, scikit-image, matplotlib, seaborn
-
-scikit-learn, PyTorch, <samp>TensorFlow</samp>
-
-<samp>LaTeX</samp>, TikZ, Markdown, iWork, Microsoft Office, HTML, <samp>jekyll</samp>
-
-GitHub, GitLab
-
-MacOS, Ubuntu, Windows
-
-AutoCAD, Inventor, Simulink
+德国自然科学基金会项目<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>成员，负责视网膜神经假体的图像处理。
 
 
 ## 教育
@@ -54,12 +36,12 @@ __亚琛工业大学__
 
 计算机工程方向  *(六学期毕业)*
 
-`2018年10月 至今`
+`2018年10月 - 2021年3月`
 __亚琛工业大学__
 
 硕士 - 电气工程、信息技术和计算机工程专业
 
-计算机工程方向 *(在读)*
+计算机工程方向 
 
 ## 工作经历
 
@@ -91,7 +73,7 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 `2020年9月 - 2021年3月`
 __思爱普中国有限公司（SAP China Co., Ltd.）__
 
-软件工程师实习，思爱普南京创新中心(SAP ICN Nanjing)
+实习生，思爱普南京创新中心(SAP ICN Nanjing)
 
 ## 项目和毕设
 `2017年4月 - 2017年7月`
@@ -110,8 +92,6 @@ __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
 导师: Philipp Gräbel
 
-Python, OpenCV, scikit-image, matplotlib, LaTeX, 30分钟德语演讲
-
 链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
@@ -127,8 +107,6 @@ __研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "图像处理和内容分析：语义实例分割"
 
-分析评阅基于深度学习的实例分割论文，30分钟英语演讲
-
 链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
 `2019年10月 - 2020年6月`
@@ -140,19 +118,24 @@ __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 导师: Long Chen
 
-Python, TensorFlow, 2x30分钟英语演讲(中期答辩/总答辩)
-
 链接:  <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* 
 
 
 `2020年6月`
 __叶片分割挑战第一名（ECCV Workshop）__
 
-实例分割结果优于所有其他参与者 *（基于BestDice）*
+至论文提交截止日。结果基于 *BestDice* ，用户名 *LfB* .
 
-链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> *用户名:LfB. 时间戳: 2020年6月28日*
+链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
 ## 会议论文
+`2021`
+__Object Detection Based Handwriting Localization__
+
+*Unpublished*
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
 
