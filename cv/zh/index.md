@@ -14,7 +14,7 @@ title: 简历
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>
+<!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>-->
 </div>
 
 ## 当前职位
@@ -26,7 +26,7 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 研究方向：基于深度学习的计算机视觉和生物医学图像处理。
 
-德国自然科学基金会项目 <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> 成员，负责视网膜神经假体的图像处理。
+德国自然科学基金会项目&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;成员，负责视网膜神经假体的图像处理。
 
 
 ## 教育
@@ -135,7 +135,7 @@ __Object Detection Based Handwriting Localization__
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
 
 <u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">证书</a>
 
