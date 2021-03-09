@@ -13,7 +13,7 @@ title: Curriculum Vitae
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
+<!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
 ## Currently
@@ -25,7 +25,8 @@ I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-Member of RTG <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> about Image Processing on Retinal Neuroprosthetics.
+I am member of &nbsp;<a href="http://rtg2610.org" target="_blank">this</a>&nbsp;DFG program, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
+
 
 
 ## Education
@@ -119,7 +120,7 @@ __Object Detection Based Handwriting Localization__
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
 
 <u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 

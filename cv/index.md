@@ -13,7 +13,7 @@ title: Curriculum Vitae
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
 <span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
-<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>
+<!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
 ## Currently
@@ -21,11 +21,11 @@ title: Curriculum Vitae
 `May 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and Research Scientist,
-
-and member of DFG program &nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>, dealing with Image Processing in Retinal Neuroprosthetics.
+I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
+
+I am member of &nbsp;<a href="http://rtg2610.org" target="_blank">this</a>&nbsp;DFG program, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
 
 
 
