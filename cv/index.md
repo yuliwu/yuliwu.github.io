@@ -21,11 +21,12 @@ title: Curriculum Vitae
 `May 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and Research Scientist.
+I am a PhD Student and Research Scientist,
+
+and member of DFG program &nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>, dealing with Image Processing in Retinal Neuroprosthetics.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-Member of RTG <a href="http://rtg2610.org" target="_blank"> InnoRetVision </a> about Image Processing on Retinal Neuroprosthetics.
 
 
 ## Education
@@ -119,7 +120,7 @@ __Object Detection Based Handwriting Localization__
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
 `2020`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for Instance Segmentation__
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
 
 <u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 
