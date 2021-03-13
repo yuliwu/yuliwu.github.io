@@ -11,7 +11,7 @@ title: Curriculum Vitae
 </div>
 <div id="language">
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
-<span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
+<span><a href="https://yuliwu.github.io/cv/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
@@ -25,7 +25,7 @@ I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-I am member of &nbsp;<a href="http://rtg2610.org" target="_blank">this</a>&nbsp;DFG program, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
+I am member of&nbsp;<a href="http://rtg2610.org" target="_blank">this</a>&nbsp;DFG program, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
 
 
 
@@ -109,11 +109,13 @@ __Ranked #1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
 By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
 
-Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> 
+Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> 
 
 ## Publications
 `2021`
 __Object Detection Based Handwriting Localization__
+
+Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a>
 
 *Unpublished*
 
@@ -165,4 +167,4 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <br />
 <br />
 <!--
-Last updated: Jun 2020 -->
+Last updated: Mar 2021 -->

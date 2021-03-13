@@ -12,14 +12,14 @@ title: Lebenslauf
 
 <div id="language">
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
-<span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
+<span><a href="https://yuliwu.github.io/cv/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
 ## Aktuell
 
-`May 2021 - now`
+`Mai 2021 - jetzt`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
@@ -113,11 +113,13 @@ __No.1 in Leaf Segmentation Challenge Leaderboard (ECCV Workshop)__
 
 Bei der Abgabefrist. Die Ergebnisse *bzgl. BestDice* mit *Username:LfB* .
 
-Links: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
+Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
 ## Veröffentlichungen
 `2021`
 __Object Detection Based Handwriting Localization__
+
+Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a>
 
 *Unpublished*
 

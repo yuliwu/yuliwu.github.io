@@ -12,7 +12,7 @@ title: 简历
 
 <div id="language">
 <span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
-<span><a href="https://yuliwu.github.io/cv/en/">English</a></span>
+<span><a href="https://yuliwu.github.io/cv/">English</a></span>
 <span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>-->
 </div>
@@ -129,6 +129,8 @@ __叶片分割挑战第一名（ECCV Workshop）__
 ## 会议论文
 `2021`
 __Object Detection Based Handwriting Localization__
+
+链接: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a>
 
 *Unpublished*
 
