@@ -130,7 +130,7 @@ __叶片分割挑战第一名（ECCV Workshop）__
 `2021`
 __Object Detection Based Handwriting Localization__
 
-链接: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a>
+链接: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
 
 *Unpublished*
 

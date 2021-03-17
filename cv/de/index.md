@@ -119,7 +119,7 @@ Link: <a href="https://competitions.codalab.org/competitions/18405#results" targ
 `2021`
 __Object Detection Based Handwriting Localization__
 
-Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a>
+Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
 
 *Unpublished*
 
