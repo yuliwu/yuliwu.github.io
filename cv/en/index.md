@@ -70,7 +70,7 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mar 2021`
-__SAP SE__
+__SAP__
 
 Intern at SAP Innovation Center Network in Nanjing, China
 

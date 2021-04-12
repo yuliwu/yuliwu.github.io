@@ -70,7 +70,7 @@ __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 HiWi, Betreuung des Projekts MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mär 2021`
-__SAP SE__
+__SAP__
 
 Praktikum bei SAP Innovation Center Network in Nanjing, China
 

@@ -55,7 +55,7 @@ Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
 Teaching Assistant of Practice Metrological Laboratory for 1 Semester
 
 `Oct 2017 - Mar 2019`
-__Nuance Communications Aachen GmbH__
+__Nuance Communications (acquired by Microsoft)__
 
 Working Student, Translation and Test for in-car Voice-Control-System
 
@@ -70,7 +70,7 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
 `Sep 2020 - Mar 2021`
-__SAP SE__
+__SAP__
 
 Intern at SAP Innovation Center Network in Nanjing, China
 
