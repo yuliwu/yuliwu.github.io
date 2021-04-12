@@ -55,7 +55,7 @@ HiWi, Betreuung des Praktikums Elektrotechnik für 2 Semester, und
 HiWi, Betreuung des Praktikums Messtechnisches Labor für 1 Semester
 
 `Okt 2017 - Mär 2019`
-__Nuance Communications Aachen GmbH__
+__Nuance Communications (übernommen von Microsoft)__
 
 Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
 

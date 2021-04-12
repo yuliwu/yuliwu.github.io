@@ -26,7 +26,7 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 研究方向：基于深度学习的计算机视觉和生物医学图像处理。
 
-德国自然科学基金会项目&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;成员，负责视网膜神经假体的图像处理。
+德国科学基金会项目&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;成员，负责视网膜神经假体的图像处理。
 
 
 ## 教育
@@ -58,7 +58,7 @@ __高压电所(IFHT)，亚琛工业大学__
 助教，电路实验（电气专业）和测量技术实验（机械专业），持续三学期
 
 `2017年10月 - 2019年3月`
-__Nuance Communications Aachen GmbH__
+__Nuance Communications (后被微软收购)__
 
 学生兼职, 翻译和测试车载语音控制系统
 

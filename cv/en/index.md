@@ -55,7 +55,7 @@ Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
 Teaching Assistant of Practice Metrological Laboratory for 1 Semester
 
 `Oct 2017 - Mar 2019`
-__Nuance Communications Aachen GmbH__
+__Nuance Communications (acquired by Microsoft)__
 
 Working Student, Translation and Test for in-car Voice-Control-System
 
