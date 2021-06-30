@@ -18,10 +18,10 @@ title: Curriculum Vitae
 
 ## Currently
 
-`May 2021 - now`
+`Jul 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and Research Scientist.
+I am a 1st-year PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
@@ -109,7 +109,7 @@ __Ranked #1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
 By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
 
-Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> 
+Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
 ## Publications
 `2021`
@@ -117,7 +117,7 @@ __Object Detection Based Handwriting Localization__
 
 Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
 
-*Unpublished*
+*ICDAR Workshop on Industrial Applications of Document Analysis and Recognition*
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
@@ -140,7 +140,7 @@ __Semi-supervised Instance Segmentation with a Learned Shape Prior__
 Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 ## Language
-<tt>中文</tt> 
+<tt>中文</tt>
 <var>Chinese</var> <i>Native</i>
 
 <tt>English</tt>
@@ -167,4 +167,4 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <br />
 <br />
 <!--
-Last updated: Mar 2021 -->
+Last updated: Jul 2021 -->

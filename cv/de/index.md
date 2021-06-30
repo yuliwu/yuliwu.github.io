@@ -19,7 +19,7 @@ title: Lebenslauf
 
 ## Aktuell
 
-`Mai 2021 - jetzt`
+`Jul 2021 - jetzt`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
@@ -106,7 +106,7 @@ Deutsch: "Instanzsegmentierung dichter Objeckte mittels Deep-Pixel-Embeddings"
 
 Betreuer: Long Chen
 
-Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB* 
+Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
 
 `Jun 2020`
 __No.1 in Leaf Segmentation Challenge Leaderboard (ECCV Workshop)__
@@ -121,7 +121,7 @@ __Object Detection Based Handwriting Localization__
 
 Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
 
-*Unpublished*
+*ICDAR Workshop on Industrial Applications of Document Analysis and Recognition*
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
