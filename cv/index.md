@@ -21,7 +21,7 @@ title: Curriculum Vitae
 `Jul 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a 1st-year PhD Student and Research Scientist.
+I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
