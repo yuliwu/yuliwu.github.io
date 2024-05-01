@@ -141,8 +141,11 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 ## Hobbies
 
 I play the piano and post some classical pieces to <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform).
+
 I was the keyboard of the rock band <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>. 
-I design <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>. 
+
+I design <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>.
+ 
 I shoot with analog films and own a second-hand Leica M6 made in 1985.
 
 <br />

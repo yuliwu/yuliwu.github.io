@@ -130,51 +130,8 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 <u>Yuli Wu</u> et al.
 
-`2023`
-__A deep learning-based in silico framework for optimization on retinal prosthetic stimulation__
+<a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
-*IEEE EMBC*
-
-<u>Yuli Wu</u> et al.
-
-`2023`
-__SortedAP: Rethinking evaluation metrics for instance segmentation__
-
-*ICCV Workshop*
-
-Long Chen, <u>Yuli Wu</u>, Johannes Stegmaier, Dorit Merhof
-
-`2022`
-__Multiscale Softmax Cross Entropy for Fovea Localization on Color Fundus Photography__
-
-*Bildverarbeitung für die Medizin*
-
-<u>Yuli Wu</u>, Peter Walter, Dorit Merhof
-
-`2022`
-__Instance Segmentation of Dense and Overlapping Objects via Layering__
-
-*33rd British Machine Vision Conference (BMVC)*
-
-Long Chen, <u>Yuli Wu</u>, Dorit Merhof
-
-`2021`
-__Object Detection Based Handwriting Localization__
-
-<u>Innovation Information Sessions</u>: <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">SAP Internal Talk</a>
-
-*ICDAR Workshop on Document Analysis and Recognition*
-
-<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
-
-`2020`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
-
-<u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
-
-*ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
-
-<u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 
 ## 语言
@@ -200,7 +157,9 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## 业余爱好
 
-我在<a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a>上发布一些我弹的古典音乐钢琴作品，曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手。我偶尔设计图标<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>。 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
+我在<a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a>上发布一些我弹的古典音乐钢琴作品，曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手。
+
+我偶尔设计图标<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>。 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
 
 
 <br />
