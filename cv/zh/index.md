@@ -197,6 +197,12 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <tt>2016年9月</tt>
 <var>中国驾照</var> <ii>C1</ii>
+
+## 业余爱好
+
+我在<a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a>上发布一些我弹的古典音乐钢琴作品，曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手。我偶尔设计图标<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>。 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
+
+
 <br />
 <br />
 <br />

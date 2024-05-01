@@ -196,6 +196,11 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <tt>Sep 2016</tt>
 <var>Chinesischer Führerschein</var> <ii>C1</ii>
 
+## Hobbies
+
+Ich spiele Klavier und stelle einige klassische Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform) ein und war das Keyboard der Rockband <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>. Ich entwerfe <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus dem Jahr 1985.
+
+
 <br />
 <br />
 <br />
