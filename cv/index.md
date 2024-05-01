@@ -18,10 +18,10 @@ title: Curriculum Vitae
 
 ## Currently
 
-`Jul 2021 - 2025 (expected)`
+`Jul 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and Research Scientist.
+I am a PhD Student and expect to graduate in late 2025.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
@@ -94,13 +94,6 @@ By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
 
 Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
-`Oct 2018 - Jan 2019`
-__Seminar: Image Processing and Content Analysis__
-
-"Semantic Instance Segmentation with a Discriminative Loss Function"
-
-Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
-
 `Apr 2018 - Oct 2018`
 __Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
@@ -113,7 +106,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Publications
 
-<a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
 ## Language
