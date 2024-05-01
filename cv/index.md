@@ -113,7 +113,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Publications
 
-<a href="https://scholar.google.de/citations?user=qlun0AgAAAAJ&hl=en" target="_blank">Google Scholar</a>  
+<a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
 ## Language
