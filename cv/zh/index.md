@@ -19,7 +19,7 @@ title: 简历
 
 ## 当前职位
 
-`2021年7月 至今`
+`2021年7月 - 2025年 (预计)`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 博士在读，科研助理，教学助理。
@@ -47,20 +47,10 @@ __亚琛工业大学__
 
 ## 工作经历
 
-`2016年3月 - 2016年8月`
-__TOP Technische Objektplanung GmbH__
+`2020年9月 - 2021年3月`
+__思爱普中国有限公司（SAP China Co., Ltd.）__
 
-学生兼职, 用 AutoCAD LT 设计烟雾报警器等消防设备布局
-
-`2017年4月 - 2018年7月`
-__高压电所(IFHT)，亚琛工业大学__
-
-助教，电路实验（电气专业）和测量技术实验（机械专业），持续三学期
-
-`2017年10月 - 2019年3月`
-__Nuance Communications (后被微软收购)__
-
-学生兼职, 翻译和测试车载语音控制系统
+实习生，思爱普南京创新中心 (SAP ICN Nanjing)
 
 `2019年7月 - 2020年4月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -72,40 +62,18 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 助教，实验项目 MATLAB meets LEGO Mindstorms
 
-`2020年9月 - 2021年3月`
-__思爱普中国有限公司（SAP China Co., Ltd.）__
+`2017年10月 - 2019年3月`
+__Nuance Communications (后被微软收购)__
 
-实习生，思爱普南京创新中心 (SAP ICN Nanjing)
+学生兼职, 翻译和测试车载语音控制系统
+
+`2017年4月 - 2018年7月`
+__高压电所(IFHT)，亚琛工业大学__
+
+助教，电路实验（电气专业）和测量技术实验（机械专业），持续三学期
+
 
 ## 项目和毕设
-`2017年4月 - 2017年7月`
-__Project Kinect, 图像和计算机视觉所(LfB)，亚琛工业大学__
-
-利用Kinect基于视觉的无人售货店商品分类
-
-`2018年4月 - 2018年10月`
-__本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
-
-"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
-
-「染色脊髓扫描下白细胞分割的轮廓优化」
-
-导师: Philipp Gräbel
-
-链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
-
-
-`2018年10月 - 2019年1月`
-__MATLAB进阶实验：通信系统所(IKS)，亚琛工业大学__
-
-包含不同实验，如滤波器设计，高效编程，C API，波束赋形等
-
-`2018年10月 - 2019年1月`
-__研讨会，图像和计算机视觉所(LfB)，亚琛工业大学__
-
-"图像处理和内容分析：语义实例分割"
-
-链接: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
 
 `2019年10月 - 2020年6月`
 __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -126,33 +94,87 @@ __叶片分割挑战第一名（ECCV Workshop）__
 
 链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
-## 会议论文
+
+`2018年4月 - 2018年10月`
+__本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
+
+"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
+
+「染色脊髓扫描下白细胞分割的轮廓优化」
+
+导师: Philipp Gräbel
+
+链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
+
+
+## 论文
+
+`2024`
+__Saswot: Real-time semantic segmentation architecture search without training__
+
+*AAAI*
+
+Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+
+`2024`
+__Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
+
+*arXiv preprint arXiv:2403.04884*
+
+<u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
+
+`2024`
+__Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer Segmentation__
+
+*IEEE ISBI (Oral)*
+
+<u>Yuli Wu</u> et al.
+
+`2023`
+__A deep learning-based in silico framework for optimization on retinal prosthetic stimulation__
+
+*IEEE EMBC*
+
+<u>Yuli Wu</u> et al.
+
+`2023`
+__SortedAP: Rethinking evaluation metrics for instance segmentation__
+
+*ICCV Workshop*
+
+Long Chen, <u>Yuli Wu</u>, Johannes Stegmaier, Dorit Merhof
+
+`2022`
+__Multiscale Softmax Cross Entropy for Fovea Localization on Color Fundus Photography__
+
+*Bildverarbeitung für die Medizin*
+
+<u>Yuli Wu</u>, Peter Walter, Dorit Merhof
+
+`2022`
+__Instance Segmentation of Dense and Overlapping Objects via Layering__
+
+*33rd British Machine Vision Conference (BMVC)*
+
+Long Chen, <u>Yuli Wu</u>, Dorit Merhof
+
 `2021`
 __Object Detection Based Handwriting Localization__
 
-链接: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
+<u>Innovation Information Sessions</u>: <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">SAP Internal Talk</a>
 
-*ICDAR Workshop on Industrial Applications of Document Analysis and Recognition*
+*ICDAR Workshop on Document Analysis and Recognition*
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
 `2020`
 __Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
 
-<u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">证书</a>
-
-链接: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> *&#126;3MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp10min.mp4" target="_blank">Video(8min)</a> *&#126;70MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp60s.mp4" target="_blank">Poster(1min)</a> *&#126;20MB*
+<u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
-
-`2020`
-__Semi-supervised Instance Segmentation with a Learned Shape Prior__
-
-*MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
-
-Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 
 ## 语言
@@ -164,9 +186,6 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 <tt>Deutsch</tt>
 <var>德语</var> <i>流利, DSH-III 证书 *(sehr gut)*</i>
-
-<tt>日本語</tt>
-<var>日语</var> <i>基础</i>
 
 <tt>Français</tt>
 <var>法语</var> <i>基础</i>
@@ -183,4 +202,4 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <br />
 <br />
 <!--
-Last updated: Aug 2020 -->
+Last updated: May 2024 -->

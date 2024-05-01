@@ -25,18 +25,11 @@ I am a PhD Student and Research Scientist.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-I am member of&nbsp;<a href="http://rtg2610.org" target="_blank">this</a>&nbsp;DFG program, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
+I am member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
 
 
 
 ## Education
-
-`Oct 2015 - Sep 2018`
-__RWTH Aachen University__
-
-B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
-
-with Specialization of Computer Engineering  *(Completed within 6 Semesters)*
 
 `Oct 2018 - Mar 2021`
 __RWTH Aachen University__
@@ -45,19 +38,19 @@ M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
 with Specialization of Computer Engineering
 
+`Oct 2015 - Sep 2018`
+__RWTH Aachen University__
+
+B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
+
+with Specialization of Computer Engineering  *(Completed within 6 Semesters)*
+
 ## Work Experiences
 
-`Apr 2017 - Jul 2018`
-__Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
+`Sep 2020 - Mar 2021`
+__SAP__
 
-Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
-
-Teaching Assistant of Practice Metrological Laboratory for 1 Semester
-
-`Oct 2017 - Mar 2019`
-__Nuance Communications (acquired by Microsoft)__
-
-Working Student, Translation and Test for in-car Voice-Control-System
+Intern at SAP Innovation Center Network in Nanjing, China
 
 `Jul 2019 - Apr 2020`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
@@ -69,36 +62,26 @@ __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
-`Sep 2020 - Mar 2021`
-__SAP__
+`Oct 2017 - Mar 2019`
+__Nuance Communications (acquired by Microsoft)__
 
-Intern at SAP Innovation Center Network in Nanjing, China
+Working Student, Translation and Test for in-car Voice-Control-System
+
+`Apr 2017 - Jul 2018`
+__Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
+
+Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
+
+Teaching Assistant of Practice Metrological Laboratory for 1 Semester
+
 
 
 ## Projects & Theses
 
-`Apr 2018 - Oct 2018`
-__Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
-
-"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
-
-Supervisor: Philipp Gräbel
-
-Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
-
-
-`Oct 2018 - Jan 2019`
-__Seminar: Image Processing and Content Analysis__
-
-"Semantic Instance Segmentation with a Discriminative Loss Function"
-
-Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
-
-
 `Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-"Instance Segmentation of Dense Objects via Deep Pixel Embedding" *(1,0)*
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding" 
 
 Supervisor: Long Chen
 
@@ -109,15 +92,81 @@ __Ranked #1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
 By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
 
-Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a> 
+Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
+
+`Oct 2018 - Jan 2019`
+__Seminar: Image Processing and Content Analysis__
+
+"Semantic Instance Segmentation with a Discriminative Loss Function"
+
+Links: <a href="https://yuliwu.github.io/cloud/seminar-doc/Document.pdf" target="_blank">Document</a> *&#126;6MB* &emsp;&emsp;<a href="https://yuliwu.github.io/cloud/slides/" target="_blank">Slides</a> *&#126;40MB*
+
+`Apr 2018 - Oct 2018`
+__Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+
+"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
+
+Supervisor: Philipp Gräbel
+
+Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 ## Publications
+
+`2024`
+__Saswot: Real-time semantic segmentation architecture search without training__
+
+*AAAI*
+
+Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+
+`2024`
+__Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
+
+*arXiv preprint arXiv:2403.04884*
+
+<u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
+
+`2024`
+__Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer Segmentation__
+
+*IEEE ISBI (Oral)*
+
+<u>Yuli Wu</u> et al.
+
+`2023`
+__A deep learning-based in silico framework for optimization on retinal prosthetic stimulation__
+
+*IEEE EMBC*
+
+<u>Yuli Wu</u> et al.
+
+`2023`
+__SortedAP: Rethinking evaluation metrics for instance segmentation__
+
+*ICCV Workshop*
+
+Long Chen, <u>Yuli Wu</u>, Johannes Stegmaier, Dorit Merhof
+
+`2022`
+__Multiscale Softmax Cross Entropy for Fovea Localization on Color Fundus Photography__
+
+*Bildverarbeitung für die Medizin*
+
+<u>Yuli Wu</u>, Peter Walter, Dorit Merhof
+
+`2022`
+__Instance Segmentation of Dense and Overlapping Objects via Layering__
+
+*33rd British Machine Vision Conference (BMVC)*
+
+Long Chen, <u>Yuli Wu</u>, Dorit Merhof
+
 `2021`
 __Object Detection Based Handwriting Localization__
 
-Link: <a href="https://yuliwu.github.io/cloud/pub/Wu21A.pdf" target="_blank">Paper</a> &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a>
+<u>Innovation Information Sessions</u>: <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">SAP Internal Talk</a>
 
-*Unpublished*
+*ICDAR Workshop on Document Analysis and Recognition*
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
@@ -126,18 +175,10 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Best Paper Honorable Mention</u> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Certificate</a>
 
-Links: <a href="https://yuliwu.github.io/cloud/pub/CVPPP2020.pdf" target="_blank">Paper</a> *&#126;3MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp10min.mp4" target="_blank">Video(8min)</a> *&#126;70MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/pub/cvppp60s.mp4" target="_blank">Poster(1min)</a> *&#126;20MB*
-
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping*
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
-`2020`
-__Semi-supervised Instance Segmentation with a Learned Shape Prior__
-
-*MICCAI Workshop on Medical Image Learning with Less Labels and Imperfect Data*
-
-Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 
 ## Language
 <tt>中文</tt> 
@@ -149,11 +190,8 @@ Long Chen, Weiwen Zhang, <u>Yuli Wu</u>, Martin Strauch, Dorit Merhof
 <tt>Deutsch</tt>
 <var>German</var> <i>Fluent, DSH-III *(sehr gut)*</i>
 
-<tt>日本語</tt>
-<var>Japanese</var> <i>Basic</i>
-
 <tt>Français</tt>
-<var>French</var> <i>Basic</i>
+<var>French</var> <i>Hobbyistic</i>
 
 ## Driving License
 <tt>Apr 2016</tt>
