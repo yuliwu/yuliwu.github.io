@@ -107,7 +107,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Veröffentlichungen
 
-Vollständige Auflistung: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+**Vollständige Auflistung:** <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
 `2024`
@@ -115,7 +115,7 @@ __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Netwo
 
 <u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
 
-*arXiv preprint* <a href="https://arxiv.org/abs/2403.04884" target="_blank">[Paper]</a>
+*arXiv preprint* &nbsp;<a href="https://arxiv.org/abs/2403.04884" target="_blank">[Paper]</a>
 
 
 `2024`
@@ -123,7 +123,7 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 <u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
 
-*IEEE International Symposium on Biomedical Imaging* <a role="button">Oral</a> <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
+*IEEE International Symposium on Biomedical Imaging* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
 
 
 `2024`
@@ -131,7 +131,7 @@ __SasWOT: Real-Time Semantic Segmentation Architecture Search WithOut Training__
 
 Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
 
-*AAAI Conference on Artificial Intelligence* <a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
+*AAAI Conference on Artificial Intelligence* &nbsp;<a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
 
 
 `2022`
@@ -139,7 +139,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
-*British Machine Vision Conference* <a role="button">Spotlight</a>  <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
+*British Machine Vision Conference* &nbsp;<a role="button">Spotlight</a>&nbsp;  <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
 
 
 `2021`
@@ -147,7 +147,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
-*Document Analysis and Recognition – ICDAR Workshops*  <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a>
+*Document Analysis and Recognition – ICDAR Workshops*  &nbsp;<a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a> &nbsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a>
 
 
 `2020`
@@ -155,7 +155,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
-*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> 
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* &nbsp;<a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> &nbsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> 
 
 
 ## Sprachkenntnisse
@@ -181,7 +181,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## Hobbies
 
-Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
+Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband &nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
 
 Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus dem Jahr 1985.
 
