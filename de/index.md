@@ -19,7 +19,7 @@ title: Lebenslauf
 
 ## Aktuell
 
-`Jul 2021 - 2025 (vsl.)`
+`Jul 2021 - jetzt`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
@@ -29,14 +29,14 @@ Meine Arbeit umfasst Computer Vision und Biomedizinische Bildverarbeitung mit De
 Ich bin Mitglied vom DFG Programm&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;für Bildverarbeitung in&nbsp;der&nbsp;Netzhautneuroprothetik.
 
 
-## Schulbildung & Studium
+## Bildung
 
 `Okt 2015 - Sep 2018`
 __RWTH Aachen University__
 
 B.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
 
-mit Vertiefung Technische Informatik *(absolviert in 6 Semester)*
+mit Vertiefung Technische Informatik
 
 `Okt 2018 - Jetzt`
 __RWTH Aachen University__
@@ -47,6 +47,25 @@ mit Vertiefung Technische Informatik
 
 ## Berufserfahrungen
 
+`Sep 2020 - Mär 2021`
+__SAP__
+
+Praktikum bei SAP Innovation Center Network
+
+
+`Jul 2019 - Apr 2020`
+__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
+
+HiWi, Forschungsassistant, Annotation, Software Development, Segmentation
+
+Betreuung des Projekts MATLAB meets LEGO Mindstorms
+
+`Okt 2017 - Mär 2019`
+__Nuance Communications (übernommen von Microsoft)__
+
+Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
+
+
 `Apr 2017 - Jul 2018`
 __Institut für Hochspannungstechnik (IFHT), RWTH Aachen__
 
@@ -54,25 +73,6 @@ HiWi, Betreuung des Praktikums Elektrotechnik für 2 Semester, und
 
 HiWi, Betreuung des Praktikums Messtechnisches Labor für 1 Semester
 
-`Okt 2017 - Mär 2019`
-__Nuance Communications (übernommen von Microsoft)__
-
-Werkstudent, Übersetzung und Test der sprachgesteuerten Infotainmentsysteme
-
-`Jul 2019 - Apr 2020`
-__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
-
-HiWi, Forschungsassistant, Annotation, Software Development, Segmentation
-
-`Nov 2019 - Dez 2019`
-__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
-
-HiWi, Betreuung des Projekts MATLAB meets LEGO Mindstorms
-
-`Sep 2020 - Mär 2021`
-__SAP__
-
-Praktikum bei SAP Innovation Center Network in Nanjing, China
 
 ## Projekte & Arbeiten
 `Okt 2019 - Jun 2020`
@@ -107,7 +107,55 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Veröffentlichungen
 
-<a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+Vollständige Auflistung: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+
+
+`2024`
+__Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
+
+<u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
+
+*arXiv preprint* <a href="https://arxiv.org/abs/2403.04884" target="_blank">[Paper]</a>
+
+
+`2024`
+__Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer Segmentation__
+
+<u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
+
+*IEEE International Symposium on Biomedical Imaging* __Oral__ <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
+
+
+`2024`
+__SasWOT: Real-Time Semantic Segmentation Architecture Search WithOut Training__
+
+Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+
+*AAAI Conference on Artificial Intelligence* <a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
+
+
+`2022`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+Long Chen, <u>Yuli Wu</u>, Dorit Merhof
+
+*British Machine Vision Conference* __Spotlight__ <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
+
+
+`2021`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
+*Document Analysis and Recognition – ICDAR Workshops* <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a>
+
+
+`2020`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
+
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a>
 
 
 ## Sprachkenntnisse
@@ -133,11 +181,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Hobbies
 
-Ich spiele Klavier und stelle einige klassische Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform) ein. 
-
-Ich war das Keyboard der Rockband <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>. 
-
-Ich entwerfe <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
+Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>; <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
 
 Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus dem Jahr 1985.
 

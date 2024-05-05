@@ -36,7 +36,7 @@ __亚琛工业大学__
 
 本科 - 电气工程、信息技术和计算机工程专业
 
-计算机工程方向  *(六学期毕业)*
+计算机工程方向
 
 `2018年10月 - 2021年3月`
 __亚琛工业大学__
@@ -56,9 +56,6 @@ __思爱普中国有限公司（SAP China Co., Ltd.）__
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 学生兼职，研究助理，细胞图像标注，标注软件开发，算法开发
-
-`2019年11月 - 2019年12月`
-__图像和计算机视觉所(LfB)，亚琛工业大学__
 
 助教，实验项目 MATLAB meets LEGO Mindstorms
 
@@ -107,31 +104,56 @@ __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 链接: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
-## 论文
+## 学术论文
 
-`2024`
-__Saswot: Real-time semantic segmentation architecture search without training__
-
-*AAAI*
-
-Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+完整列表: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
 
-*arXiv preprint arXiv:2403.04884*
-
 <u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
+
+*arXiv preprint* <a href="https://arxiv.org/abs/2403.04884" target="_blank">[Paper]</a>
+
 
 `2024`
 __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer Segmentation__
 
-*IEEE ISBI (Oral)*
+<u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
 
-<u>Yuli Wu</u> et al.
+*IEEE International Symposium on Biomedical Imaging* __Oral__ <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
 
-<a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
+`2024`
+__SasWOT: Real-Time Semantic Segmentation Architecture Search WithOut Training__
+
+Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+
+*AAAI Conference on Artificial Intelligence* <a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
+
+
+`2022`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+Long Chen, <u>Yuli Wu</u>, Dorit Merhof
+
+*British Machine Vision Conference* __Spotlight__ <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
+
+
+`2021`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
+*Document Analysis and Recognition – ICDAR Workshops* <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a>
+
+
+`2020`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
+
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a>
 
 
 ## 语言
@@ -157,9 +179,9 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 ## 业余爱好
 
-我在<a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a>上发布一些我弹的古典音乐钢琴作品，曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手。
+<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>；曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手；<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>。 
 
-我偶尔设计图标<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>。 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
+我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
 
 
 <br />

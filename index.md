@@ -43,7 +43,7 @@ __RWTH Aachen University__
 
 B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
 
-with Specialization of Computer Engineering  *(Completed within 6 Semesters)*
+with Specialization of Computer Engineering 
 
 
 ## Work Experiences
@@ -57,9 +57,6 @@ Intern at SAP Innovation Center Network in Nanjing, China
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Student Assistant, Research Assistant, Annotation, Software Development
-
-`Nov 2019 - Dec 2019`
-__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Teaching Assistant of Project MATLAB meets LEGO Mindstorms
 
@@ -104,9 +101,57 @@ Supervisor: Philipp Gräbel
 Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Thesis</a> *&#126;20MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ba-slides/" target="_blank">Slides</a> *&#126;100MB*
 
 
-## Publications
+## Publications (excerpt)
 
 Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+
+`2024`
+__Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
+
+<u>Yuli Wu</u>, Julian Wittmann, Peter Walter, Johannes Stegmaier
+
+*arXiv preprint* <a href="https://arxiv.org/abs/2403.04884" target="_blank">[Paper]</a>
+
+
+`2024`
+__Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer Segmentation__
+
+<u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
+
+*IEEE International Symposium on Biomedical Imaging* __Oral__ <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
+
+
+`2024`
+__SasWOT: Real-Time Semantic Segmentation Architecture Search WithOut Training__
+
+Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
+
+*AAAI Conference on Artificial Intelligence* <a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
+
+
+`2022`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+Long Chen, <u>Yuli Wu</u>, Dorit Merhof
+
+*British Machine Vision Conference* __Spotlight__ <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
+
+
+`2021`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Yucheng Hu, Suting Miao
+
+*Document Analysis and Recognition – ICDAR Workshops* <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a>
+
+
+`2020`
+__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+
+<u>Yuli Wu</u>, Long Chen, Dorit Merhof
+
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a>
+
 
 
 ## Language
@@ -133,11 +178,7 @@ Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&
 
 ## Hobbies
 
-I play the piano and post some classical pieces to <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform).
-
-I was the keyboard of the rock band <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>. 
-
-I design <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logograms</a>.
+Piano pieces on <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform); keyboard of the rock band <a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>; <a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logogram design</a>.
  
 I shoot with analog films and own a second-hand Leica M6 made in 1985.
 
