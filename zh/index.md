@@ -48,9 +48,9 @@ __亚琛工业大学__
 ## 工作经历
 
 `2020年9月 - 2021年3月`
-__思爱普中国有限公司（SAP China Co., Ltd.）__
+__SAP__
 
-实习生，思爱普南京创新中心 (SAP ICN Nanjing)
+实习生，思爱普创新中心 (SAP ICN)
 
 `2019年7月 - 2020年4月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -75,7 +75,7 @@ __高压电所(IFHT)，亚琛工业大学__
 `2019年10月 - 2020年6月`
 __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Instance Segmentation of Dense Objects via Deep Pixel Embedding" *(1,0)*
+"Instance Segmentation of Dense Objects via Deep Pixel Embedding"
 
 「基于深度像素嵌入的稠密物体实例分割」
 
@@ -95,7 +95,7 @@ __叶片分割挑战第一名（ECCV Workshop）__
 `2018年4月 - 2018年10月`
 __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
-"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow" *(1,3)*
+"Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
 
 「染色脊髓扫描下白细胞分割的轮廓优化」
 
@@ -107,6 +107,7 @@ __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 ## 学术论文
 
 完整列表: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
@@ -121,7 +122,7 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 <u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
 
-*IEEE International Symposium on Biomedical Imaging* __Oral__ <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
+*IEEE International Symposium on Biomedical Imaging* <a role="button">Oral</a>  <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
 
 
 `2024`
@@ -137,7 +138,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
-*British Machine Vision Conference* __Spotlight__ <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
+*British Machine Vision Conference* <a role="button">Spotlight</a>  <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
 
 
 `2021`
@@ -145,7 +146,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
-*Document Analysis and Recognition – ICDAR Workshops* <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a>
+*Document Analysis and Recognition – ICDAR Workshops* <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a>
 
 
 `2020`
@@ -153,7 +154,8 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
-*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a>
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a>
+
 
 
 ## 语言
@@ -179,7 +181,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## 业余爱好
 
-<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>；曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手；<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>。 
+<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>；曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手；&nbsp;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>。 
 
 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
 
