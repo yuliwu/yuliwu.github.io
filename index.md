@@ -21,7 +21,7 @@ title: Curriculum Vitae
 `Jul 2021 - now`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and expect to graduate in late 2025.
+I am a PhD Student and expect to graduate in 2025.
 
 My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
 
@@ -103,7 +103,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Publications (excerpt)
 
-**Full list:** <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
@@ -166,7 +166,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <var>German</var> <i>Fluent, DSH-III *(sehr gut)*</i>
 
 <tt>Français</tt>
-<var>French</var> <i>Hobbyistic</i>
+<var>French</var> <i>Amateur</i>
 
 
 ## Driving License
@@ -179,7 +179,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## Hobbies
 
-Piano pieces on <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform); keyboard of the rock band &nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logogram design</a>.
+Piano pieces on <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform); keyboard of the rock band&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logogram design</a>.
  
 I shoot with analog films and own a second-hand Leica M6 made in 1985.
 

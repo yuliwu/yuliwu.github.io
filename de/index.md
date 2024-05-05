@@ -107,7 +107,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Veröffentlichungen
 
-**Vollständige Auflistung:** <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+Vollständige Auflistung: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
 `2024`
@@ -169,7 +169,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <var>Deutsch</var> <i>Fließend, DSH-III *(sehr gut)*</i>
 
 <tt>Français</tt>
-<var>Französisch</var> <i>Grundlage</i>
+<var>Französisch</var> <i>Amateur</i>
 
 
 ## Führerscheine
@@ -181,7 +181,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## Hobbies
 
-Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband &nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
+Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
 
 Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus dem Jahr 1985.
 
