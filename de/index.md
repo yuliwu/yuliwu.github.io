@@ -123,7 +123,7 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 <u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
 
-*IEEE International Symposium on Biomedical Imaging* __Oral__ <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
+*IEEE International Symposium on Biomedical Imaging* <a href="#" role="button">Oral</a> <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
 
 
 `2024`
