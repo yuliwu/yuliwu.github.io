@@ -87,7 +87,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ma/Thesis.pdf" target="_blank">Th
 `Jun 2020`
 __Ranked #1 in Leaf Segmentation Challenge Leaderboard (ECCV2020 Workshop)__
 
-By submission due. Results are *w.r.t. BestDice* with *Username:LfB*.
+By submission due. Results are *w.r.t. BestDice* with Username *LfB*.
 
 Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 

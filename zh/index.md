@@ -106,7 +106,7 @@ __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
 ## 学术论文
 
-**完整列表:** <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+完整列表: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
@@ -181,7 +181,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## 业余爱好
 
-<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>；曾在摇滚乐队<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>担任键盘手；&nbsp;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>。 
+<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>&nbsp;；曾在摇滚乐队&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;担任键盘手；&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>&nbsp;。 
 
 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
 
