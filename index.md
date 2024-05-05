@@ -51,7 +51,7 @@ with Specialization of Computer Engineering
 `Sep 2020 - Mar 2021`
 __SAP__
 
-Intern at SAP Innovation Center Network in Nanjing, China
+Intern at SAP Innovation Center Network
 
 `Jul 2019 - Apr 2020`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
