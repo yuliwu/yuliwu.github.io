@@ -6,13 +6,13 @@ title: Curriculum Vitae
 <br />
 # Yuli Wu
 <div id="webaddress">
-<a href="mailto:me@wuyuli.com">me @ wuyuli.com</a>
+<a href="mailto:me@wuyuli.com">me at wuyuli dot com</a>
 <!--( have a try, it really works 😹 )</p> -->
 </div>
 <div id="language">
-<span><a href="https://yuliwu.github.io/cv/zh/">中文</a></span>
-<span><a href="https://yuliwu.github.io/cv/">English</a></span>
-<span><a href="https://yuliwu.github.io/cv/de/">Deutsch</a></span>
+<span><a href="https://yuliwu.github.io/zh/">中文</a></span>
+<span><a href="https://yuliwu.github.io/">English</a></span>
+<span><a href="https://yuliwu.github.io/de/">Deutsch</a></span>
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
