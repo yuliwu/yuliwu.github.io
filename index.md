@@ -103,7 +103,7 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 
 ## Publications (excerpt)
 
-__Full list:__ <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
@@ -118,7 +118,7 @@ __Retinal OCT Synthesis with Denoising Diffusion Probabilistic Models for Layer 
 
 <u>Yuli Wu</u>, Weidong He, Dennis Eschweiler *et al.* 
 
-*IEEE International Symposium on Biomedical Imaging* <a href="#" role="button">Oral</a>  [<a href="https://arxiv.org/pdf/2311.05479" target="_blank">Paper</a>]
+*IEEE International Symposium on Biomedical Imaging* <a role="button">Oral</a>  <a href="https://arxiv.org/pdf/2311.05479" target="_blank">[Paper]</a>
 
 
 `2024`
@@ -126,7 +126,7 @@ __SasWOT: Real-Time Semantic Segmentation Architecture Search WithOut Training__
 
 Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
 
-*AAAI Conference on Artificial Intelligence* [<a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">Paper</a>]
+*AAAI Conference on Artificial Intelligence* <a href="https://doi.org/10.1609/aaai.v38i7.28606" target="_blank">[Paper]</a>
 
 
 `2022`
@@ -134,7 +134,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
-*British Machine Vision Conference* <a href="#" role="button">Spotlight</a>  [<a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">Paper</a>]
+*British Machine Vision Conference* <a role="button">Spotlight</a>  <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
 
 
 `2021`
@@ -142,7 +142,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
-*Document Analysis and Recognition – ICDAR Workshops* <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">Internal Talk</a> [<a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">Paper</a>] 
+*Document Analysis and Recognition – ICDAR Workshops* <a href="https://yuliwu.github.io/cloud/intern/sap_talk.pdf" target="_blank">[Internal Talk]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-86159-9_15" target="_blank">[Paper]</a>
 
 
 `2020`
@@ -150,7 +150,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
-*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">Best Paper Honorable Mention</a> [<a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">Paper</a>] 
+*ECCV Workshop on Computer Vision Problems in Plant Phenotyping* <a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a>
 
 
 
