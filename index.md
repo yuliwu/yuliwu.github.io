@@ -6,8 +6,8 @@ title: Curriculum Vitae
 <br />
 # Yuli Wu
 <div id="webaddress">
-<a href="mailto:me@wuyuli.com">me at wuyuli dot com</a>
-<!--( have a try, it really works 😹 )</p> -->
+<a href="mailto:yuli@posteo.com">yuli at posteo dot com</a>
+
 </div>
 <div id="language">
 <span><a href="https://yuliwu.github.io/zh/">中文</a></span>
