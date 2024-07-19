@@ -134,7 +134,7 @@ Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
 
 
 `2022`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Instance Segmentation of Dense and Overlapping Objects via Layering__
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
@@ -142,7 +142,7 @@ Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
 
 `2021`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Object Detection Based Handwriting Localization__
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
@@ -182,7 +182,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
 
-Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus dem Jahr 1985.
+Ich fotografiere mit analogem Filmen auf einer gebrauchten Leica M6 aus dem Jahr 1985.
 
 
 <br />
@@ -191,4 +191,4 @@ Ich fotografiere mit analogen Filmen und besitze eine gebrauchte Leica M6 aus de
 <br />
 <br />
 <!--
-Last updated: Mai 2024 -->
+Last updated: Jul 2024 -->

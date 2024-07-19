@@ -132,7 +132,7 @@ Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
 
 
 `2022`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Instance Segmentation of Dense and Overlapping Objects via Layering__
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
@@ -140,7 +140,7 @@ Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
 
 `2021`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Object Detection Based Handwriting Localization__
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
@@ -153,7 +153,6 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping* &nbsp;<a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> &nbsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> 
-
 
 
 

@@ -129,7 +129,7 @@ Chendi Zhu, Lujun Li, <u>Yuli Wu</u>, Zhengxing Sun
 
 
 `2022`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Instance Segmentation of Dense and Overlapping Objects via Layering__
 
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
@@ -137,7 +137,7 @@ Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
 
 `2021`
-__Improving Pixel Embedding Learning through Intermediate Distance Regression Supervision for&nbsp;Instance&nbsp;Segmentation__
+__Object Detection Based Handwriting Localization__
 
 <u>Yuli Wu</u>, Yucheng Hu, Suting Miao
 
@@ -150,7 +150,6 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <u>Yuli Wu</u>, Long Chen, Dorit Merhof
 
 *ECCV Workshop on Computer Vision Problems in Plant Phenotyping* &nbsp;<a href="https://yuliwu.github.io/cloud/pub/Certificate_BPHM.pdf" target="_blank">[Best Paper Honorable Mention]</a> &nbsp;<a href="https://link.springer.com/chapter/10.1007/978-3-030-65414-6_16" target="_blank">[Paper]</a> 
-
 
 
 
@@ -180,7 +179,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 Piano pieces on <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (a chinese video platform); keyboard of the rock band&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">logogram design</a>.
  
-I shoot with analog films and own a second-hand Leica M6 made in 1985.
+I shoot with analog films on a second-hand Leica M6 made in 1985.
 
 <br />
 <br />
