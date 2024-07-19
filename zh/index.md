@@ -179,7 +179,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## 业余爱好
 
-<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>&nbsp;；曾在摇滚乐队&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;担任键盘手；&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>&nbsp;。 
+<a href="https://space.bilibili.com/8105962/" target="_blank">钢琴</a>&nbsp;；曾在摇滚乐队&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;担任键盘手；公众号：亚琛小道；&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">图标设计</a>&nbsp;。 
 
 我喜欢胶片拍摄，有一台1985年制造的二手徕卡M6。
 

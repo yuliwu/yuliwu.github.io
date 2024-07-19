@@ -180,7 +180,7 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 
 ## Hobbies
 
-Klavier Stücke auf <a href="https://space.bilibili.com/8105962/" target="_blank">BiliBili</a> (eine chinesische Videoplattform); Keyboard der Rockband&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
+Klavier Stücke auf <a href="https://www.youtube.com/@upsilonuuu/videos" target="_blank">YouTube</a>; Keyboard der Rockband&nbsp;<a href="https://thewittekind.github.io/" target="_blank">the wittekind</a>&nbsp;;&nbsp;<a href="https://yuliwu.notion.site/Logogram-Portfolio-65cfca3dacb94b2893449957a2c7a3af" target="_blank">Logogramme</a>. 
 
 Ich fotografiere mit analogem Filmen auf einer gebrauchten Leica M6 aus dem Jahr 1985.
 
