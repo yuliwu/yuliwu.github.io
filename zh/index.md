@@ -6,7 +6,7 @@ title: 简历
 <br />
 # 吴玉立
 <div id="webaddress">
-<a href="mailto:yuli@posteo.com"> ✉ yuli at posteo dot com</a>
+<a href="mailto:hi@wuyuli.com"> ✉ hi at wuyuli dot com</a>
 </div>
 
 <div id="language">
