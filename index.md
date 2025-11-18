@@ -6,7 +6,7 @@ title: Curriculum Vitae
 <br />
 # Yuli Wu
 <div id="webaddress">
-<a href="mailto:hi@wuyuli.com"> ✉ hi at wuyuli dot com</a>
+<a href="mailto:mail@wuyuli.com"> ✉ mail at wuyuli dot com</a>
 </div>
 <div id="language">
 <span><a href="https://yuliwu.github.io/zh/">中文</a></span>
@@ -17,18 +17,21 @@ title: Curriculum Vitae
 
 ## Currently
 
-`Jul 2021 - now`
+`Jul 2021 - Dec 2025`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-I am a PhD Student and expect to graduate in 2025.
-
-My work focuses on Computer Vision & Biomedical Image Processing with Deep Learning.
+Doctoral Researcher focusing on Computer Vision & Biomedical Image Processing with Deep Learning.
 
 I am member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
 
 
 
 ## Education
+
+`Jul 2021 - Nov 2025`
+__RWTH Aachen University__
+
+Dr.-Ing.
 
 `Oct 2018 - Mar 2021`
 __RWTH Aachen University__
@@ -73,6 +76,16 @@ Teaching Assistant of Practice Metrological Laboratory for 1 Semester
 
 
 ## Projects & Theses
+
+`Nov 2025`
+__PhD Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+
+"Enhancing Artificial Vision by Integrating Machine Learning in Retinal Prosthetics" 
+
+Supervisors: Prof. Johannes Stegmaier, Prof. Peter Walter
+
+Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+
 
 `Oct 2019 - Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
@@ -187,4 +200,4 @@ I shoot with analog films on a second-hand Leica M6 made in 1985.
 <br />
 <br />
 <!--
-Last updated: Jul 2024 -->
+Last updated: Nov 2025 -->
