@@ -6,7 +6,7 @@ title: Lebenslauf
 <br />
 # Yuli Wu
 <div id="webaddress">
-<a href="mailto:hi@wuyuli.com"> ✉ hi at wuyuli dot com</a>
+<a href="mailto:mail@wuyuli.com"> ✉ mail at wuyuli dot com</a>
 </div>
 
 <div id="language">
@@ -18,10 +18,10 @@ title: Lebenslauf
 
 ## Aktuell
 
-`Jul 2021 - jetzt`
+`Jul 2021 - Dez 2025`
 __Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
-Ich bin Doktorand und wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildverarbeitung, RWTH Aachen.
+Ich bin wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildgebung und Bildverarbeitung, RWTH Aachen.
 
 Meine Arbeit umfasst Computer Vision und Biomedizinische Bildverarbeitung mit Deep Learning.
 
@@ -29,6 +29,12 @@ Ich bin Mitglied vom DFG Programm&nbsp;<a href="http://rtg2610.org" target="_bla
 
 
 ## Bildung
+
+`Jul 2021 - Nov 2025`
+__RWTH Aachen University__
+
+Dr.-Ing. (summa cum laude)
+
 
 `Okt 2015 - Sep 2018`
 __RWTH Aachen University__
@@ -46,8 +52,13 @@ mit Vertiefung Technische Informatik
 
 ## Berufserfahrungen
 
+`Jul 2021 - Dez 2025`
+__Lehrstuhl für Bildgebung und Bildverarbeitung (LfB), RWTH Aachen__
+
+Wissenschaftlicher Mitarbeiter
+
 `Sep 2020 - Mär 2021`
-__SAP__
+__SAP SE__
 
 Praktikum bei SAP Innovation Center Network
 
@@ -74,6 +85,19 @@ HiWi, Betreuung des Praktikums Messtechnisches Labor für 1 Semester
 
 
 ## Projekte & Arbeiten
+
+`Nov 2025`
+__Doktorarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
+
+"Enhancing Artificial Vision by Integrating Machine Learning in Retinal Prosthetics"
+
+Deutsch: "Verbesserung des Künstlichen Sehens Durch die Integration von Maschinellem Lernen in Netzhautprothesen"
+
+Berichter: Prof. Johannes Stegmaier, Prof. Peter Walter
+
+Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
+
+
 `Okt 2019 - Jun 2020`
 __Masterarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
@@ -109,6 +133,22 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 Vollständige Auflistung: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
+`2025`
+__A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis__
+
+<u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
+
+*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+
+
+`2025`
+__Visual Fixation-Based Retinal Prosthetic Simulation__
+
+<u>Yuli Wu</u>, Do Dinh Tan Nguyen, Henning Konermann *et al.* 
+
+*IEEE International Symposium on Biomedical Imaging* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2410.11688" target="_blank">[Paper]</a>
+
+
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
 
@@ -139,7 +179,6 @@ __Instance Segmentation of Dense and Overlapping Objects via Layering__
 Long Chen, <u>Yuli Wu</u>, Dorit Merhof
 
 *British Machine Vision Conference* &nbsp;<a role="button">Spotlight</a>&nbsp;  <a href="https://bmvc2022.mpi-inf.mpg.de/0400.pdf" target="_blank">[Paper]</a>
-
 
 `2021`
 __Object Detection Based Handwriting Localization__

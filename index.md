@@ -20,9 +20,9 @@ title: Curriculum Vitae
 `Jul 2021 - Dec 2025`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
-Doctoral Researcher focusing on Computer Vision & Biomedical Image Processing with Deep Learning.
+I am a Doctoral Researcher focusing on Computer Vision & Biomedical Image Processing with Deep Learning.
 
-I am member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
+I was a member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
 
 
 
@@ -31,7 +31,7 @@ I am member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">Inn
 `Jul 2021 - Nov 2025`
 __RWTH Aachen University__
 
-Dr.-Ing.
+Dr.-Ing. (summa cum laude)
 
 `Oct 2018 - Mar 2021`
 __RWTH Aachen University__
@@ -49,6 +49,11 @@ with Specialization of Computer Engineering
 
 
 ## Work Experiences
+
+`Jul 2021 - Dec 2025`
+__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
+
+Research Scientist (Wissenschaftlicher Mitarbeiter)
 
 `Sep 2020 - Mar 2021`
 __SAP__
@@ -84,7 +89,7 @@ __PhD Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 Supervisors: Prof. Johannes Stegmaier, Prof. Peter Walter
 
-Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
 
 
 `Oct 2019 - Jun 2020`
@@ -116,6 +121,21 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 ## Publications (excerpt)
 
 Full list: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+
+
+`2025`
+__A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis__
+
+<u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
+
+*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+
+`2025`
+__Visual Fixation-Based Retinal Prosthetic Simulation__
+
+<u>Yuli Wu</u>, Do Dinh Tan Nguyen, Henning Konermann *et al.* 
+
+*IEEE International Symposium on Biomedical Imaging* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2410.11688" target="_blank">[Paper]</a>
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__

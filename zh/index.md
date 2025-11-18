@@ -30,12 +30,10 @@ __图像和计算机视觉所(LfB)，亚琛工业大学__
 
 ## 教育
 
-`2015年10月 - 2018年9月`
+`2021年7月 - 2025年11月`
 __亚琛工业大学__
 
-本科 - 电气工程、信息技术和计算机工程专业
-
-计算机工程方向
+博士 (Dr.-Ing., summa cum laude)
 
 `2018年10月 - 2021年3月`
 __亚琛工业大学__
@@ -44,7 +42,20 @@ __亚琛工业大学__
 
 计算机工程方向
 
+`2015年10月 - 2018年9月`
+__亚琛工业大学__
+
+本科 - 电气工程、信息技术和计算机工程专业
+
+计算机工程方向
+
+
 ## 工作经历
+
+`2021年7月 - 2025年12月`
+__图像和计算机视觉所(LfB)，亚琛工业大学__
+
+岗位制博士（Wissenschaftlicher Mitarbeiter）
 
 `2020年9月 - 2021年3月`
 __SAP__
@@ -80,7 +91,7 @@ __博士论文，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 导师: Prof. Johannes Stegmaier, Prof. Peter Walter
 
-链接:  <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+链接:  <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
 
 
 `2019年10月 - 2020年6月`
@@ -118,6 +129,23 @@ __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 ## 学术论文
 
 完整列表: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
+
+
+`2025`
+__A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis__
+
+<u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
+
+*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+
+
+`2025`
+__Visual Fixation-Based Retinal Prosthetic Simulation__
+
+<u>Yuli Wu</u>, Do Dinh Tan Nguyen, Henning Konermann *et al.* 
+
+*IEEE International Symposium on Biomedical Imaging* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2410.11688" target="_blank">[Paper]</a>
+
 
 `2024`
 __Optimizing Retinal Prosthetic Stimuli with Conditional Invertible Neural Networks__
