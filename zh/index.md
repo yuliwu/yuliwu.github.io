@@ -18,10 +18,10 @@ title: 简历
 
 ## 当前职位
 
-`2021年7月 - 2025年 (预计)`
+`2021年7月 - 2025年12月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
-博士在读，科研助理，教学助理。
+博士，科研助理，教学助理。
 
 研究方向：基于深度学习的计算机视觉和生物医学图像处理。
 
@@ -70,6 +70,18 @@ __高压电所(IFHT)，亚琛工业大学__
 
 
 ## 项目和毕设
+
+`2025年11月`
+__博士论文，图像和计算机视觉所(LfB)，亚琛工业大学__
+
+"Enhancing Artificial Vision by Integrating Machine Learning in Retinal Prosthetics"
+
+「通过将机器学习融入视网膜假体来提升人工视觉」
+
+导师: Prof. Johannes Stegmaier, Prof. Peter Walter
+
+链接:  <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/ma/final_slides/" target="_blank">Slides</a> *&#126;100MB*
+
 
 `2019年10月 - 2020年6月`
 __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
@@ -189,4 +201,4 @@ __Improving Pixel Embedding Learning through Intermediate Distance Regression Su
 <br />
 <br />
 <!--
-Last updated: May 2024 -->
+Last updated: Nov 2025 -->
