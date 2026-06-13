@@ -16,21 +16,11 @@ title: 简历
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable" ></a></span>-->
 </div>
 
-## 当前职位
-
-`2021年7月 - 2025年12月`
-__图像和计算机视觉所(LfB)，亚琛工业大学__
-
-博士，科研助理，教学助理。
-
-研究方向：基于深度学习的计算机视觉和生物医学图像处理。
-
-德国科学基金会项目&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;成员，负责视网膜神经假体的图像处理。
 
 
 ## 教育
 
-`2021年7月 - 2025年11月`
+`2021年7月 - 2025年12月`
 __亚琛工业大学__
 
 博士 (Dr.-Ing., summa cum laude)
@@ -52,10 +42,21 @@ __亚琛工业大学__
 
 ## 工作经历
 
+`2025年12月 至今`
+__杜塞尔多夫大学__
+
+岗位制博士后
+
+`2026年2月 - 2026年5月`
+__悉尼大学__
+
+访问学者
+
+
 `2021年7月 - 2025年12月`
 __图像和计算机视觉所(LfB)，亚琛工业大学__
 
-岗位制博士（Wissenschaftlicher Mitarbeiter）
+岗位制博士
 
 `2020年9月 - 2021年3月`
 __SAP__
@@ -94,7 +95,7 @@ __博士论文，图像和计算机视觉所(LfB)，亚琛工业大学__
 链接:  <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
 
 
-`2019年10月 - 2020年6月`
+`2020年6月`
 __硕士毕设，图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding"
@@ -114,7 +115,7 @@ __叶片分割挑战第一名（ECCV Workshop）__
 链接: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
 
-`2018年4月 - 2018年10月`
+`2018年10月`
 __本科毕设, 图像和计算机视觉所(LfB)，亚琛工业大学__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
@@ -136,7 +137,7 @@ __A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Dista
 
 <u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
 
-*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+*Medical Imaging with Deep Learning* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
 
 
 `2025`
