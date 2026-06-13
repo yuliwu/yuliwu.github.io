@@ -16,16 +16,6 @@ title: Lebenslauf
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
-## Aktuell
-
-`Jul 2021 - Dez 2025`
-__Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
-
-Ich bin wissenschaftlicher Mitarbeiter am Lehrstuhl für Bildgebung und Bildverarbeitung, RWTH Aachen.
-
-Meine Arbeit umfasst Computer Vision und Biomedizinische Bildverarbeitung mit Deep Learning.
-
-Ich bin Mitglied vom DFG Programm&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;für Bildverarbeitung in&nbsp;der&nbsp;Netzhautneuroprothetik.
 
 
 ## Bildung
@@ -35,6 +25,12 @@ __RWTH Aachen University__
 
 Dr.-Ing. (summa cum laude)
 
+`Okt 2018 - Apr 2021`
+__RWTH Aachen University__
+
+M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
+
+mit Vertiefung Technische Informatik
 
 `Okt 2015 - Sep 2018`
 __RWTH Aachen University__
@@ -43,14 +39,19 @@ B.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
 
 mit Vertiefung Technische Informatik
 
-`Okt 2018 - Jetzt`
-__RWTH Aachen University__
-
-M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
-
-mit Vertiefung Technische Informatik
 
 ## Berufserfahrungen
+
+`Dez 2025 - Jetzt`
+__Heinrich Heine University Düsseldorf__
+
+Postdoc
+
+`Feb 2026 - Mai 2026`
+__The University of Sydney__
+
+Gastwissenschaftler
+
 
 `Jul 2021 - Dez 2025`
 __Lehrstuhl für Bildgebung und Bildverarbeitung (LfB), RWTH Aachen__
@@ -98,7 +99,7 @@ Berichter: Prof. Johannes Stegmaier, Prof. Peter Walter
 Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
 
 
-`Okt 2019 - Jun 2020`
+`Jun 2020`
 __Masterarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding
@@ -116,7 +117,7 @@ Bei der Abgabefrist. Die Ergebnisse *bzgl. BestDice* mit Username *LfB* .
 
 Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
-`Apr 2018 - Okt 2018`
+`Okt 2018`
 __Bachelorarbeit, Lehrstuhl für Bildverarbeitung (LfB), RWTH Aachen__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
@@ -133,12 +134,12 @@ Links: <a href="https://yuliwu.github.io/cloud/ba/Thesis.pdf" target="_blank">Th
 Vollständige Auflistung: <a href="https://scholar.google.de/citations?hl=en&user=qlun0AgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>  
 
 
-`2025`
+`2026`
 __A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis__
 
 <u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
 
-*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+*Medical Imaging with Deep Learning* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
 
 
 `2025`
