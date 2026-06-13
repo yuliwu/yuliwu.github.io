@@ -43,7 +43,7 @@ mit Vertiefung Technische Informatik
 ## Berufserfahrungen
 
 `Dez 2025 - Jetzt`
-__Heinrich Heine University Düsseldorf__
+__Heinrich-Heine-Universität Düsseldorf__
 
 Postdoc
 
