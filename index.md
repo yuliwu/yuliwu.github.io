@@ -15,16 +15,6 @@ title: Curriculum Vitae
 <!--<span><a href="https://yuliwu.github.io/cv/print/" target="_blank"><img src="https://img.icons8.com/metro/26/000000/print.png" alt="Printable"></a></span>-->
 </div>
 
-## Currently
-
-`Jul 2021 - Dec 2025`
-__Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
-
-I am a Doctoral Researcher focusing on Computer Vision & Biomedical Image Processing with Deep Learning.
-
-I was a member of DFG program&nbsp;<a href="http://rtg2610.org" target="_blank">InnoRetVision</a>&nbsp;, dealing with Image Processing in&nbsp;Retinal&nbsp;Neuroprosthetics.
-
-
 
 ## Education
 
@@ -49,6 +39,17 @@ with Specialization of Computer Engineering
 
 
 ## Work Experiences
+
+`Dec 2025 - Jetzt`
+__Heinrich Heine University Düsseldorf__
+
+Postdoc
+
+`Feb 2026 - May 2026`
+__The University of Sydney__
+
+Visiting Researcher
+
 
 `Jul 2021 - Dec 2025`
 __Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
@@ -92,7 +93,7 @@ Supervisors: Prof. Johannes Stegmaier, Prof. Peter Walter
 Links: <a href="https://yuliwu.github.io/phd/thesis.pdf" target="_blank">Thesis</a> *&#126;50MB* &emsp;&emsp; <a href="https://yuliwu.github.io/cloud/phd/final_slides/" target="_blank">Slides</a> *&#126;500MB*
 
 
-`Oct 2019 - Jun 2020`
+`Jun 2020`
 __Master Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 "Instance Segmentation of Dense Objects via Deep Pixel Embedding" 
@@ -108,7 +109,7 @@ By submission due. Results are *w.r.t. BestDice* with Username *LfB*.
 
 Link: <a href="https://competitions.codalab.org/competitions/18405#results" target="_blank">Codalab</a>
 
-`Apr 2018 - Oct 2018`
+`Oct 2018`
 __Bachelor Thesis, Institute of Imaging & Computer Vision (LfB) of RWTH Aachen__
 
 "Contour Refinement of Leukocyte Segmentations in Scans of Stained Bone Marrow"
@@ -128,7 +129,7 @@ __A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Dista
 
 <u>Yuli Wu</u>, Fucheng Liu, Rüveyda Yilmaz *et al.* 
 
-*arXiv preprint* &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
+*Medical Imaging with Deep Learning* &nbsp;<a role="button">Oral</a> &nbsp;<a href="https://arxiv.org/pdf/2502.17160" target="_blank">[Paper]</a>
 
 `2025`
 __Visual Fixation-Based Retinal Prosthetic Simulation__
