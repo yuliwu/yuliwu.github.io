@@ -17,32 +17,14 @@ title: Lebenslauf
 </div>
 
 
-
-## Bildung
-
-`Jul 2021 - Nov 2025`
-__RWTH Aachen University__
-
-Dr.-Ing. (summa cum laude)
-
-`Okt 2018 - Apr 2021`
-__RWTH Aachen University__
-
-M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
-
-mit Vertiefung Technische Informatik
-
-`Okt 2015 - Sep 2018`
-__RWTH Aachen University__
-
-B.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
-
-mit Vertiefung Technische Informatik
-
-
 ## Berufserfahrungen
 
-`Dez 2025 - Jetzt`
+`Sep 2026 - Jetzt`
+__RWTH Aachen__
+
+Gruppenleiter, Physical AI Lab
+
+`Dez 2025 - Aug 2026`
 __Heinrich-Heine-Universität Düsseldorf__
 
 Postdoc
@@ -83,6 +65,29 @@ __Institut für Hochspannungstechnik (IFHT), RWTH Aachen__
 HiWi, Betreuung des Praktikums Elektrotechnik für 2 Semester, und
 
 HiWi, Betreuung des Praktikums Messtechnisches Labor für 1 Semester
+
+
+
+## Bildung
+
+`Jul 2021 - Nov 2025`
+__RWTH Aachen University__
+
+Dr.-Ing. (summa cum laude)
+
+`Okt 2018 - Apr 2021`
+__RWTH Aachen University__
+
+M.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
+
+mit Vertiefung Technische Informatik
+
+`Okt 2015 - Sep 2018`
+__RWTH Aachen University__
+
+B.Sc. in Elektrotechnik, Informationstechnik und Technische Informatik
+
+mit Vertiefung Technische Informatik
 
 
 ## Projekte & Arbeiten
