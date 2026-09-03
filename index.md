@@ -16,31 +16,14 @@ title: Curriculum Vitae
 </div>
 
 
-## Education
-
-`Jul 2021 - Nov 2025`
-__RWTH Aachen University__
-
-Dr.-Ing. (summa cum laude)
-
-`Oct 2018 - Mar 2021`
-__RWTH Aachen University__
-
-M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
-
-with Specialization of Computer Engineering
-
-`Oct 2015 - Sep 2018`
-__RWTH Aachen University__
-
-B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
-
-with Specialization of Computer Engineering 
-
-
 ## Work Experiences
 
-`Dec 2025 - Jetzt`
+`Sep 2026 - present`
+__RWTH Aachen University__
+
+Group Leader, Physical AI Lab 
+
+`Dec 2025 - Aug 2026`
 __Heinrich Heine University Düsseldorf__
 
 Postdoc
@@ -79,6 +62,29 @@ __Institute of High Voltage Engineering (IFHT) of RWTH Aachen__
 Teaching Assistant of Practice Electrical Laboratory for 2 Semesters, and
 
 Teaching Assistant of Practice Metrological Laboratory for 1 Semester
+
+
+
+## Education
+
+`Jul 2021 - Nov 2025`
+__RWTH Aachen University__
+
+Dr.-Ing. (summa cum laude)
+
+`Oct 2018 - Mar 2021`
+__RWTH Aachen University__
+
+M.Sc. in Electrical Engineering, Information Technology and Computer Engineering
+
+with Specialization of Computer Engineering
+
+`Oct 2015 - Sep 2018`
+__RWTH Aachen University__
+
+B.Sc. in Electrical Engineering, Information Technology and Computer Engineering
+
+with Specialization of Computer Engineering 
 
 
 ## Projects & Theses
