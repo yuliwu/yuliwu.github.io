@@ -105,6 +105,7 @@ main{min-width:0}
 .intro .about dd{margin:0}
 .intro .about a{color:var(--ink);text-underline-offset:3px;text-decoration-thickness:1px}
 .intro .about a:hover{color:var(--f)}
+.intro .about .pdfnote{margin-left:.5em;font-family:var(--mono);font-size:calc(var(--u) * .95);color:var(--muted)}
 .intro .plate{width:min(100%,calc(var(--u) * 44));aspect-ratio:5/4;box-shadow:none;border:1px solid var(--rule)}
 @media (min-width:1080px) and (max-height:800px){.intro .plate{width:min(100%,calc(var(--u) * 41))}}
 .intro h2{margin:calc(var(--u) * .8) 0 0;font-size:calc(var(--u) * 2.1);font-weight:600}
@@ -220,12 +221,12 @@ p.why-t{margin:0;font-size:calc(var(--u) * 1.35);line-height:1.65;max-width:36em
         <div class="col">
           <h1 id="t">Forkfont</h1>
           <p class="lede">Typefaces and cutlery are used every day, yet rarely given the attention they deserve. Forkfont pairs twenty open-source typefaces with twenty cutlery sets still made today, matched by character: the same era, the same gesture or the same temperament. Fine words deserve exquisite type, just as delicacies deserve radiant silverware. The ink is ready, and the table is laid. Bon appétit!</p>
-          <div class="about"><p>A portfolio by Yuli Wu</p><dl><dt>CV</dt><dd><a href="https://wuyu.li" target="_blank" rel="noopener">wuyu.li ↗</a></dd><dt>Contact</dt><dd><a href="mailto:mail@wuyu.li">mail@wuyu.li</a></dd></dl></div>
+          <div class="about"><p>A portfolio by Yuli Wu</p><dl><dt>CV</dt><dd><a href="https://wuyu.li" target="_blank" rel="noopener">https://wuyu.li</a></dd><dt>Contact</dt><dd><a href="mailto:mail@wuyu.li">mail@wuyu.li</a></dd><dt>PDF</dt><dd><a href="https://wuyuli.com/Forkfont_315x210_YuliWu.pdf" target="_blank" rel="noopener">Download portfolio</a> <span class="pdfnote">22 pages, 1.8 MB</span></dd></dl></div>
           <blockquote>“If you remember the shape of a spoon with which you just ate some soup, then the spoon had a poor shape.”<figcaption>– Adrian Frutiger</figcaption></blockquote>
           <div class="credits">Fonts from Google Fonts under open licences. Cutlery names belong to their makers; every “See it” link goes to the maker’s current product page. Profile scores are editorial readings of the cited sources. Interface type: Helvetica (TeX Gyre Heros, a free Helvetica-style font, where Helvetica is not installed) and OCR-B by Adrian Frutiger.</div>
         </div>
         <div class="col">
-          <div class="plate" data-plate="hero" data-mode="solid"></div>
+          <div class="plate img" data-mode="img" data-src="sketches/00.svg" data-label="A generic fork, knife, teaspoon and coffee spoon, drawn from above"><img src="sketches/00.svg" alt="A generic fork, knife, teaspoon and coffee spoon, drawn from above" decoding="async"><div class="fo zoomhint" aria-hidden="true">Enlarge ↗</div></div>
           <div class="cap"><span>Fork · Knife · Teaspoon · Coffee spoon</span></div>
           <h2>How to read a pairing</h2>
           <div class="axes" id="axes"></div>
