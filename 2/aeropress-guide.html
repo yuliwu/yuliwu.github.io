@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>AeroPress Recipe</title>
+<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>AeroPress Recipe</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>.iso{
@@ -346,9 +346,19 @@ h1{margin:0;color:var(--ink);font:500 clamp(42px,7vw,72px)/1 var(--serif);letter
 .now-wrap .nav-btn.play{width:48px;height:48px}
 .now-wrap .nav-btn.play svg{width:22px;height:22px}
 @media (max-width:620px){.now-wrap{margin:0 4px 8px;column-gap:8px}.now-wrap .now{column-gap:10px}.now-n{font-size:28px}.now-title{font-size:16px}.now-text{font-size:13.5px}.now-wrap .nav-row{gap:6px}.now-wrap .nav-btn{width:36px;height:36px}.now-wrap .nav-btn.play{width:44px;height:44px}}
-</style></head>
+.head{position:relative}
+.theme-btn{position:absolute;top:0;right:0;display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 12px 0 10px;border:1px solid var(--rule-strong);border-radius:999px;background:transparent;color:var(--ink);font:500 13px/1 var(--sans);cursor:pointer}
+.theme-btn:hover{border-color:var(--ink)}
+.theme-btn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.theme-btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.theme-btn .ic-moon{fill:currentColor;stroke:none}
+.theme-btn[data-mode="light"] .ic-sun,.theme-btn[data-mode="dark"] .ic-moon{display:none}
+.head h1{padding-right:96px}
+@media (max-width:620px){.head{padding-top:44px}.head h1{padding-right:0}}
+</style><script>try{var th=localStorage.getItem("aeropress-theme");if(th==="dark"||th==="light")document.documentElement.dataset.theme=th;}catch(e){}</script></head>
 <body class="iso"><main class="page">
 <header class="head">
+<button type="button" class="theme-btn" data-act="theme" aria-label="Switch to dark mode"><svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><span class="theme-label">Dark</span></button>
 <h1>AeroPress Recipe</h1>
 <p class="lede">A short steep, a gentle swirl and a slow press.</p>
 <dl class="spec">
@@ -1696,4 +1706,22 @@ still.addEventListener?.("change", () => { if (still.matches && mode === "tour")
 
 draw();
 if (mode === "tour") setTimeout(run, 900);
+
+(() => {
+  const btn = document.querySelector('[data-act="theme"]');
+  const label = btn.querySelector(".theme-label");
+  const sync = () => {
+    const dark = document.documentElement.dataset.theme === "dark";
+    label.textContent = dark ? "Light" : "Dark";
+    btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+    btn.dataset.mode = dark ? "dark" : "light";
+  };
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("aeropress-theme", next); } catch (e) {}
+    sync();
+  });
+  sync();
+})();
 </script></body></html>
